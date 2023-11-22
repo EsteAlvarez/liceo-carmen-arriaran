@@ -28,7 +28,7 @@ get_header();
 			</div>
 			<div class="row">
 				<div class="col-lg-4 text-center mb-lg-0 mb-3">
-					<div class="fondo-mision p-4 position-relative">
+					<div class="fondo-mision p-4 position-relative h-100">
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-book-bookmark fs-3"></i>
 						</div>
@@ -37,7 +37,7 @@ get_header();
 					</div>
 				</div>
 				<div class="col-lg-4 text-center mb-lg-0 mb-3">
-					<div class="fondo-mision p-4 position-relative">
+					<div class="fondo-mision p-4 position-relative h-100">
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-eye fs-3"></i>
 						</div>
@@ -46,7 +46,7 @@ get_header();
 					</div>
 				</div>
 				<div class="col-lg-4 text-center mb-lg-0 mb-3">
-					<div class="fondo-mision p-4 position-relative">
+					<div class="fondo-mision p-4 position-relative h-100">
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-suitcase fs-3"></i>
 						</div>
