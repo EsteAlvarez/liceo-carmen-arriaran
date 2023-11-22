@@ -10,10 +10,12 @@ function carmen_arriaran_script()
 
     //Registrar Js
     wp_register_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js', true);
+    wp_register_script('fontawesome', 'https://kit.fontawesome.com/ef6bd8a4c0.js', true);
     wp_register_script('mi-js', get_bloginfo('template_directory') . '/assets/librerias/js/mis-scripts.js', array('jquery'), '1', true);
     
     //Encolar Js
     wp_enqueue_script('bootstrap-js');
+    wp_enqueue_script('fontawesome');
     wp_enqueue_script('mi-js', array('jquery'), true);
 
     }

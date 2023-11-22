@@ -4,7 +4,7 @@ function comunicados_register() {
 
     $labels = array(
         'name' => _x('Comunicados', 'post type general name'),
-        'singular_name' => _x('canciones', 'post type singular name'),
+        'singular_name' => _x('comunicados', 'post type singular name'),
         'add_new' => _x('Agregar comunicados', 'slideshow_two item'),
         'add_new_item' => __('Agregar comunicados'),
         'edit_item' => __('Editar comunicados'),

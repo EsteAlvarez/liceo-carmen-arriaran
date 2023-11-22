@@ -4,7 +4,7 @@ function noticias_register() {
 
     $labels = array(
         'name' => _x('Noticias', 'post type general name'),
-        'singular_name' => _x('canciones', 'post type singular name'),
+        'singular_name' => _x('noticias', 'post type singular name'),
         'add_new' => _x('Agregar noticias', 'slideshow_two item'),
         'add_new_item' => __('Agregar noticias'),
         'edit_item' => __('Editar noticias'),
