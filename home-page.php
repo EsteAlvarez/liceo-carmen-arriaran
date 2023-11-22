@@ -27,7 +27,7 @@ get_header();
 				<p><?php echo the_content();?></p>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 text-center mb-lg-0 mb-3">
+				<div class="col-lg-4 text-center mb-lg-0 mb-5">
 					<div class="fondo-mision p-4 position-relative h-100 d-flex justify-content-center align-items-center flex-column">
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-book-bookmark fs-3"></i>
@@ -36,7 +36,7 @@ get_header();
 						<p><?php the_field('mision');?></p>
 					</div>
 				</div>
-				<div class="col-lg-4 text-center mb-lg-0 mb-3">
+				<div class="col-lg-4 text-center mb-lg-0 mb-5">
 					<div class="fondo-mision p-4 position-relative h-100 d-flex justify-content-center align-items-center flex-column">
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-eye fs-3"></i>
@@ -45,7 +45,7 @@ get_header();
 						<p><?php the_field('vision');?></p>
 					</div>
 				</div>
-				<div class="col-lg-4 text-center mb-lg-0 mb-3">
+				<div class="col-lg-4 text-center">
 					<div class="fondo-mision p-4 position-relative h-100 d-flex justify-content-center align-items-center flex-column">
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-suitcase fs-3"></i>
