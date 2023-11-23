@@ -15,11 +15,11 @@
 		<div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
 			<h2><?php the_field('titulo_primera_seccion');?></h2>
 			<div class="d-flex justify-content-center align-items-center">
-				<hr class="linea-roja-encabezados">
+                <span class="linea-roja-encabezados"></span>
 				<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
-				<hr class="linea-roja-encabezados">
+				<span class="linea-roja-encabezados"></span>
 			</div>
-			<p><?php echo the_content();?></p>
+			<p class="p-md-0 p-3"><?php echo the_content();?></p>
 		</div>
 		<div class="row mx-auto">
 			<div class="col-lg-4 text-center mb-lg-0 mb-5">
@@ -58,9 +58,9 @@
         <div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
 			<h2><?php the_field('titulo_segunda_seccion');?></h2>
 			<div class="d-flex justify-content-center align-items-center">
-				<hr class="linea-roja-encabezados">
+				<span class="linea-roja-encabezados"></span>
 				<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
-				<hr class="linea-roja-encabezados">
+				<span class="linea-roja-encabezados"></span>
 			</div>
 		</div>
         <div class="row mx-auto">
