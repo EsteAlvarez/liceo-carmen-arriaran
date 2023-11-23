@@ -146,7 +146,7 @@
 				<div class="accordion">
 					<div class="accordion-elemento mb-2">
 						<p class="titulo-accordion fw-semibold"><?php the_field('primera_pregunta');?></p>
-						<p class="contenido-accordion"><?php the_field('contenido_primera_pregunta');?></p>
+						<p class="contenido-accordion p-1"><?php the_field('contenido_primera_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
 						<div class="titulo-accordion fw-semibold"><?php the_field('segunda_pregunta');?></div>
