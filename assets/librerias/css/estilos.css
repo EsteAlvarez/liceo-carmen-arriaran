@@ -44,5 +44,6 @@
 }
 .imagen-seccion-napsis {
     object-fit: cover;
+    border-radius: 0 0 10px 10px;
 }
 /*Sección Dos Página de Inicio*/
