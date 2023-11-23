@@ -9,7 +9,7 @@
 
 ?>
 
-<section id="post-<?php the_ID(); ?>" <?php post_class('container-fluid'); ?>>
+<section id="post-<?php the_ID(); ?>" <?php post_class('container-fluid p-0 m-0'); ?>>
 	<!--Carrusel-->
 	<article class="row">
 		<div id="carouselExampleCaptions" class="carousel slide border">
@@ -23,7 +23,7 @@
 					<?php 
 					$image = get_field('primera_imagen');
 					if( !empty( $image ) ): ?>
-						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 					<div class="carousel-caption d-none d-md-block">
 						<h5><?php the_field('texto_primera_imagen');?></h5>
@@ -33,7 +33,7 @@
 					<?php 
 					$image = get_field('segunda_imagen');
 					if( !empty( $image ) ): ?>
-						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<div class="carousel-caption d-none d-md-block">
 					<h5><?php the_field('texto_segunda_imagen');?></h5>
@@ -43,7 +43,7 @@
 					<?php 
 					$image = get_field('tercera_imagen');
 					if( !empty( $image ) ): ?>
-						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<div class="carousel-caption d-none d-md-block">
 					<h5><?php the_field('texto_tercera_imagen');?></h5>
