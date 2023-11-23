@@ -21,7 +21,7 @@
 			</div>
 		<div>
 		<table class="table table-dark table-hover caption-top">
-        <caption class="border rounded-bottom">Documentos</caption>
+        <caption class="border">Documentos</caption>
         <tbody>
             <tr>
                 <th scope="row">1</th>
