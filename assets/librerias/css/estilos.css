@@ -4,21 +4,21 @@
     --color-terciario: #515151; /*Plomo Oscuro*/
     --color-extra: #fff;
 }
-/* body {
+body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-} */
+} 
 
 /*Sección Uno Página de Inicio*/
 .linea-roja-encabezados {
-    height: 5px;
+    height: 3px;
     width: 120px;
     background-color: var(--color-principal);
-    border-color: var(--color-principal);
+    border: none;
 }
 .fondo-mision {
     background-color: var(--color-secundario);
