@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 5px;
     width: 120px;
     background-color: var(--color-principal);
-    border-color: var(--color-principal);
+    border: none;
 }
 .fondo-mision {
     background-color: var(--color-secundario);
