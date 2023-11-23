@@ -42,4 +42,7 @@
     color: var(--color-extra);
     background-color: var(--color-principal);
 }
+.imagen-seccion-napsis {
+    object-fit: cover;
+}
 /*Sección Dos Página de Inicio*/

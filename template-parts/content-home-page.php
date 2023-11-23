@@ -11,7 +11,7 @@
 
 <section id="post-<?php the_ID(); ?>" <?php post_class('container'); ?>>
     <!--Liceo carmen arriarán-->
-    <article class="row mb-5">
+    <article class="row mb-5 mx-auto">
 		<div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
 			<h2><?php the_field('titulo_primera_seccion');?></h2>
 			<div class="d-flex justify-content-center align-items-center">
@@ -21,7 +21,7 @@
 			</div>
 			<p><?php echo the_content();?></p>
 		</div>
-		<div class="row">
+		<div class="row mx-auto">
 			<div class="col-lg-4 text-center mb-lg-0 mb-5">
 				<div class="fondo-mision p-4 position-relative h-100 d-flex justify-content-center align-items-center flex-column">
 					<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
@@ -54,7 +54,7 @@
     <!--Liceo carmen arriarán-->
 
     <!--Napsis-->
-    <article class="row">
+    <article class="row mx-auto">
         <div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
 			<h2><?php the_field('titulo_segunda_seccion');?></h2>
 			<div class="d-flex justify-content-center align-items-center">
@@ -63,15 +63,15 @@
 				<hr class="linea-roja-encabezados">
 			</div>
 		</div>
-        <div class="row">
-            <div class="col-lg-8 col-md-6">
+        <div class="row mx-auto">
+            <div class="col-lg-7 col-md-6 d-lg-block d-md-none d-none">
                 <?php 
                 $image = get_field('imagen_napsis');
                 if( !empty( $image ) ): ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                    <img class="img-fluid imagen-seccion-napsis" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                 <?php endif; ?>
             </div>
-            <div class="col-lg-4 col-md-6 text-center p-4 fondo-napsis">
+            <div class="col-lg-5 col-md-12 text-center p-4 fondo-napsis d-flex justify-content-center align-items-center flex-column">
                 <h3 class="mb-4"><?php the_field('titulo_napsis');?></h3>
                 <p class="mb-4"><?php the_field('descripcion_napsis');?></p>
                 <a class="boton-napsis p-2 pe-4 ps-4 rounded" href="#">Ir a Sitio</a>
