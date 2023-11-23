@@ -14,10 +14,9 @@ h1, h2, h3, h4, h5, h6 {
 } 
 /*Carrusel*/
 .imagen-carrusel {
-    max-height: 100vh;
+    max-height: 80vh;
     min-width: 100%;
     object-fit: cover;
-    object-position: center;
 }
 /*Carrusel*/
 /*Sección Uno Página de Inicio*/
