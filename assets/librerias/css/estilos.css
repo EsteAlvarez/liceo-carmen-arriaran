@@ -79,7 +79,6 @@ h1, h2, h3, h4, h5, h6 {
 .contenido-accordion {
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 15px;
     max-height: 0;
     overflow: hidden;
     border-radius: 0 0 10px 10px;
