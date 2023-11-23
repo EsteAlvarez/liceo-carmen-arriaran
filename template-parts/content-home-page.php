@@ -98,15 +98,15 @@
 					<div class="contenido-accordion"><?php the_field('contenido_primera_pregunta');?></div>
 				</div>
 				<div class="accordion-elemento mb-2">
-					<div class="titulo-accordion"><?php the_field('segunda_pregunta');?></div>
+					<div class="titulo-accordion fw-semibold"><?php the_field('segunda_pregunta');?></div>
 					<div class="contenido-accordion"><?php the_field('contenido_segunda_pregunta');?></div>
 				</div>
 				<div class="accordion-elemento mb-2">
-					<div class="titulo-accordion"><?php the_field('tercera_pregunta');?></div>
+					<div class="titulo-accordion fw-semibold"><?php the_field('tercera_pregunta');?></div>
 					<div class="contenido-accordion"><?php the_field('contenido_tercera_pregunta');?></div>
 				</div>
 				<div class="accordion-elemento mb-2">
-					<div class="titulo-accordion"><?php the_field('cuarta_pregunta');?></div>
+					<div class="titulo-accordion fw-semibold"><?php the_field('cuarta_pregunta');?></div>
 					<div class="contenido-accordion"><?php the_field('contenido_cuarta_pregunta');?></div>
 				</div>
 			</div>
@@ -114,19 +114,19 @@
 		<div class="col-lg-6">
 			<div class="accordion">
 				<div class="accordion-elemento mb-2">
-					<div class="titulo-accordion"><?php the_field('quinta_pregunta');?></div>
+					<div class="titulo-accordion fw-semibold"><?php the_field('quinta_pregunta');?></div>
 					<div class="contenido-accordion"><?php the_field('contenido_quinta_pregunta');?></div>
 				</div>
 				<div class="accordion-elemento mb-2">
-					<div class="titulo-accordion"><?php the_field('sexta_pregunta');?></div>
+					<div class="titulo-accordion fw-semibold"><?php the_field('sexta_pregunta');?></div>
 					<div class="contenido-accordion"><?php the_field('contenido_sexta_pregunta');?></div>
 				</div>
 				<div class="accordion-elemento mb-2">
-					<div class="titulo-accordion"><?php the_field('septima_pregunta');?></div>
+					<div class="titulo-accordion fw-semibold"><?php the_field('septima_pregunta');?></div>
 					<div class="contenido-accordion"><?php the_field('contenido_septima_pregunta');?></div>
 				</div>
 				<div class="accordion-elemento mb-2">
-					<div class="titulo-accordion"><?php the_field('octava_pregunta');?></div>
+					<div class="titulo-accordion fw-semibold"><?php the_field('octava_pregunta');?></div>
 					<div class="contenido-accordion"><?php the_field('contenido_octava_pregunta');?></div>
 				</div>
 			</div>
