@@ -65,7 +65,11 @@
 		</div>
         <div class="row">
             <div class="col-lg-8 col-md-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quo?</p>
+                <?php 
+                $image = get_field('imagen_napsis');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                <?php endif; ?>
             </div>
             <div class="col-lg-4 col-md-6 text-center p-4 fondo-napsis">
                 <h3 class="mb-4"><?php the_field('titulo_napsis');?></h3>
