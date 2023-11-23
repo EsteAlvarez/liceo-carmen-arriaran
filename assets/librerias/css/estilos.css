@@ -4,14 +4,14 @@
     --color-terciario: #515151; /*Plomo Oscuro*/
     --color-extra: #fff;
 }
-body {
+/* body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-}
+} */
 
 /*Sección Uno Página de Inicio*/
 .linea-roja-encabezados {
@@ -55,3 +55,29 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0 0 10px 10px;
 }
 /*Sección Dos Página de Inicio*/
+
+/*Sección Preguntas Frecuentes*/
+.accordion {
+    overflow: hidden;
+}
+.accordion-elemento {
+    background-color: var(--color-secundario);
+    border-radius: 0 0 10px 10px;
+}
+.titulo-accordion {
+    background-color: var(--color-secundario);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+}
+.contenido-accordion {
+    padding-left: 10px;
+    max-height: 0;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    transition: max-height 0.3s ease-out;
+}
+.contenido-accordion.active {
+    max-height: 500px;
+}
+/*Sección Preguntas Frecuentes*/
