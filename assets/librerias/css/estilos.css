@@ -22,3 +22,24 @@
     width: 50px;
 }
 /*Sección Uno Página de Inicio*/
+
+/*Sección Dos Página de Inicio*/
+.fondo-napsis {
+    background-color: var(--color-secundario);
+    border-radius: 0 0 10px 10px;
+}
+.boton-napsis {
+    border: 1px solid var(--color-principal);
+    background-color: var(--color-extra);
+    color: var(--color-principal);
+    text-decoration: none;
+    transition: .5s;
+}
+.boton-napsis:visited {
+    color: var(--color-principal);
+}
+.boton-napsis:hover {
+    color: var(--color-extra);
+    background-color: var(--color-principal);
+}
+/*Sección Dos Página de Inicio*/

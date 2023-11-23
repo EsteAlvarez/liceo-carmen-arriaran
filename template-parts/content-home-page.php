@@ -10,7 +10,8 @@
 ?>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class('container'); ?>>
-    <article class="row">
+    <!--Liceo carmen arriarán-->
+    <article class="row mb-5">
 		<div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
 			<h2><?php the_field('titulo_primera_seccion');?></h2>
 			<div class="d-flex justify-content-center align-items-center">
@@ -50,4 +51,28 @@
 			</div>
 		</div>
     </article>
+    <!--Liceo carmen arriarán-->
+
+    <!--Napsis-->
+    <article class="row">
+        <div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
+			<h2><?php the_field('titulo_segunda_seccion');?></h2>
+			<div class="d-flex justify-content-center align-items-center">
+				<hr class="linea-roja-encabezados">
+				<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
+				<hr class="linea-roja-encabezados">
+			</div>
+		</div>
+        <div class="row">
+            <div class="col-lg-8 col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quo?</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center p-4 fondo-napsis">
+                <h3 class="mb-4"><?php the_field('titulo_napsis');?></h3>
+                <p class="mb-4"><?php the_field('descripcion_napsis');?></p>
+                <a class="boton-napsis p-2 pe-4 ps-4 rounded" href="#">Ir a Sitio</a>
+            </div>
+        </div>
+    </article>
+    <!--Napsis-->
 </section><!-- #post-<?php the_ID(); ?> -->
