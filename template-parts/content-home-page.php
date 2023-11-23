@@ -19,7 +19,7 @@
 				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
 			</div>
 			<div class="carousel-inner">
-				<div class="carousel-item active">
+				<div class="carousel-item active" data-bs-interval="5000">
 					<?php 
 					$image = get_field('primera_imagen');
 					if( !empty( $image ) ): ?>
@@ -29,7 +29,7 @@
 						<h5><?php the_field('texto_primera_imagen');?></h5>
 					</div>
 				</div>
-			<div class="carousel-item">
+			<div class="carousel-item" data-bs-interval="5000">
 					<?php 
 					$image = get_field('segunda_imagen');
 					if( !empty( $image ) ): ?>
@@ -39,7 +39,7 @@
 					<h5><?php the_field('texto_segunda_imagen');?></h5>
 				</div>
 			</div>
-			<div class="carousel-item">
+			<div class="carousel-item" data-bs-interval="5000">
 					<?php 
 					$image = get_field('tercera_imagen');
 					if( !empty( $image ) ): ?>
