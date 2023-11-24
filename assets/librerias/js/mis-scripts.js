@@ -23,7 +23,6 @@ jQuery(document).ready(function ($) {
     $(".menu-item").addClass("nav-item")
     $(".nav-item a").addClass("nav-link")
 
-
 })
 
 
