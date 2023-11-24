@@ -13,3 +13,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+jQuery(document).ready(function ($) {
+    $(".btnMenu").removeClass("menu-toggle")
+    $(".menu-menu-1-container").addClass("collapse navbar-collapse")
+    $(".menu-menu-1-container").attr("id","navbarNav")
+    $("#primary-menu").addClass("navbar-nav mb-lg-0")
+    $("#navbarNav").addClass("justify-content-around")
+    $(".menu-item").addClass("nav-item")
+    $(".nav-item a").addClass("nav-link")
+
+
+})
+
+

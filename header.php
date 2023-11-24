@@ -24,9 +24,38 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'carmen-arriaran' ); ?></a>
+	<div class="pRedNav d-flex gap-2 algin-items-center">
+	<i class="bi bi-telephone"></i>
+	<p>2 2286 2340</p>
+	<i class="bi bi-envelope-fill"></i>
+	<p>lcarmenarriaran@gmail.com</p>
+	</div> <!--barra roja antes del nav-->
 
-	<header id="masthead" class="site-header bg-dark">
-		<div class="site-branding bg-dark">
+<header id="masthead" class="site-header container py-3">
+	<nav id="site-navigation" class="main-navigation navbar navbar-expand-lg d-flex align-items-center">
+	<?php the_custom_logo();?>
+	<?php dynamic_sidebar('nav_uno');?>
+	
+	<button class="btnMenu navbar-toggler menu-toggle" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav"  aria-controls="primary-menu" aria-expanded="false"  aria-label="Toggle navigation">
+		<?php esc_html_e( '', 'carmen-arriaran' ); ?>
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	
+	<?php
+	wp_nav_menu(
+		array(
+		'theme_location' => 'menu-1',
+		'menu_id'        => 'primary-menu',
+		));
+		?>
+</nav>
+
+
+
+
+
+
+		<!-- <div class="site-branding ">
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -43,17 +72,7 @@
 				?>
 				<p class="site-description"><?php echo $carmen_arriaran_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
+		</div>.site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'carmen-arriaran' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
+
 	</header><!-- #masthead -->
