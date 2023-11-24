@@ -23,5 +23,6 @@
             <p>mostar tabla en plugin</p>
 		<?php echo the_content() ?>
 		</div>
+		<div><?php echo the_content();?></div>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
