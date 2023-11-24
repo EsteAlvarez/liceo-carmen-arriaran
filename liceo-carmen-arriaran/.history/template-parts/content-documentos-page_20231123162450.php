@@ -21,9 +21,9 @@
 			</div>
 		<div>
 		<table class="table table-dark table-hover caption-top">
-        <caption class="border rounded-bottom">Documentos</caption>
+        <caption class="border">Documentos</caption>
         <tbody>
-            <tr>
+			<tr>
                 <th scope="row">1</th>
                 <td>Proyecto Educativo Institucional (PEI)</td>
                 <td><i class="fa-solid fa-file-pdf"></i></td>
@@ -32,14 +32,14 @@
             <tr>
                 <th scope="row">2</th>
                 <td>Reglamento Interno</td>
-                <td><i class="fa-solid fa-file-pdf ms-4"></i></td>
-                <td><i class="bi bi-download ms-4"></i></td>
+                <td><i class="fa-solid fa-file-pdf"></i></td>
+				<td><i class="fa-solid fa-download"></i></td>
             </tr>
             <tr>
                 <th scope="row">3</th>
                 <td>Plan de Estudios</td>
-                <td><i class="fa-solid fa-file-pdf ms-4"></i></td>
-                <td><i class="bi bi-download ms-4"></i></td>
+                <td><i class="fa-solid fa-file-pdf"></i></td>
+				<td><i class="fa-solid fa-download"></i></td>
             </tr>
             <tr>
                 <th scope="row">4</th>
@@ -50,32 +50,32 @@
             <tr>
                 <th scope="row">5</th>
                 <td>Calendario Escolar</td>
-                <td><i class="fa-solid fa-file-pdf ms-4"></i></td>
-                <td><i class="bi bi-download ms-4"></i></td>
+                <td><i class="fa-solid fa-file-pdf"></i></td>
+				<td><i class="fa-solid fa-download"></i></td>
             </tr>
             <tr>
                 <th scope="row">6</th>
                 <td>Protocolos de Seguridad</td>
-                <td><i class="fa-solid fa-file-pdf ms-4"></i></td>
-                <td><i class="bi bi-download ms-4"></i></td>
+                <td><i class="fa-solid fa-file-pdf"></i></td>
+				<td><i class="fa-solid fa-download"></i></td>
             </tr>
             <tr>
                 <th scope="row">7</th>
                 <td>Informe Institucional Anual</td>
-                <td><i class="fa-solid fa-file-pdf ms-4"></i></td>
-                <td><i class="bi bi-download ms-4"></i></td>
+                <td><i class="fa-solid fa-file-pdf"></i></td>
+				<td><i class="fa-solid fa-download"></i></td>
             </tr>
             <tr>
                 <th scope="row">8</th>
                 <td>Políticas de Evaluación y Promoción</td>
-                <td><i class="fa-solid fa-file-pdf ms-4"></i></td>
-                <td><i class="bi bi-download ms-4"></i></td>
+                <td><i class="fa-solid fa-file-pdf"></i></td>
+				<td><i class="fa-solid fa-download"></i></td>
             </tr>
-            <tr>
+            <tr class="rounded-bottom">
                 <th scope="row">9</th>
                 <td>Políticas de Uso de Tecnología</td>
-                <td><i class="fa-solid fa-file-pdf ms-4"></i></td>
-                <td><i class="bi bi-download ms-4"></i></td>
+                <td><i class="fa-solid fa-file-pdf"></i></td>
+				<td><i class="fa-solid fa-download"></i></td>
             </tr>
         </tbody>
         </table>
