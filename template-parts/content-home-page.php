@@ -9,52 +9,47 @@
 
 ?>
 
-<section id="post-<?php the_ID(); ?>" <?php post_class('container-fluid'); ?>>
+<section id="post-<?php the_ID(); ?>" <?php post_class('container-fluid p-0 m-0'); ?>>
 	<!--Carrusel-->
 	<article class="row">
-		<div id="carouselExampleCaptions" class="carousel slide">
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-			</div>
+		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
-				<div class="carousel-item active">
+				<div class="carousel-item active" data-bs-interval="5000">
 					<?php 
 					$image = get_field('primera_imagen');
 					if( !empty( $image ) ): ?>
-						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 					<div class="carousel-caption d-none d-md-block">
 						<h5><?php the_field('texto_primera_imagen');?></h5>
 					</div>
 				</div>
-			<div class="carousel-item">
+				<div class="carousel-item" data-bs-interval="5000">
 					<?php 
-					$image = get_field('segunda_imagen');
-					if( !empty( $image ) ): ?>
-						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-					<?php endif; ?>
-				<div class="carousel-caption d-none d-md-block">
-					<h5><?php the_field('texto_segunda_imagen');?></h5>
+						$image = get_field('segunda_imagen');
+						if( !empty( $image ) ): ?>
+							<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<?php endif; ?>
+					<div class="carousel-caption d-none d-md-block">
+						<h5><?php the_field('texto_segunda_imagen');?></h5>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<?php 
+						$image = get_field('tercera_imagen');
+						if( !empty( $image ) ): ?>
+							<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<?php endif; ?>
+					<div class="carousel-caption d-none d-md-block">
+						<h5><?php the_field('texto_tercera_imagen');?></h5>
+					</div>
 				</div>
 			</div>
-			<div class="carousel-item">
-					<?php 
-					$image = get_field('tercera_imagen');
-					if( !empty( $image ) ): ?>
-						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-					<?php endif; ?>
-				<div class="carousel-caption d-none d-md-block">
-					<h5><?php the_field('texto_tercera_imagen');?></h5>
-				</div>
-			</div>
-			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Previous</span>
 			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Next</span>
 			</button>
@@ -150,40 +145,40 @@
 			<div class="col-lg-6">
 				<div class="accordion">
 					<div class="accordion-elemento mb-2">
-						<div class="titulo-accordion fw-semibold"><?php the_field('primera_pregunta');?></div>
-						<div class="contenido-accordion"><?php the_field('contenido_primera_pregunta');?></div>
+						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('primera_pregunta');?></p>
+						<p class="contenido-accordion"><?php the_field('contenido_primera_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<div class="titulo-accordion fw-semibold"><?php the_field('segunda_pregunta');?></div>
-						<div class="contenido-accordion"><?php the_field('contenido_segunda_pregunta');?></div>
+						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('segunda_pregunta');?></p>
+						<p class="contenido-accordion"><?php the_field('contenido_segunda_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<div class="titulo-accordion fw-semibold"><?php the_field('tercera_pregunta');?></div>
-						<div class="contenido-accordion"><?php the_field('contenido_tercera_pregunta');?></div>
+						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('tercera_pregunta');?></p>
+						<p class="contenido-accordion"><?php the_field('contenido_tercera_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<div class="titulo-accordion fw-semibold"><?php the_field('cuarta_pregunta');?></div>
-						<div class="contenido-accordion"><?php the_field('contenido_cuarta_pregunta');?></div>
+						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('cuarta_pregunta');?></p>
+						<p class="contenido-accordion"><?php the_field('contenido_cuarta_pregunta');?></p>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-6">
 				<div class="accordion">
 					<div class="accordion-elemento mb-2">
-						<div class="titulo-accordion fw-semibold"><?php the_field('quinta_pregunta');?></div>
-						<div class="contenido-accordion"><?php the_field('contenido_quinta_pregunta');?></div>
+						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('quinta_pregunta');?></p>
+						<p class="contenido-accordion"><?php the_field('contenido_quinta_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<div class="titulo-accordion fw-semibold"><?php the_field('sexta_pregunta');?></div>
-						<div class="contenido-accordion"><?php the_field('contenido_sexta_pregunta');?></div>
+						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('sexta_pregunta');?></p>
+						<p class="contenido-accordion"><?php the_field('contenido_sexta_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<div class="titulo-accordion fw-semibold"><?php the_field('septima_pregunta');?></div>
-						<div class="contenido-accordion"><?php the_field('contenido_septima_pregunta');?></div>
+						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('septima_pregunta');?></p>
+						<p class="contenido-accordion"><?php the_field('contenido_septima_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<div class="titulo-accordion fw-semibold"><?php the_field('octava_pregunta');?></div>
-						<div class="contenido-accordion"><?php the_field('contenido_octava_pregunta');?></div>
+						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('octava_pregunta');?></p>
+						<p class="contenido-accordion"><?php the_field('contenido_octava_pregunta');?></p>
 					</div>
 				</div>
 			</div>

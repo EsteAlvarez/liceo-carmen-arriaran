@@ -12,7 +12,7 @@ function zona_widget () {
 register_sidebar(array(
     'name'=> 'Nav 1',
     'id'=> 'nav_uno', //ID y nombre al footer
-    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //clase y contenedor
+    'before_widget'=> '<div id="%1$s" class="">', //clase y contenedor
     'after_widget'=> '</div>', //cerrar contenedor
     'before_title'=> '<h5 class="titulo-menu-footer">', //contenedor para titulo
     'after_title'=> '</h5>'
