@@ -20,8 +20,7 @@
 					</div>
 			</div>
 		<div>
-            <p>mostar tabla en plugin</p>
-		<?php echo the_content() ?>
+		
 		</div>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
