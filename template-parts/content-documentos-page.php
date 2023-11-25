@@ -19,9 +19,6 @@
 						<span class="linea-roja-encabezados"></span>
 					</div>
 			</div>
-		<div>
-            <p>mostar tabla en plugin</p>
-		</div>
 		<div><?php echo the_content();?></div>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
