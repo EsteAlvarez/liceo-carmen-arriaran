@@ -26,7 +26,7 @@ incrustar_hoja_estilos_noticias();
                 'posts_per_page' => $post_per_page,
                 'tax_query' => array (
                     array(
-                        'taxonomy' => 'categoria-audio',
+                        'taxonomy' => 'categoria-noticias',
                         'field' => 'slug',
                         'terms' => 'playlist'
                     ),

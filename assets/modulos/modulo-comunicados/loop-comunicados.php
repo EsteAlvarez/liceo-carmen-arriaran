@@ -26,7 +26,7 @@ incrustar_hoja_estilos_comunicados();
                 'posts_per_page' => $post_per_page,
                 'tax_query' => array (
                     array(
-                        'taxonomy' => 'categoria-audio',
+                        'taxonomy' => 'categoria-comunicados',
                         'field' => 'slug',
                         'terms' => 'playlist'
                     ),
