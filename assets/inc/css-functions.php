@@ -4,7 +4,7 @@ function css_carmen_arriaran(){
     wp_register_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css', 'all');
     wp_register_style('estilos', get_template_directory_uri() . '/assets/librerias/css/estilos.css', 'all');
     wp_register_style('iconos', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css', 'all'); //Iconos Bootstrap
-    wp_register_style('fuentes', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:wght@400;500;600;700&display=swap', 'all'); //Iconos Bootstrap
+    wp_register_style('fuentes', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Raleway:wght@200;300;400;500;600;700;800&display=swap', 'all'); //Iconos Bootstrap
     
     
     //Encolar estilos
