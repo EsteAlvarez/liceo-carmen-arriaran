@@ -161,6 +161,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*header*/
 
+
+/*congregación*/
+.pLineRed{
+    background-color: var(--color-principal);
+    height: 5px;
+    width: 10%;
+}
+.bi-circle-fill{
+    color: var(--color-principal);
+    font-size: 20px;
+}
+/*congregación*/
+
+
 /*footer*/
 .pFondoFooter{
     background-color: var(--color-secundario);
@@ -180,23 +194,23 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     list-style: none;
 }
-#media_image-4{
+#media_image-2{
     padding: 0 0 20px 80px;
 }
 .pLiceo a{
     font-size: 11px;
     cursor: default;
 }
-.menu-item-37 a{
+.menu-item-164 a{
     font-weight: bold;
 }
-.menu-item-38 a{
+.menu-item-165 a{
     font-style: italic;
 }
 /*logo y texto liceo*/
 
 /*logos ley y napsis*/
-.wp-image-41, .wp-image-42{
+.wp-image-166, .wp-image-167{
     width: 51%;
     height: 50px;
     border-radius: 5px;
