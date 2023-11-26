@@ -12,7 +12,7 @@
 <section id="post-<?php the_ID(); ?>" <?php post_class('container-fluid p-0 m-0'); ?>>
 	<!--Carrusel-->
 	<article class="row m-0 p-0">
-		<div id="carouselExampleInterval" class="carousel slide border p-0" data-bs-ride="carousel">
+		<div id="carouselExampleInterval" class="carousel slide border p-0 scroll" data-bs-ride="carousel">
 			<div class="carousel-inner border">
 				<div class="carousel-item active" data-bs-interval="5000">
 					<?php 

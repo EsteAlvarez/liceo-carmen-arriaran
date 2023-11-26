@@ -31,7 +31,7 @@
 	<p><?php the_field('email');?></p>
 	</div> <!--barra roja antes del nav-->
 
-<header id="masthead" class="site-header container py-3">
+<header id="masthead" class="site-header container py-3 scroll">
 	<nav id="site-navigation" class="main-navigation navbar navbar-expand-lg d-flex align-items-center">
 	<?php the_custom_logo();?>
 	<?php dynamic_sidebar('nav_uno');?>
