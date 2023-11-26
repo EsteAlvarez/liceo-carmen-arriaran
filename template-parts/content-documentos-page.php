@@ -18,7 +18,7 @@
 					<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
 					<span class="linea-roja-encabezados"></span>
 				</div>
-				<div class="scroll mt-5"><?php echo the_content();?></div>
 			</div>
+			<div class="scroll"><?php echo the_content();?></div>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
