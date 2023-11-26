@@ -161,3 +161,123 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 /*header*/
+
+/*footer*/
+.pFondoFooter{
+    background-color: var(--color-secundario);
+    height: 40vh;
+}
+.pRedFooter{
+    background-color: var(--color-principal);
+    height: 30px;
+    width: 100%;
+    color: var(--color-extra);
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*logo y texto liceo*/
+#menu-menu-footer-1{
+    text-decoration: none;
+    list-style: none;
+}
+#media_image-4{
+    padding: 0 0 20px 80px;
+}
+.pLiceo a{
+    font-size: 11px;
+    cursor: default;
+}
+.menu-item-37 a{
+    font-weight: bold;
+}
+.menu-item-38 a{
+    font-style: italic;
+}
+/*logo y texto liceo*/
+
+/*logos ley y napsis*/
+.wp-image-41, .wp-image-42{
+    width: 51%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+/*logos ley y napsis*/
+
+/*info general*/
+#menu-menu-footer-info{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu-menu-footer-info a{
+    cursor: default;
+    width: 11rem;
+    text-wrap: balance;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.titulo-menu-footer{
+    font-size: 14px;
+}
+.menu-item-43, .menu-item-44, .menu-item-45{
+    display: flex;
+    gap: 1rem;
+    padding: 5px 5px;
+}
+.iFooter{
+    color: var(--color-principal);
+}
+/*info general*/
+
+/*mapa footer*/
+.pMapaFooter{
+    background-color: var(--color-principal);
+    width: 25%;
+    height: 230px;
+    border-radius: 10px 0 0 10px;
+    margin: 0 0 15px 0;
+}
+.pDirFooter{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;    
+    font-weight: 600;
+    color: var(--color-extra);
+}
+
+/*mapa footer*/
+
+@media (max-width: 575.98px){
+    .wp-image-41, .wp-image-42{
+        width: 40%;
+        height: 30px;
+    }
+    .pMapaFooter{
+        width: 60% !important;
+        margin: 25px 0 8px 110px !important;
+    }
+    .pFondoFooter{
+        height: max-content;
+    }
+}
+@media (max-width: 767.98px){
+    .pMapaFooter{
+        width: 45%;
+        margin: 0 0 8px 130px;
+    }
+    .pFondoFooter{
+        height: max-content;
+    }
+}
+@media (max-width: 991.98px){
+    .pMapaFooter{
+        width: 45%;
+        margin: 0 0 8px 130px;
+    }
+    .pFondoFooter{
+        height: max-content;
+    }
+}
+/*footer*/

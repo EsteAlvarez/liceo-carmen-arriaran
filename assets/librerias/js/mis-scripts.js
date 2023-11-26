@@ -22,8 +22,11 @@ jQuery(document).ready(function ($) {
     $("#navbarNav").addClass("justify-content-around")
     $(".menu-item").addClass("nav-item")
     $(".nav-item a").addClass("nav-link")
-
-
+    $(".wp-image-41").css('height', '')
+    $(".wp-image-42").css('height', '')
+    $(".menu-item-43").prepend('<i class="bi bi-clock iFooter"></i>')
+    $(".menu-item-44").prepend('<i class="bi bi-telephone-fill iFooter"></i>')
+    $(".menu-item-45").prepend('<i class="bi bi-envelope-fill iFooter"></i>')
 })
 
 
