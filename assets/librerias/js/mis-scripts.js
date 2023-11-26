@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
 
 
     ScrollReveal({ reset: true });
-    ScrollReveal().reveal('.scroll', { delay: 400 });
+    ScrollReveal().reveal('.scroll', { delay: 300 });
 })
 
 
