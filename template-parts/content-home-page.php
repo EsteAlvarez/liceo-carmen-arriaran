@@ -145,7 +145,7 @@
 			<div class="col-lg-6 scroll">
 				<div class="accordion">
 					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('primera_pregunta');?></p>
+						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('primera_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
 						<p class="contenido-accordion"><?php the_field('contenido_primera_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
