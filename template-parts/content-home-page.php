@@ -59,7 +59,7 @@
     <!--Liceo carmen arriarán-->
     <article class="container">
 		<div class="row mb-5 mx-auto mt-5">
-			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
+			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll">
 				<h2><?php the_field('titulo_primera_seccion');?></h2>
 				<div class="d-flex justify-content-center align-items-center">
 					<span class="linea-roja-encabezados"></span>
@@ -69,7 +69,7 @@
 				<p class="p-md-0 p-3"><?php echo the_content();?></p>
 			</div>
 			<div class="row mx-auto">
-				<div class="col-lg-4 text-center mb-lg-0 mb-5">
+				<div class="col-lg-4 text-center mb-lg-0 mb-5 scroll">
 					<div class="fondo-mision p-4 position-relative h-100 d-flex justify-content-center align-items-center flex-column">
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-book-bookmark fs-3"></i>
@@ -78,7 +78,7 @@
 						<p><?php the_field('mision');?></p>
 					</div>
 				</div>
-				<div class="col-lg-4 text-center mb-lg-0 mb-5">
+				<div class="col-lg-4 text-center mb-lg-0 mb-5 scroll">
 					<div class="fondo-mision p-4 position-relative h-100 d-flex justify-content-center align-items-center flex-column">
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-eye fs-3"></i>
@@ -87,7 +87,7 @@
 						<p><?php the_field('vision');?></p>
 					</div>
 				</div>
-				<div class="col-lg-4 text-center">
+				<div class="col-lg-4 text-center scroll">
 					<div class="fondo-mision p-4 position-relative h-100 d-flex justify-content-center align-items-center flex-column">
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-suitcase fs-3"></i>
@@ -104,7 +104,7 @@
     <!--Napsis-->
     <article class="container">
 		<div class="row mx-auto">
-			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
+			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll">
 				<h2><?php the_field('titulo_segunda_seccion');?></h2>
 				<div class="d-flex justify-content-center align-items-center">
 					<span class="linea-roja-encabezados"></span>
@@ -112,7 +112,7 @@
 					<span class="linea-roja-encabezados"></span>
 				</div>
 			</div>
-			<div class="row mx-auto mb-5">
+			<div class="row mx-auto mb-5 scroll">
 				<div class="col-lg-7 col-md-6 d-lg-block d-md-none d-none">
 					<?php 
 					$image = get_field('imagen_napsis');
@@ -133,7 +133,7 @@
     <!--Preguntas Frecuentes-->
     <article class="container">
 		<div class="row mx-auto mb-5">
-			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
+			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll">
 				<h2><?php the_field('titulo_seccion_tres');?></h2>
 				<div class="d-flex justify-content-center align-items-center">
 					<span class="linea-roja-encabezados"></span>
@@ -142,7 +142,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-6">
+			<div class="col-lg-6 scroll">
 				<div class="accordion">
 					<div class="accordion-elemento mb-2">
 						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('primera_pregunta');?></p>
@@ -162,7 +162,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-6 scroll">
 				<div class="accordion">
 					<div class="accordion-elemento mb-2">
 						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('quinta_pregunta');?></p>
