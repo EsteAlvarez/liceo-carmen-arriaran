@@ -270,6 +270,27 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-extra);
 }
 
+
+/*seccion comunicados*/
+.seccion-comunicados{
+    background-color: #ECEAEA;
+}
+.boton-comunicados {
+    display: inline-block;
+    padding: 6px 36px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #BE1522;
+    border-radius: 9px; /* Esquinas redondeadas */
+}
+.boton-comunicados:hover {
+    color: white;
+    background-color: #BE1522;
+}
+/*seccion comunicados*/
+
 /*mapa footer*/
 
 @media (max-width: 575.98px){
