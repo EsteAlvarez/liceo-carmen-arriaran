@@ -19,6 +19,6 @@
 					<span class="linea-roja-encabezados"></span>
 				</div>
 			</div>
-			<div class="scroll"><?php echo the_content();?></div>
+			<div class="scroll mb-5"><?php echo the_content();?></div>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
