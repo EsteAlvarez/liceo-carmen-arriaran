@@ -149,15 +149,15 @@
 						<p class="contenido-accordion"><?php the_field('contenido_primera_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('segunda_pregunta');?></p>
+						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('segunda_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
 						<p class="contenido-accordion"><?php the_field('contenido_segunda_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('tercera_pregunta');?></p>
+						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('tercera_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
 						<p class="contenido-accordion"><?php the_field('contenido_tercera_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('cuarta_pregunta');?></p>
+						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('cuarta_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
 						<p class="contenido-accordion"><?php the_field('contenido_cuarta_pregunta');?></p>
 					</div>
 				</div>
@@ -165,19 +165,19 @@
 			<div class="col-lg-6 scroll">
 				<div class="accordion">
 					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('quinta_pregunta');?></p>
+						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('quinta_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
 						<p class="contenido-accordion"><?php the_field('contenido_quinta_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('sexta_pregunta');?></p>
+						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('sexta_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
 						<p class="contenido-accordion"><?php the_field('contenido_sexta_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('septima_pregunta');?></p>
+						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('septima_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
 						<p class="contenido-accordion"><?php the_field('contenido_septima_pregunta');?></p>
 					</div>
 					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3"><?php the_field('octava_pregunta');?></p>
+						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('octava_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
 						<p class="contenido-accordion"><?php the_field('contenido_octava_pregunta');?></p>
 					</div>
 				</div>
