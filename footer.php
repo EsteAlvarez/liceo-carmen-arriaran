@@ -10,7 +10,7 @@
  */
 
 ?>
-<footer id="colophon" class="site-footer pFondoFooter col-md-12 row w-100">
+<footer id="colophon" class="site-footer pFondoFooter col-md-12 row w-100 scroll">
 	<!--logo-->
 	<div class="container col-xs-3 col-sm-12 col-md-3 pLogoFooter p-0 pLiceo text-center mt-5">
 	<?php dynamic_sidebar('nav_dos');?>
