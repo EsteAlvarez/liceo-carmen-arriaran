@@ -19,6 +19,8 @@
 						<span class="linea-roja-encabezados"></span>
 					</div>
 			</div>
-		<div><?php echo the_content();?></div>
+		<div>
+		<?php echo the_content() ?>
+		</div>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
