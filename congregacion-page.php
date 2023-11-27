@@ -24,7 +24,7 @@ get_header();
 	<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
 	<span class="linea-roja-encabezados"></span>
 </div>
-<article class="col-md-12 row d-flex gap-5 justify-content-center mt-5 scroll">
+<article class="col-md-12 row d-flex gap-5 justify-content-center mt-5">
 <!--1935-->
 <div class="card pBordeCard col-8 col-md-2 p-0 m-0">
 <span class="predCard text-white">
@@ -57,7 +57,7 @@ Departamental 4850.</p>
 </article>
 
 <!--dibujo linea del tiempo-->
-<article class="container pLineaTiempo col-12 col-md-12 d-flex  align-items-center justify-content-center mt-3 scroll">
+<article class="container pLineaTiempo col-12 col-md-12 d-flex  align-items-center justify-content-center mt-3">
 	
 	<div class="col-2  col-md-2 pLineRed"></div>
 	<i class="bi bi-circle-fill"></i>
@@ -73,7 +73,7 @@ Departamental 4850.</p>
 	
 </article>
 
-<article class="col-md-12 row d-flex gap-5 justify-content-center mt-3 scroll">
+<article class="col-md-12 row d-flex gap-5 justify-content-center mt-3">
 	
 <!--2015-->
 <div class="card pBordeCard col-8 col-md-2 p-0 m-0">
@@ -95,14 +95,12 @@ Departamental 4850.</p>
 	de mujeres.</p>
 	</div>
 </article>
-
-
 </section>
 
 
 <section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5 scroll">
 
-<h3 class="d-flex text-center justify-content-center mt-5 pt-5">Colegios Dominicanos</h3>
+<h2 class="d-flex text-center justify-content-center mt-5">Colegios Dominicanos</h2>
 <div class="d-flex justify-content-center align-items-center">
 	<span class="linea-roja-encabezados"></span>
 	<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
