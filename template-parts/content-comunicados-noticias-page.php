@@ -10,7 +10,7 @@
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="seccion-comunicados">
-		<div>
+		<div class="titulo-comunicados">
 			<h1 class="text-center mb-3">Comunicados</h1>
 			<div class="d-flex justify-content-center align-items-center">
 				<span class="linea-roja-encabezados"></span>
@@ -21,7 +21,7 @@
 		<div>
 			<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
 		</div>
-		<div class="d-flex justify-content-center align-items-center">
+		<div class="d-flex justify-content-center align-items-center pb-5">
 			<a href="" class="boton-comunicados">Ver Mas</a>
 		</div>
 

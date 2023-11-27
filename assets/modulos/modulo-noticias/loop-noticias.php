@@ -28,7 +28,7 @@ incrustar_hoja_estilos_noticias();
                     array(
                         'taxonomy' => 'categoria-noticias',
                         'field' => 'slug',
-                        'terms' => 'playlist'
+                        'terms' => 'noticias'
                     ),
                 ),
             );

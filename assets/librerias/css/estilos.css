@@ -275,6 +275,9 @@ h1, h2, h3, h4, h5, h6 {
 .seccion-comunicados{
     background-color: #ECEAEA;
 }
+.titulo-comunicados{
+    padding-top: 2%;
+}
 .boton-comunicados {
     display: inline-block;
     padding: 6px 36px;
@@ -285,9 +288,42 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid #BE1522;
     border-radius: 9px; /* Esquinas redondeadas */
 }
+.boton-comunicados:visited {
+    color: var(--color-principal);
+}
 .boton-comunicados:hover {
     color: white;
     background-color: #BE1522;
+}
+.comunicado{
+    background-color: white;
+    height: 22vh;
+    margin-bottom: 4%;
+    border-radius: 10px;
+}
+.titulos-comunicados{
+   color: var(--color-principal);
+   font-weight: bold;
+}
+.contenido{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.fecha-comunicado{
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-right: 12%;
+}
+.contenido-parrafo{
+    width: 90%;
+}
+.ver-mas{
+    margin-left: 80%;
+}
+.ver-mas a{
+    color: var(--color-principal);
+   text-decoration: none;
+   font-weight: bold;
 }
 /*seccion comunicados*/
 
