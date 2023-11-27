@@ -257,13 +257,30 @@ h1, h2, h3, h4, h5, h6 {
 
 /*mapa footer*/
 .pMapaFooter{
-    background-color: var(--color-principal);
-    width: 25%;
-    height: 230px;
+    background-color: #be1523c4;
+    height: 240px;
     border-radius: 10px 0 0 10px;
-    margin: 0 0 15px 0;
+    margin: 0 50px 15px 0;
+    position: relative;
+}
+.pLineMap{
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 93%;
+    border-left: 4px solid #BE1522;
+    content: "";
+    height: 80%;
+    border-radius: 50px;
+}
+.mapaFooter{
+    position: absolute;
+    right: 13%;
+    top: 13px;
 }
 .pDirFooter{
+    position: absolute;
+    top: 92%;
     font-family: 'Raleway', sans-serif;
     font-size: 10px;    
     font-weight: 600;
