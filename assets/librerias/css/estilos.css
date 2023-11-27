@@ -450,6 +450,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*single de comunicados*/
 
+
+/*single de noticias*/
+.contenido-noticia{
+    margin-left: 5%;
+}
+
+/*single de noticias*/
+
 /*mapa footer*/
 
 @media (max-width: 575.98px){

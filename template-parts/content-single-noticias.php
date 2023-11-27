@@ -10,54 +10,37 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+<div class="m-5">
+		<h2 class="comunicados-single" style="margin-left: 5%;">Noticias</h2>
+		<div class="d-flex mt-2">
+			<a href="" style="margin-left: 5%;margin-right: 3%;" class="text-black" >Comunicados y Noticias</a>
+			<p class="comunicados-single">Noticias</p>
+		</div>
+	</div>
+	<div class="fondo-comunicado">
 		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				carmen_arriaran_posted_on();
-				carmen_arriaran_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php carmen_arriaran_post_thumbnail(); ?>
-
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'carmen-arriaran' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'carmen-arriaran' ),
-				'after'  => '</div>',
-			)
-		);
+			// Obtén la URL de la imagen destacada
+			$thumbnail_url = get_the_post_thumbnail_url();
 		?>
-	</div><!-- .entry-content -->
+		<!-- Aplica la imagen como fondo del div -->
+		<div class="imagen-fondo" style="background-image: url('<?php echo esc_url($thumbnail_url); ?>');">
+			<?php
+				$mi_campo_fecha = get_field('fecha_de_noticia');
+				if ($mi_campo_fecha) {
+					echo '<p class="fecha-comunicado-single">' . esc_html($mi_campo_fecha) . '</p>';
+				}
+			?>
+   	    </div>
+	</div>
+	<div class="m-5 d-flex">
+		<div class="contenido-noticia">
+			<h3 class="comunicados-single"><?php the_title();?></h3>
+			<p class="mt-5"><?php the_content();?></p>
+		</div>
+		<div class="mas-noticias">
+			<p class="comunicados-single" style="margin-left: 7%; font-size: 23px;">Mas Comunicados</p>
+			<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
+		</div>
 
-	<footer class="entry-footer">
-		<?php carmen_arriaran_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</div>
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -13,7 +13,7 @@
 	<div class="m-5">
 		<h2 class="comunicados-single" style="margin-left: 5%;">Comunicados</h2>
 		<div class="d-flex mt-2">
-			<p class="text-black" style="margin-left: 5%;margin-right: 3%;">Comunicados y Noticias</p>
+			<a href="" style="margin-left: 5%;margin-right: 3%;" class="text-black">Comunicados y Noticias</a>
 			<p class="comunicados-single">Comunicados</p>
 		</div>
 	</div>

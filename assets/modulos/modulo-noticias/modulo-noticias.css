@@ -1,9 +1,12 @@
 /*seccion noticias*/
+.carta.noti{
+    margin-left: 6%;
+}
 .titulo-noticias{
     padding-top: 6%;
     padding-bottom: 1%;
 }
-.card{
+.carta-noticias{
     background-color: #ECEAEA;
     border-color: transparent;
     height: 64vh;
