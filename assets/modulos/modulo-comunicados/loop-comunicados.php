@@ -52,7 +52,7 @@ incrustar_hoja_estilos_comunicados();
                     <p><?php the_excerpt();?></p>
                 </div>
                 <div class="ver-mas">
-                    <a href="" class="mas">>>Ver Mas</a>
+                    <a href="<?php the_permalink(); ?>">>>Ver Mas</a>
                 </div>
             </div>
         </div>
