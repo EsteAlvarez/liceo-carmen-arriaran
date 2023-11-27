@@ -346,7 +346,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #ECEAEA;
 }
 .titulo-comunicados{
-    padding-top: 2%;
+    padding-top: 6%;
+    padding-bottom: 1%;
 }
 .boton-comunicados {
     display: inline-block;
@@ -367,9 +368,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .comunicado{
     background-color: white;
-    height: 22vh;
+    height: 24vh;
     margin-bottom: 4%;
     border-radius: 10px;
+    border: 2px solid #ECEAEA;
+    padding: 10px;
 }
 .titulos-comunicados{
    color: var(--color-principal);
@@ -395,7 +398,88 @@ h1, h2, h3, h4, h5, h6 {
    text-decoration: none;
    font-weight: bold;
 }
+.ver-mas a:hover {
+    border-bottom: 2px solid #BE1522;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: -2px;
+}
 /*seccion comunicados*/
+
+/*seccion noticias*/
+.titulo-noticias{
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+.card{
+    background-color: #ECEAEA;
+    border-color: transparent;
+    height: 64vh;
+    margin-left: 5%;
+    margin-right: 6%;
+}
+.fondo-carta{
+    background-color: white;
+    width: 90%;
+  margin-left: 5%;
+  margin-top: 7%;
+  height: 56vh;
+}
+.boton-noticias a{
+    color: var(--color-principal);
+   text-decoration: none;
+   font-weight: bold;
+}
+.boton-noticias a:hover {
+    border-bottom: 2px solid #BE1522;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: -2px;
+}
+/*seccion noticias*/
+
+
+/*single de comunicados*/
+.comunicados-single{
+    color: var(--color-principal);
+}
+.fondo-comunicado {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.imagen-fondo {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+.imagen-fondo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(to top, rgba(190, 21, 34, 0), #BE1522);
+}
+.fecha-comunicado-single {
+    position: absolute;
+    top: 106px;
+    left: 800px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 1;
+}
+.contenido-comunicado{
+    width: 60%;
+   margin-right: 10%;
+   margin-left: 5%;
+}
+.info-extra{
+    width: 33%;
+}
+/*single de comunicados*/
 
 /*mapa footer*/
 
