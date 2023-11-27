@@ -315,9 +315,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .comunicado{
     background-color: white;
-    height: 22vh;
+    height: 24vh;
     margin-bottom: 4%;
     border-radius: 10px;
+    border: 2px solid #ECEAEA;
+    padding: 10px;
 }
 .titulos-comunicados{
    color: var(--color-principal);
@@ -383,6 +385,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*single de comunicados*/
+.comunicados-single{
+    color: var(--color-principal);
+}
 .fondo-comunicado {
     position: relative;
     width: 100%;
@@ -412,6 +417,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 32px;
     font-weight: bold;
     z-index: 1;
+}
+.contenido-comunicado{
+    width: 60%;
+   margin-right: 10%;
+   margin-left: 5%;
+}
+.info-extra{
+    width: 33%;
 }
 /*single de comunicados*/
 

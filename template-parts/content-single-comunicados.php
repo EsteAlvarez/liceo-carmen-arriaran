@@ -10,8 +10,12 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div>
-		<h2>Comunicados</h2>
+	<div class="m-5">
+		<h2 class="comunicados-single" style="margin-left: 5%;">Comunicados</h2>
+		<div class="d-flex mt-2">
+			<p class="text-black" style="margin-left: 5%;margin-right: 3%;">Comunicados y Noticias</p>
+			<p class="comunicados-single">Comunicados</p>
+		</div>
 	</div>
 	<div class="fondo-comunicado">
 		<?php
@@ -27,6 +31,36 @@
 				}
 			?>
    	    </div>
+	</div>
+	<div class="m-5 d-flex">
+		<div class="contenido-comunicado">
+			<h3 class="comunicados-single"><?php the_title();?></h3>
+			<p class="mt-5"><?php the_content();?></p>
+		</div>
+		<div class="info-extra">
+			<div>
+				<span class="comunicados-single">Remitente</span>
+				<?php
+					$mi_campo_fecha = get_field('remitente');
+					if ($mi_campo_fecha) {
+						echo '<p class="remitente">' . esc_html($mi_campo_fecha) . '</p>';
+					}
+				?>
+			</div>
+			<div>
+				<span class="comunicados-single">Datos Importantes</span>
+				<?php
+					$mi_campo_fecha = get_field('datos_importantes');
+					if ($mi_campo_fecha) {
+						echo '<p class="datos-importantes">' . esc_html($mi_campo_fecha) . '</p>';
+					}
+				?>
+			</div>
+		</div>
+	</div>
+	<div class="">
+		<p class="comunicados-single" style="margin-left: 7%;font-size: 23px;margin-top: 7%;">Mas Comunicados</p>
+		<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
 	</div>
 
 	
