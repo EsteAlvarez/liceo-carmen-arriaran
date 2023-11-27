@@ -26,9 +26,9 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'carmen-arriaran' ); ?></a>
 	<div class="pRedNav d-flex gap-2 algin-items-center">
 	<i class="bi bi-telephone"></i>
-	<p>2 2286 2340</p>
+	<p><?php the_field('numero_de_telefono');?></p>
 	<i class="bi bi-envelope-fill"></i>
-	<p>lcarmenarriaran@gmail.com</p>
+	<p><?php the_field('email');?></p>
 	</div> <!--barra roja antes del nav-->
 
 <header id="masthead" class="site-header container py-3">
