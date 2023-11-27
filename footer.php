@@ -13,12 +13,12 @@
 <footer id="colophon" class="site-footer pFondoFooter col-md-12 row w-100 scroll">
 	<!--logo-->
 	<div class="container col-xs-3 col-sm-12 col-md-3 pLogoFooter p-0 pLiceo text-center mt-5">
-	<?php dynamic_sidebar('nav_dos');?>
+		<?php dynamic_sidebar('nav_dos');?>
 	</div>
 
 	<!--logos napsis-->
 	<div class="col-6 col-sm-5 col-md-3 text-center mt-5">
-	<?php dynamic_sidebar('nav_tres');?>
+		<?php dynamic_sidebar('nav_tres');?>
 	</div>
 	
 	<!--info general-->
@@ -28,9 +28,9 @@
 
 	<!--mapa-->
 	<div class="col-12 col-sm-12 col-md-2 pMapaFooter mt-5">
-	<iframe class="mapaFooter shadow mb-5 bg-body-tertiary" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4383.031692726244!2d-70.58587457924969!3d-33.509526594237464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sliceo%20carmen%20arriaran!5e0!3m2!1ses!2scl!4v1700965569070!5m2!1ses!2scl" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	<span class="pLineMap"></span>
-	<p class="pDirFooter">Departamental 4850 - Peñalolen - Metro Macul </p>
+		<iframe class="mapaFooter shadow mb-5 bg-body-tertiary" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4383.031692726244!2d-70.58587457924969!3d-33.509526594237464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sliceo%20carmen%20arriaran!5e0!3m2!1ses!2scl!4v1700965569070!5m2!1ses!2scl" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<span class="pLineMap"></span>
+		<p class="pDirFooter">Departamental 4850 - Peñalolen - Metro Macul </p>
 	</div>
 
 	<!--linea de footer-->
