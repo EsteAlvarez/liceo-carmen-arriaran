@@ -16,14 +16,15 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
+
+<section class="scroll">
 <h2 class="d-flex text-center justify-content-center mt-5">Formación del Liceo</h2>
 <div class="d-flex justify-content-center align-items-center">
 	<span class="linea-roja-encabezados"></span>
 	<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
 	<span class="linea-roja-encabezados"></span>
 </div>
-
-<section class="col-md-12 row d-flex gap-5 justify-content-center mt-5 scroll">
+<article class="col-md-12 row d-flex gap-5 justify-content-center mt-5 scroll">
 <!--1935-->
 <div class="card pBordeCard col-8 col-md-2 p-0 m-0">
 <span class="predCard text-white">
@@ -53,12 +54,10 @@ para mujeres.</p>
 femenino se traslada a 
 Departamental 4850.</p>
 </div>
-
-
-</section>
+</article>
 
 <!--dibujo linea del tiempo-->
-<section class="container pLineaTiempo col-12 col-md-12 d-flex  align-items-center justify-content-center mt-3 scroll">
+<article class="container pLineaTiempo col-12 col-md-12 d-flex  align-items-center justify-content-center mt-3 scroll">
 	
 	<div class="col-2  col-md-2 pLineRed"></div>
 	<i class="bi bi-circle-fill"></i>
@@ -72,9 +71,9 @@ Departamental 4850.</p>
 	<i class="bi bi-circle-fill"></i>
 	<div class="col-md-2 pLineRed"></div>
 	
-</section>
+</article>
 
-<section class="col-md-12 row d-flex gap-5 justify-content-center mt-3 scroll">
+<article class="col-md-12 row d-flex gap-5 justify-content-center mt-3 scroll">
 	
 <!--2015-->
 <div class="card pBordeCard col-8 col-md-2 p-0 m-0">
@@ -95,16 +94,20 @@ Departamental 4850.</p>
 	dejar de ser exclusivo 
 	de mujeres.</p>
 	</div>
+</article>
+
+
 </section>
-	
+
+
+<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5 scroll">
+
 <h3 class="d-flex text-center justify-content-center mt-5 pt-5">Colegios Dominicanos</h3>
 <div class="d-flex justify-content-center align-items-center">
 	<span class="linea-roja-encabezados"></span>
 	<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
 	<span class="linea-roja-encabezados"></span>
 </div>
-
-<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5 scroll">
 
 <!--señora del pilar-->
 <figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
