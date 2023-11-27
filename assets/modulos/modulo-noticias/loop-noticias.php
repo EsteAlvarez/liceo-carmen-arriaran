@@ -12,7 +12,11 @@ incrustar_hoja_estilos_noticias();
 
 
 <!--Sección 1-->
+<<<<<<< HEAD
 <section class="container seccion-noticia mt-5">
+=======
+<section class="row m-0 p-0">
+>>>>>>> fb796f1ce39bbc8b8b3941dc32ced621994be6da
     <!--Custom Loop-->
     <?php $active = true;
             $temp = $wp_query;
@@ -34,6 +38,7 @@ incrustar_hoja_estilos_noticias();
             );
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+<<<<<<< HEAD
        <div class="row">
             <div class=" col-12 col-md-6 card carta-noticias" style="width: 33rem;">
                 <div class="fondo-carta">
@@ -54,6 +59,26 @@ incrustar_hoja_estilos_noticias();
                 </div>
             </div>
        </div>
+=======
+    <div class="col-lg-4 col-md-4 col-12">
+        <div class="card mx-auto" style="width: 20rem;">
+            <div class="fondo-carta">
+                <div><?php the_post_thumbnail(); ?></div>
+                <div class="card-body">
+                    <h5 class="titulos-comunicados"><?php the_title();?></h5>
+                    <?php
+                        $mi_campo_fecha = get_field('fecha_de_noticia');
+                        if ($mi_campo_fecha) {
+                            echo '<p class="fecha-comunicado">' . $mi_campo_fecha . '</p>';
+                        }
+                    ?>
+                    <span class="card-text"><?php the_excerpt();?></span>
+                    <a class="boton-noticias" href="<?php the_permalink(); ?>"><i class="bi bi-arrow-right-circle-fill"></i> Ver Mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+>>>>>>> fb796f1ce39bbc8b8b3941dc32ced621994be6da
     <?php endwhile; endif; wp_reset_query(); $wp_query = $temp ?>
     <!--Custom Loop-->
 

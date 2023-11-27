@@ -26,7 +26,6 @@ jQuery(document).ready(function ($) {
     $(".menu-item-45").prepend('<i class="bi bi-envelope-fill iFooter"></i>')
 
 
-
     ScrollReveal({ reset: true });
     ScrollReveal().reveal('.scroll', { delay: 300 });
 })

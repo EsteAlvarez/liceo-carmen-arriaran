@@ -366,43 +366,6 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     background-color: #BE1522;
 }
-.comunicado{
-    background-color: white;
-    height: 24vh;
-    margin-bottom: 4%;
-    border-radius: 10px;
-    border: 2px solid #ECEAEA;
-    padding: 10px;
-}
-.titulos-comunicados{
-   color: var(--color-principal);
-   font-weight: bold;
-}
-.contenido{
-    margin-left: 10%;
-    margin-top: 2%;
-}
-.fecha-comunicado{
-    color: var(--color-principal);
-    font-weight: bold;
-    margin-right: 12%;
-}
-.contenido-parrafo{
-    width: 90%;
-}
-.ver-mas{
-    margin-left: 80%;
-}
-.ver-mas a{
-    color: var(--color-principal);
-   text-decoration: none;
-   font-weight: bold;
-}
-.ver-mas a:hover {
-    border-bottom: 2px solid #BE1522;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    top: -2px;
-}
 /*seccion comunicados*/
 
 
