@@ -1,12 +1,12 @@
 <script>
-function incrustar_hoja_estilos_comunicados() {
-    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-comunicados/modulo-comunicados.css';?>';
+function incrustar_hoja_estilos_noticias() {
+    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
     var hoja_estilos = document.createElement('link');
     hoja_estilos.rel = 'stylesheet';
     hoja_estilos.href = hoja_estilos_url;
     document.head.appendChild(hoja_estilos);
 }
-incrustar_hoja_estilos_comunicados();
+incrustar_hoja_estilos_noticias();
 </script>
 <!--Script que permite llamar a la hoja de estilos cuando se muestre el custom post type-->
 
@@ -19,16 +19,16 @@ incrustar_hoja_estilos_comunicados();
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; //Número de paginas
             $post_per_page = 6; // -1 shows all posts Cantidad de post a mostrar
             $args = array(
-                'post_type' => 'comunicados',
+                'post_type' => 'noticias',
                 'orderby' => 'DSC',
                 'order' => 'ASC',//DSC descendente 
                 'paged' => $paged,
                 'posts_per_page' => $post_per_page,
                 'tax_query' => array (
                     array(
-                        'taxonomy' => 'categoria-audio',
+                        'taxonomy' => 'categoria-noticias',
                         'field' => 'slug',
-                        'terms' => 'playlist'
+                        'terms' => 'noticias'
                     ),
                 ),
             );

@@ -8,47 +8,34 @@
  */
 
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
+	<div class="seccion-comunicados">
+		<div class="titulo-comunicados">
+			<h1 class="text-center mb-3">Comunicados</h1>
+			<div class="d-flex justify-content-center align-items-center">
+				<span class="linea-roja-encabezados"></span>
+				<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
+				<span class="linea-roja-encabezados"></span>
+			</div>
+		</div>
+		<div>
+			<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
+		</div>
+		<div class="d-flex justify-content-center align-items-center pb-5">
+			<a href="" class="boton-comunicados">Ver Mas</a>
+		</div>
 
-	<?php carmen_arriaran_post_thumbnail(); ?>
-
-	<div class="entry-content">
-		<?php
-		the_content();
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'carmen-arriaran' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
-
-	<?php if ( get_edit_post_link() ) : ?>
-		<footer class="entry-footer">
-			<?php
-			edit_post_link(
-				sprintf(
-					wp_kses(
-						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'carmen-arriaran' ),
-						array(
-							'span' => array(
-								'class' => array(),
-							),
-						)
-					),
-					wp_kses_post( get_the_title() )
-				),
-				'<span class="edit-link">',
-				'</span>'
-			);
-			?>
-		</footer><!-- .entry-footer -->
-	<?php endif; ?>
+	</div>
+	<div class="seccion-noticias">
+		<div>
+			
+		</div>
+	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
+
+<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	
+	<div>
+	<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
+	</div>
+</section><!-- #post-<?php the_ID(); ?> -->
