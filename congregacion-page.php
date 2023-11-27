@@ -23,7 +23,7 @@ get_header();
 	<span class="linea-roja-encabezados"></span>
 </div>
 
-<section class="col-md-12 row d-flex gap-5 justify-content-center mt-5">
+<section class="col-md-12 row d-flex gap-5 justify-content-center mt-5 scroll">
 <!--1935-->
 <div class="card pBordeCard col-8 col-md-2 p-0 m-0">
 <span class="predCard text-white">
@@ -58,7 +58,7 @@ Departamental 4850.</p>
 </section>
 
 <!--dibujo linea del tiempo-->
-<section class="container pLineaTiempo col-12 col-md-12 d-flex  align-items-center justify-content-center mt-3">
+<section class="container pLineaTiempo col-12 col-md-12 d-flex  align-items-center justify-content-center mt-3 scroll">
 	
 	<div class="col-2  col-md-2 pLineRed"></div>
 	<i class="bi bi-circle-fill"></i>
@@ -74,7 +74,7 @@ Departamental 4850.</p>
 	
 </section>
 
-<section class="col-md-12 row d-flex gap-5 justify-content-center mt-3">
+<section class="col-md-12 row d-flex gap-5 justify-content-center mt-3 scroll">
 	
 <!--2015-->
 <div class="card pBordeCard col-8 col-md-2 p-0 m-0">
@@ -104,7 +104,7 @@ Departamental 4850.</p>
 	<span class="linea-roja-encabezados"></span>
 </div>
 
-<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5">
+<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5 scroll">
 
 <!--señora del pilar-->
 <figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
