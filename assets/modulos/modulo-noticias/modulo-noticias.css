@@ -1,0 +1,30 @@
+/*seccion noticias*/
+.titulo-noticias{
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+.card{
+    background-color: #ECEAEA;
+    border-color: transparent;
+    height: 64vh;
+    margin-left: 5%;
+    margin-right: 6%;
+}
+.fondo-carta{
+    background-color: white;
+    width: 90%;
+  margin-left: 5%;
+  margin-top: 7%;
+  height: 56vh;
+}
+.boton-noticias a{
+    color: var(--color-principal);
+   text-decoration: none;
+   font-weight: bold;
+}
+.boton-noticias a:hover {
+    border-bottom: 2px solid #BE1522;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: -2px;
+}
+/*seccion noticias*/
