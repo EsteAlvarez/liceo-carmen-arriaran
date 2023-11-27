@@ -110,7 +110,7 @@ Departamental 4850.</p>
 <figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
 	<!--función para llamar la img a través de su id-->
 <?php	
-$image_id = 52;
+$image_id = 174;
 $image_url = wp_get_attachment_image_src($image_id, 'full')[0];
 ?>
 <img  src="<?php echo esc_url($image_url); ?>" alt="nuestra señora del pilar">
@@ -124,7 +124,7 @@ $image_url = wp_get_attachment_image_src($image_id, 'full')[0];
 <figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
 	<!--función para llamar la img-->
 	<?php	
-$image_id = 50;
+$image_id = 175;
 $image_url = wp_get_attachment_image_src($image_id, 'full')[0];
 ?>
 <img src="<?php echo esc_url($image_url); ?>" alt="carmela romero de espinoza">
@@ -138,7 +138,7 @@ $image_url = wp_get_attachment_image_src($image_id, 'full')[0];
 <figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
 	<!--función para llamar la img-->
 	<?php	
-$image_id = 49;
+$image_id = 176;
 $image_url = wp_get_attachment_image_src($image_id, 'full')[0];
 ?>
 <img src="<?php echo esc_url($image_url); ?>" alt="catalina de siena">
