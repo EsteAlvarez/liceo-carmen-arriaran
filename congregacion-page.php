@@ -97,16 +97,16 @@ Departamental 4850.</p>
 </article>
 </section>
 
-
-<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5 scroll">
-
-<h2 class="d-flex text-center justify-content-center mt-5">Colegios Dominicanos</h2>
+<div class="scroll">
+	<h2 class="d-flex text-center justify-content-center mt-5">Colegios Dominicanos</h2>
 <div class="d-flex justify-content-center align-items-center">
 	<span class="linea-roja-encabezados"></span>
 	<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
 	<span class="linea-roja-encabezados"></span>
 </div>
+</div>
 
+<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5 scroll">
 <!--señora del pilar-->
 <figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
 	<!--función para llamar la img a través de su id-->
