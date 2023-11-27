@@ -1,6 +1,6 @@
 <script>
 function incrustar_hoja_estilos_noticias() {
-    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/liceo-carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
+    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
     var hoja_estilos = document.createElement('link');
     hoja_estilos.rel = 'stylesheet';
     hoja_estilos.href = hoja_estilos_url;
