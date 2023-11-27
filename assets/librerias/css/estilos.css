@@ -182,6 +182,59 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-principal);
     font-size: 20px;
 }
+.pBordeCard{
+    border: 1px solid var(--color-principal);
+}
+.predCard{
+    background-color: var(--color-principal);
+    height: 35px;
+    width: auto;
+}
+.pHoverSitios{
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 0 0;
+}
+.pHoverSitios img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.pHoverSitios figcaption{
+    position: absolute;
+    top: 0;
+    left: 12px;
+    width: 94%;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background-color: var(--color-secundario);
+    color: #000;
+    transition: opacity 0.4s ease-out;
+}
+.pHoverSitios:hover img{
+    transform: scale(.3s);
+}
+.pHoverSitios:hover figcaption{
+    opacity: 1;
+}
+.pBotonSitio{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #BE1522;
+    border-radius: 0 0 10px 10px;
+}
+.pBotonSitio:visited{
+    color: var(--color-principal);
+}
+.pBotonSitio:hover{
+    background-color: var(--color-principal);
+    color: var(--color-extra);
+}
 /*congregación*/
 
 
