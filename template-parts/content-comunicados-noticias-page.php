@@ -18,7 +18,7 @@
 				<span class="linea-roja-encabezados"></span>
 			</div>
 		</div>
-		<div>
+		<div class="scroll">
 			<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
 		</div>
 		<div class="d-flex justify-content-center align-items-center" style="padding-top: 1%;padding-bottom: 3%;">
