@@ -27,7 +27,7 @@
 	</div>
 	<div class="seccion-noticias mb-5 mt-5 scroll">
 		<div class="titulo-noticias mb-5">
-			<h2 class="text-center margin-y">Noticias</h1>
+			<h2 class="text-center">Noticias</h1>
 			<div class="d-flex justify-content-center align-items-center">
 				<span class="linea-roja-encabezados"></span>
 				<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
