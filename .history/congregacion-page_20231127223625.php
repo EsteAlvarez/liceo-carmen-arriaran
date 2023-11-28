@@ -24,9 +24,8 @@ get_header();
 			<span class="linea-roja-encabezados"></span>
 		</div>
 		<article class="container scroll text-center">
-		<p class="mb-lg-0 mb-5 mt-5"><?php the_field('resena');?></p>
-		<div class="mt-4"><a href="<?php the_field('enlace_congregacion');?>" class="boton-napsis p-2 pe-4 ps-4 rounded mt-3" target="_blank">Ver más</a>
-		</div>
+		<p class="mb-lg-0 my-5"><?php the_field('resena');?></p>
+		<a href="<?php the_field('enlace_congregacion');?>" class="boton-napsis p-2 pe-4 ps-4 rounded text-center mt-3">Ver más</a>
 		</article>
 		
 	</section>
