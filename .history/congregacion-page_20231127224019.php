@@ -25,7 +25,7 @@ get_header();
 		</div>
 		<article class="container scroll text-center">
 		<p class="mb-lg-0 mb-5 mt-5"><?php the_field('resena');?></p>
-		<div class="mt-4"><a href="<?php the_field('enlace_congregacion');?>" class="boton-napsis p-2 pe-4 ps-4 rounded mt-3" target="_blank">Ver más</a>
+		<div class="mt-4"><a href="<?php the_field('enlace_congregacion');?>" class="boton-napsis p-2 pe-4 ps-4 rounded mt-3">Ver más</a>
 		</div>
 		</article>
 		
