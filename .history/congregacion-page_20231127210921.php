@@ -16,19 +16,7 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
-	<section>
-		<h2 class="d-flex text-center justify-content-center mt-5">Congregación</h2>
-		<div class="d-flex justify-content-center align-items-center">
-			<span class="linea-roja-encabezados"></span>
-			<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
-			<span class="linea-roja-encabezados"></span>
-		</div>
-		<div>
-		<?php the_field('resena');?>
-		<?php the_field('enlace_congregacion');?>
-		</div>
-		
-	</section>
+
 	<section class="scroll">
 		<h2 class="d-flex text-center justify-content-center mt-5">Formación del Liceo</h2>
 		<div class="d-flex justify-content-center align-items-center">
