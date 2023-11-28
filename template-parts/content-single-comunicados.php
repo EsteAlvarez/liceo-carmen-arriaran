@@ -28,7 +28,7 @@
 			?>
    	    </div>
 	</div>
-	<div class="mt-5 mb-5 container scroll">
+	<div class="mt-5 mb-5 container-fluid scroll">
 		<div class="row">
 			<div class="col-lg-8 offset-lg-1 offset-md-0 col-md-12">
 				<h3 class="comunicados-single"><?php the_title();?></h3>
