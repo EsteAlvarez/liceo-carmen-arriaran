@@ -92,7 +92,7 @@
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-book-bookmark fs-3"></i>
 						</div>
-						<h2 class="mt3"><?php the_field('titulo_mision');?></h2>
+						<h2 class="mt3 fs-3"><?php the_field('titulo_mision');?></h2>
 						<p><?php the_field('mision');?></p>
 					</div>
 				</div>
@@ -101,7 +101,7 @@
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-eye fs-3"></i>
 						</div>
-						<h2 class="mt3"><?php the_field('titulo_vision');?></h2>
+						<h2 class="mt3 fs-3"><?php the_field('titulo_vision');?></h2>
 						<p><?php the_field('vision');?></p>
 					</div>
 				</div>
@@ -110,7 +110,7 @@
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-suitcase fs-3"></i>
 						</div>
-						<h2 class="mt3"><?php the_field('titulo_proyecto_educativo');?></h2>
+						<h2 class="mt3 fs-3"><?php the_field('titulo_proyecto_educativo');?></h2>
 						<p><?php the_field('proyecto_educativo');?></p>
 					</div>
 				</div>
