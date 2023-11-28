@@ -22,7 +22,7 @@
 			<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
 		</div>
 		<div class="d-flex justify-content-center align-items-center" style="padding-top: 1%;padding-bottom: 3%;">
-			<a href="#" class="boton-comunicados">Ver Mas</a>
+			<a href="#" class="boton-napsis p-2 pe-4 ps-4 rounded">Ver Mas</a>
 		</div>
 	</div>
 	<div class="seccion-noticias mb-5 mt-5 scroll">
@@ -34,7 +34,7 @@
 				<span class="linea-roja-encabezados"></span>
 			</div>
 		</div>
-		<div class="container mb-5">
+		<div class="container mb-5 mt-5">
 			<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
 		</div>
 	</div>

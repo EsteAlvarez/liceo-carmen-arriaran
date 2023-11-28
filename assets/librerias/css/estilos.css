@@ -382,7 +382,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 300px;
 }
-
 .imagen-fondo {
     width: 100%;
     height: 80%;
@@ -407,17 +406,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     z-index: 1;
 }
-.contenido-comunicado{
-    width: 60%;
-   margin-right: 10%;
-   margin-left: 5%;
-}
-.info-extra{
-    width: 33%;
-}
-/*single de comunicados*/
-
-
 /*single de noticias*/
 .contenido-noticia{
     margin-left: 5%;
