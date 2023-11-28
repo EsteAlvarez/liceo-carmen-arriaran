@@ -13,7 +13,7 @@
 	<!-- Modal -->
 	<div class="modal" tabindex="-1">
 		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content marco">
+			<div class="modal-content">
 				<div class="modal-header border-0">
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
@@ -23,7 +23,7 @@
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid img-escudo mx-3" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
-					<div class="mx-3"><h5 class="modal-title mb-3">Admisión 2024</h5>
+					<div class="mx-3"><h5 class="modal-title">Admisión 2024</h5>
 					<p>Para la admisión de nuestro Liceo Carmen Arrirán debes entrar al link en el botón "ver más". Se parte de nuestra institución, únete.</p></div>
 					
 				</div>

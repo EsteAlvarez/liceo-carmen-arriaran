@@ -475,11 +475,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* modal  */
 .img-escudo{
-    width: 15%;
+    width: 30%;
     height: auto;
-}
-
-.marco{
-    border-radius:0 0 20px 20px;
 }
 /* modal  */

@@ -13,7 +13,7 @@
 	<!-- Modal -->
 	<div class="modal" tabindex="-1">
 		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content marco">
+			<div class="modal-content rounded-bottom">
 				<div class="modal-header border-0">
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
