@@ -8,11 +8,21 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
+    animation: opacidad 2s;
+}
+@keyframes opacidad {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-} 
+}
+
 /*Carrusel*/
 .imagen-carrusel {
     max-height: 80vh;
@@ -160,3 +170,295 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 /*header*/
+
+
+/*congregación*/
+.pLineRed{
+    background-color: var(--color-principal);
+    height: 5px;
+    width: 10%;
+}
+.bi-circle-fill{
+    color: var(--color-principal);
+    font-size: 20px;
+}
+/*congregación*/
+
+
+/*footer*/
+.pFondoFooter{
+    background-color: var(--color-secundario);
+    height: 40vh;
+}
+.pRedFooter{
+    background-color: var(--color-principal);
+    height: 30px;
+    width: 100%;
+    color: var(--color-extra);
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*logo y texto liceo*/
+#menu-menu-footer-1{
+    text-decoration: none;
+    list-style: none;
+}
+#media_image-2{
+    padding: 0 0 20px 80px;
+}
+.pLiceo a{
+    font-size: 11px;
+    cursor: default;
+}
+.menu-item-164 a{
+    font-weight: bold;
+}
+.menu-item-165 a{
+    font-style: italic;
+}
+/*logo y texto liceo*/
+
+/*logos ley y napsis*/
+.wp-image-166, .wp-image-167{
+    width: 51%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+/*logos ley y napsis*/
+
+/*info general*/
+#menu-menu-footer-info{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu-menu-footer-info a{
+    cursor: default;
+    width: 11rem;
+    text-wrap: balance;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.titulo-menu-footer{
+    font-size: 14px;
+}
+.menu-item-43, .menu-item-44, .menu-item-45{
+    display: flex;
+    gap: 1rem;
+    padding: 5px 5px;
+}
+.iFooter{
+    color: var(--color-principal);
+}
+/*info general*/
+
+/*mapa footer*/
+.pMapaFooter{
+    background-color: #be1523c4;
+    height: 240px;
+    border-radius: 10px 0 0 10px;
+    margin: 0 50px 15px 0;
+    position: relative;
+}
+.pLineMap{
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 93%;
+    border-left: 4px solid #BE1522;
+    content: "";
+    height: 80%;
+    border-radius: 50px;
+}
+.mapaFooter{
+    position: absolute;
+    right: 13%;
+    top: 13px;
+}
+.pDirFooter{
+    position: absolute;
+    top: 92%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;    
+    font-weight: 600;
+    color: var(--color-extra);
+}
+
+
+/*seccion comunicados*/
+.seccion-comunicados{
+    background-color: #ECEAEA;
+}
+.titulo-comunicados{
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+.boton-comunicados {
+    display: inline-block;
+    padding: 6px 36px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #BE1522;
+    border-radius: 9px; /* Esquinas redondeadas */
+}
+.boton-comunicados:visited {
+    color: var(--color-principal);
+}
+.boton-comunicados:hover {
+    color: white;
+    background-color: #BE1522;
+}
+.comunicado{
+    background-color: white;
+    height: 24vh;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    border: 2px solid #ECEAEA;
+    padding: 10px;
+}
+.titulos-comunicados{
+   color: var(--color-principal);
+   font-weight: bold;
+}
+.contenido{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.fecha-comunicado{
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-right: 12%;
+}
+.contenido-parrafo{
+    width: 90%;
+}
+.ver-mas{
+    margin-left: 80%;
+}
+.ver-mas a{
+    color: var(--color-principal);
+   text-decoration: none;
+   font-weight: bold;
+}
+.ver-mas a:hover {
+    border-bottom: 2px solid #BE1522;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: -2px;
+}
+/*seccion comunicados*/
+
+/*seccion noticias*/
+.titulo-noticias{
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+.card{
+    background-color: #ECEAEA;
+    border-color: transparent;
+    height: 64vh;
+    margin-left: 5%;
+    margin-right: 6%;
+}
+.fondo-carta{
+    background-color: white;
+    width: 90%;
+  margin-left: 5%;
+  margin-top: 7%;
+  height: 56vh;
+}
+.boton-noticias a{
+    color: var(--color-principal);
+   text-decoration: none;
+   font-weight: bold;
+}
+.boton-noticias a:hover {
+    border-bottom: 2px solid #BE1522;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: -2px;
+}
+/*seccion noticias*/
+
+
+/*single de comunicados*/
+.comunicados-single{
+    color: var(--color-principal);
+}
+.fondo-comunicado {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.imagen-fondo {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+.imagen-fondo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(to top, rgba(190, 21, 34, 0), #BE1522);
+}
+.fecha-comunicado-single {
+    position: absolute;
+    top: 106px;
+    left: 800px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 1;
+}
+.contenido-comunicado{
+    width: 60%;
+   margin-right: 10%;
+   margin-left: 5%;
+}
+.info-extra{
+    width: 33%;
+}
+/*single de comunicados*/
+
+/*mapa footer*/
+
+@media (max-width: 575.98px){
+    .wp-image-41, .wp-image-42{
+        width: 40%;
+        height: 30px;
+    }
+    .pMapaFooter{
+        width: 60% !important;
+        margin: 25px 0 8px 110px !important;
+    }
+    .pFondoFooter{
+        height: max-content;
+    }
+}
+@media (max-width: 767.98px){
+    .pMapaFooter{
+        width: 45%;
+        margin: 0 0 8px 130px;
+    }
+    .pFondoFooter{
+        height: max-content;
+    }
+}
+@media (max-width: 991.98px){
+    .pMapaFooter{
+        width: 45%;
+        margin: 0 0 8px 130px;
+    }
+    .pFondoFooter{
+        height: max-content;
+    }
+}
+/*footer*/

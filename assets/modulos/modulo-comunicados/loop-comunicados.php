@@ -12,7 +12,7 @@ incrustar_hoja_estilos_comunicados();
 
 
 <!--Sección 1-->
-<section>
+<section class="container mt-5">
     <!--Custom Loop-->
     <?php $active = true;
             $temp = $wp_query;
@@ -26,16 +26,37 @@ incrustar_hoja_estilos_comunicados();
                 'posts_per_page' => $post_per_page,
                 'tax_query' => array (
                     array(
-                        'taxonomy' => 'categoria-audio',
+                        'taxonomy' => 'categoria-comunicados',
                         'field' => 'slug',
-                        'terms' => 'playlist'
+                        'terms' => 'comunicados'
                     ),
                 ),
             );
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-        
-        <!--Contenido HTML-->
+        <div class="comunicado d-flex">
+            <div>
+                <?php the_post_thumbnail(); ?>
+            </div>
+            <div class="contenido">
+                <div class="d-flex justify-content-between">
+                    <h5 class="titulos-comunicados"><?php the_title();?></h5>
+                    <?php
+                        $mi_campo_fecha = get_field('fecha_del_comunicado');
+                        if ($mi_campo_fecha) {
+                            echo '<p class="fecha-comunicado">' . $mi_campo_fecha . '</p>';
+                        }
+                    ?>
+                </div>
+                <div class="contenido-parrafo">
+                    <p><?php the_excerpt();?></p>
+                </div>
+                <div class="ver-mas">
+                    <a href="<?php the_permalink(); ?>">>>Ver Mas</a>
+                </div>
+            </div>
+        </div>
+       
         
     <?php endwhile; endif; wp_reset_query(); $wp_query = $temp ?>
     <!--Custom Loop-->
