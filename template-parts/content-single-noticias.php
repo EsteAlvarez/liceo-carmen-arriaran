@@ -33,10 +33,9 @@
 			<h3 class="comunicados-single"><?php the_title();?></h3>
 			<p class="mt-5"><?php the_content();?></p>
 		</div>
-		<div class="mas-noticias">
-			<p class="comunicados-single" style="margin-left: 7%; font-size: 23px;">Mas Comunicados</p>
+	</div>
+	<div class="mas-noticias container">
+			<p class="comunicados-single" style="font-size: 23px;">Mas Comunicados</p>
 			<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
 		</div>
-
-	</div>
 </article><!-- #post-<?php the_ID(); ?> -->
