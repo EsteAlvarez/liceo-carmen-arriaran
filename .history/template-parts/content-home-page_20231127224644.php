@@ -80,8 +80,8 @@
     <!--Liceo carmen arriarán-->
     <article class="container mt-5">
 		<div class="row mb-5 mx-auto mt-5">
-			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll margin-y">
-				<h1><?php the_field('titulo_primera_seccion');?></h1>
+			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll">
+				<h2><?php the_field('titulo_primera_seccion');?></h2>
 				<div class="d-flex justify-content-center align-items-center">
 					<span class="linea-roja-encabezados"></span>
 					<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
@@ -95,7 +95,7 @@
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-book-bookmark fs-3"></i>
 						</div>
-						<h2 class="mt3"><?php the_field('titulo_mision');?></h2>
+						<h3 class="mt3"><?php the_field('titulo_mision');?></h3>
 						<p><?php the_field('mision');?></p>
 					</div>
 				</div>
@@ -104,7 +104,7 @@
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-eye fs-3"></i>
 						</div>
-						<h2 class="mt3"><?php the_field('titulo_vision');?></h2>
+						<h3 class="mt3"><?php the_field('titulo_vision');?></h3>
 						<p><?php the_field('vision');?></p>
 					</div>
 				</div>
@@ -113,7 +113,7 @@
 						<div class="fondo-icono position-absolute top-0 start-50 translate-middle d-flex justify-content-center align-items-center rounded-circle">
 							<i class="fa-solid fa-suitcase fs-3"></i>
 						</div>
-						<h2 class="mt3"><?php the_field('titulo_proyecto_educativo');?></h2>
+						<h3 class="mt3"><?php the_field('titulo_proyecto_educativo');?></h3>
 						<p><?php the_field('proyecto_educativo');?></p>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
     <!--Liceo carmen arriarán-->
 
     <!--Napsis-->
-    <article class="container margin-y">
+    <article class="container">
 		<div class="row mx-auto">
 			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll">
 				<h2><?php the_field('titulo_segunda_seccion');?></h2>
@@ -152,7 +152,7 @@
     <!--Napsis-->
 
     <!--Preguntas Frecuentes-->
-    <article class="container margin-y">
+    <article class="container">
 		<div class="row mx-auto mb-5">
 			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll">
 				<h2><?php the_field('titulo_seccion_tres');?></h2>
