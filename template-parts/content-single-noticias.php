@@ -35,7 +35,7 @@
 		</div>
 	</div>
 	<div class="mas-noticias container scroll mb-5">
-			<p class="comunicados-single" style="font-size: 23px;">Mas Comunicados</p>
+			<p class="comunicados-single" style="font-size: 23px;">Mas Noticias</p>
 			<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
 		</div>
 </article><!-- #post-<?php the_ID(); ?> -->
