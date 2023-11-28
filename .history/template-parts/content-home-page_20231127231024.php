@@ -17,10 +17,10 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
+					<h5 class="modal-title text-end">Admisión 2024</h5>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
-					<h5 class="modal-title">Admisión 2024</h5>
 					<p>Para la admisión de nuestro Liceo Carmen Arrirán debes entrar al link en el botón "ver más". Se parte de nuestra institución, únete.</p>
 				</div>
 				<div class="modal-footer">

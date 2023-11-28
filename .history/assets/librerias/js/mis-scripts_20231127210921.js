@@ -28,9 +28,6 @@ jQuery(document).ready(function ($) {
 
     ScrollReveal({ reset: true });
     ScrollReveal().reveal('.scroll', { delay: 300 });
-
-    //modal
-    $('.modal').modal('show');
 })
 
 
