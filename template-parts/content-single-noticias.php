@@ -10,12 +10,8 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<div class="m-5">
+	<div class="m-5">
 		<h2 class="comunicados-single" style="margin-left: 5%;">Noticias</h2>
-		<div class="d-flex mt-2">
-			<a href="" style="margin-left: 5%;margin-right: 3%;" class="text-black" >Comunicados y Noticias</a>
-			<p class="comunicados-single">Noticias</p>
-		</div>
 	</div>
 	<div class="fondo-comunicado">
 		<?php

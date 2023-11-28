@@ -1,5 +1,4 @@
 /*seccion noticias*/
-<<<<<<< HEAD
 .carta.noti{
     margin-left: 6%;
 }
@@ -13,10 +12,10 @@
     height: 64vh;
     margin-left: 5%;
     margin-right: 6%;
-=======
+  
+}
 .card{
     border: 20px solid #ECEAEA;
->>>>>>> fb796f1ce39bbc8b8b3941dc32ced621994be6da
 }
 .boton-noticias {
     color: #BE1522;

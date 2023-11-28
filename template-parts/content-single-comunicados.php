@@ -12,10 +12,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="m-5">
 		<h2 class="comunicados-single" style="margin-left: 5%;">Comunicados</h2>
-		<div class="d-flex mt-2">
-			<a href="" style="margin-left: 5%;margin-right: 3%;" class="text-black">Comunicados y Noticias</a>
-			<p class="comunicados-single">Comunicados</p>
-		</div>
 	</div>
 	<div class="fondo-comunicado">
 		<?php
@@ -59,7 +55,7 @@
 		</div>
 	</div>
 	<div class="">
-		<p class="comunicados-single" style="margin-left: 7%;font-size: 23px;margin-top: 7%;">Mas Comunicados</p>
+		<p class="comunicados-single" style="margin-left: 7%;font-size: 23px;">Mas Comunicados</p>
 		<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
 	</div>
 
