@@ -462,6 +462,9 @@ h1, h2, h3, h4, h5, h6 {
 /*footer*/
 
 /* modal  */
+modal {
+    transition: .5s;
+}
 .img-escudo{
     width: 15%;
     height: auto;

@@ -32,7 +32,7 @@ jQuery(document).ready(function ($) {
     //modal
     // Espera 2000 milisegundos (2 segundos) antes de mostrar el modal
     setTimeout(function() {
-        $('.modal').fadeIn();
+        $('.modal').modal('show');
     }, 2000);
   
 })
