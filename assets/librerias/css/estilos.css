@@ -426,7 +426,16 @@ h1, h2, h3, h4, h5, h6 {
 /*single de noticias*/
 
 /*responsive single comunicado*/
+@media (max-width: 767.98px) {
+    .fecha-comunicado-single {
+        position: absolute;
+        top: 90px;
+        left: 106px;
+        font-size: 28px;
+    }
+    
 
+}
 /*responsive single comunicado*/
 
 /*mapa footer*/

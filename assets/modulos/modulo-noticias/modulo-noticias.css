@@ -1,10 +1,19 @@
 /*seccion noticias*/
-.carta.noti{
+.carta-noti{
     margin-left: 6%;
 }
 .titulo-noticias{
     padding-top: 6%;
     padding-bottom: 1%;
+}
+.titulos-comunicados{
+    color: var(--color-principal);
+    font-weight: bold;
+}
+.fecha-comunicado{
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-right: 12%;
 }
 .carta-noticias{
     background-color: #ECEAEA;
@@ -14,20 +23,24 @@
     margin-right: 6%;
   
 }
-.card{
-    border: 20px solid #ECEAEA;
+.fondo-carta{
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 7%;
+    height: 56vh;
 }
 .boton-noticias {
     color: #BE1522;
     text-decoration: none;
     font-weight: bold;
 }
-.boton-noticias:visited {
-    color: #BE1522;
-    text-decoration: none;
-    font-weight: bold;
+.boton-noticias a{
+    color: var(--color-principal);
+   text-decoration: none;
+   font-weight: bold;
 }
-.boton-noticias:hover {
+.boton-noticias a:hover {
     border-bottom: 2px solid #BE1522;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     top: -2px;
