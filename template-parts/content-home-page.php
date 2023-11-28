@@ -10,9 +10,7 @@
 ?>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class('container-fluid p-0 m-0'); ?>>
-	
 	<!-- Modal -->
-
 	<div class="modal" tabindex="-1">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -25,7 +23,6 @@
 				</div>
 				<div class="modal-footer">
 					<a type="button" class="btn btn-primary" href="https://app.embluemail.com/Online/VON.aspx?data=i9rrmrEQKSsQN%2BC124nXi4VxN0ZQ4RBMPO%2Bgh69PWlb4EplWfuHhwvTWgYD4Cojasekf%2FFzRCg5cfwqvyDBWNO1pBrLZFL3163ShIWi7vxae0A8qyymZXjVvIBzySqoJ!-!n8pfWAd4qitR8WcJBEEYFyICGyzNr8wBYpRiE8wLC8uMNTMeUgxpy745ZIHiLmDN">Ver más</a>
-					
 				</div>
 			</div>
 		</div>

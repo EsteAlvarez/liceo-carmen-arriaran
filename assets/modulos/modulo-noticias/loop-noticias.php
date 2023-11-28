@@ -58,6 +58,5 @@ incrustar_hoja_estilos_noticias();
        </div>
     <?php endwhile; endif; wp_reset_query(); $wp_query = $temp ?>
     <!--Custom Loop-->
-
 </section>
 <!--Sección 1-->
