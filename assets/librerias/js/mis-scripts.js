@@ -30,7 +30,11 @@ jQuery(document).ready(function ($) {
     ScrollReveal().reveal('.scroll', { delay: 300 });
 
     //modal
-    $('.modal').modal('show');
+    // Espera 2000 milisegundos (2 segundos) antes de mostrar el modal
+    setTimeout(function() {
+        $('.modal').modal('show');
+    }, 2000);
+  
 })
 
 
