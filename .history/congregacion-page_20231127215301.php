@@ -25,7 +25,7 @@ get_header();
 		</div>
 		<article class="container scroll">
 		<p class="mb-lg-0 mb-5"><?php the_field('resena');?></p>
-		<a href="<?php the_field('enlace_congregacion');?>">Ver más</a>
+		<?php the_field('enlace_congregacion');?>
 		</article>
 		
 	</section>
