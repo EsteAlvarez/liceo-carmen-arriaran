@@ -10,10 +10,10 @@
 ?>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="mt-5 mb-5 scroll container">
+	<div class="mt-5 mb-5 container">
 		<h1 class="comunicados-single fs-2">Comunicados</h1>
 	</div>
-	<article class="fondo-comunicado scroll">
+	<article class="fondo-comunicado">
 		<?php
 			// Obtén la URL de la imagen destacada
 			$thumbnail_url = get_the_post_thumbnail_url();
@@ -28,7 +28,7 @@
 			?>
    	    </div>
 	</article>
-	<article class="mt-5 mb-5 container scroll">
+	<article class="mt-5 mb-5 container">
 		<div class="row m-0 p-0">
 			<div class="col-lg-8 col-md-12">
 				<h2 class="comunicados-single"><?php the_title();?></h2>
@@ -56,7 +56,7 @@
 			</aside>
 		</div>
 	</article>
-	<article class="scroll container">
+	<article class="container">
 		<div class="row">
 			<h2 class="comunicados-single">Mas Comunicados</h2>
 			<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
