@@ -36,7 +36,7 @@
 			</div>
 			<aside class="col-lg-4 col-md-12 mt-lg-0 mt-md-5 mt-5 ps-lg-2 ps-md-0 ps-0">
 				<div>
-					<span class="comunicados-single fw-bold"><?php the_field('remitente');?></span>
+					<span class="comunicados-single fw-bold"><?php the_field('titulo_remitente');?></span>
 					<?php
 						$mi_campo_fecha = get_field('remitente');
 						if ($mi_campo_fecha) {
@@ -45,7 +45,7 @@
 					?>
 				</div>
 				<div>
-					<span class="comunicados-single fw-bold"><?php the_field('datos_importantes');?></span>
+					<span class="comunicados-single fw-bold"><?php the_field('titulo_datos_importantes');?></span>
 					<?php
 						$mi_campo_fecha = get_field('datos_importantes');
 						if ($mi_campo_fecha) {
