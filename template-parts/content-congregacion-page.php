@@ -9,5 +9,6 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-</article><!-- #post-<?php the_ID(); ?> -->
+<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+</section><!-- #post-<?php the_ID(); ?> -->

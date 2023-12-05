@@ -9,11 +9,11 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="m-5 scroll">
-		<h2 class="comunicados-single" style="margin-left: 5%;">Noticias</h2>
+		<h1 class="comunicados-single fs-2" style="margin-left: 5%;">Noticias</h1>
 	</div>
-	<div class="fondo-comunicado scroll">
+	<article class="fondo-comunicado scroll">
 		<?php
 			// Obtén la URL de la imagen destacada
 			$thumbnail_url = get_the_post_thumbnail_url();
@@ -27,15 +27,15 @@
 				}
 			?>
    	    </div>
-	</div>
-	<div class="m-5 d-flex scroll">
+	</article>
+	<article class="m-5 d-flex scroll">
 		<div class="contenido-noticia">
-			<h3 class="comunicados-single"><?php the_title();?></h3>
+			<h2 class="comunicados-single"><?php the_title();?></h2>
 			<p class="mt-5"><?php the_content();?></p>
 		</div>
-	</div>
+	</article>
 	<div class="mas-noticias container scroll mb-5">
-			<p class="comunicados-single" style="font-size: 23px;">Mas Noticias</p>
-			<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
-		</div>
-</article><!-- #post-<?php the_ID(); ?> -->
+		<p class="comunicados-single" style="font-size: 23px;">Mas Noticias</p>
+		<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
+	</div>
+</section><!-- #post-<?php the_ID(); ?> -->
