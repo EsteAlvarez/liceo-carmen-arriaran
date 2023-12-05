@@ -218,11 +218,11 @@
 			<div class="accordion col-lg-6 scroll" id="accordionExample">
 				<div class="accordion-item mb-3">
 					<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
 						<span class="fw-bold"><?php the_field('primera_pregunta');?></span>
 					</button>
 					</h2>
-					<div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_primera_pregunta');?></span>
 					</div>
@@ -230,11 +230,11 @@
 				</div>
 				<div class="accordion-item mb-3">
 					<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
 						<span class="fw-bold"><?php the_field('segunda_pregunta');?></span>
 					</button>
 					</h2>
-					<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_segunda_pregunta');?></span>
 					</div>
@@ -242,11 +242,11 @@
 				</div>
 				<div class="accordion-item mb-3">
 					<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
 						<span class="fw-bold"><?php the_field('tercera_pregunta');?></span>
 					</button>
 					</h2>
-					<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_tercera_pregunta');?></span>
 					</div>
@@ -254,11 +254,11 @@
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
 						<span class="fw-bold"><?php the_field('cuarta_pregunta');?></span>
 					</button>
 					</h2>
-					<div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_cuarta_pregunta');?></span>
 					</div>
