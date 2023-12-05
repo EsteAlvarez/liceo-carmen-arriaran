@@ -79,11 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 /*Sección Dos Página de Inicio*/
 
 /*Sección Preguntas Frecuentes*/
-.accordion-item:first-of-type .accordion-button {
+.accordion-item:first-of-type {
     border-radius: 0 0 10px 10px !important;
-}
-.accordion-button::after {
-    color: var(--color-principal) !important;
 }
 .accordion-item {
     background-color: var(--color-secundario);
@@ -93,9 +90,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--color-secundario);
     border: 1px solid var(--color-secundario);
     border-radius: 0 0 10px 10px;
-}
-.accordion-button:active {
-    border: 1px solid var(--color-principal);
 }
 /*Sección Preguntas Frecuentes*/
 
