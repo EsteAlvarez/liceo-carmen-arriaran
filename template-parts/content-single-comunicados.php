@@ -36,7 +36,7 @@
 			</div>
 			<div class="col-lg-4 col-md-12 mt-lg-0 mt-md-5 mt-5">
 				<div>
-					<span class="comunicados-single">Remitente</span>
+					<span class="comunicados-single fw-bold">Remitente</span>
 					<?php
 						$mi_campo_fecha = get_field('remitente');
 						if ($mi_campo_fecha) {
@@ -45,7 +45,7 @@
 					?>
 				</div>
 				<div>
-					<span class="comunicados-single">Datos Importantes</span>
+					<span class="comunicados-single fw-bold">Datos Importantes</span>
 					<?php
 						$mi_campo_fecha = get_field('datos_importantes');
 						if ($mi_campo_fecha) {
