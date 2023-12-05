@@ -9,7 +9,7 @@
 
 ?>
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<article class="seccion-comunicados scroll">
+	<article class="seccion-comunicados scroll mb-5">
 		<div class="titulo-comunicados">
 			<h1 class="text-center fs-2"><?php the_field('titulo_seccion_uno');?></h1>
 			<div class="d-flex justify-content-center align-items-center">
