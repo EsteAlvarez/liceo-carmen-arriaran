@@ -34,7 +34,7 @@
 				<h2 class="comunicados-single"><?php the_title();?></h2>
 				<p class="mt-5"><?php the_content();?></p>
 			</div>
-			<div class="col-lg-4 col-md-12 mt-lg-0 mt-md-5 mt-5 ps-lg-2 ps-md-0 ps-0">
+			<aside class="col-lg-4 col-md-12 mt-lg-0 mt-md-5 mt-5 ps-lg-2 ps-md-0 ps-0">
 				<div>
 					<span class="comunicados-single fw-bold">Remitente</span>
 					<?php
@@ -53,7 +53,7 @@
 						}
 					?>
 				</div>
-			</div>
+			</aside>
 		</div>
 	</article>
 	<article class="scroll container">
