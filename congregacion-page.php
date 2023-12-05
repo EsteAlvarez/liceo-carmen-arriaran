@@ -24,7 +24,7 @@ get_header();
 			<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
 			<span class="linea-roja-encabezados"></span>
 		</div>
-		<article class="container scroll text-center">
+		<article class="container text-center">
 		<p class="mb-lg-0 mb-5 mt-5"><?php the_field('resena');?></p>
 		<div class="mt-4"><a href="<?php the_field('enlace_congregacion');?>" class="boton-napsis p-2 pe-4 ps-4 rounded mt-3" target="_blank">Ver más</a>
 		</div>
@@ -93,9 +93,8 @@ get_header();
 		</article>
 	</section>
 	<!-- Formación del liceo -->
-
 	
-
+	<!--Colegios Dominicanos-->
 	<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5 scroll">
 		<div>
 			<h2 class="d-flex text-center justify-content-center margin-y"><?php the_field('titulo_seccion_3');?></h2>
@@ -147,6 +146,8 @@ get_header();
 			<a class="btn pBotonSitio" href="https://www.catalinammdd.cl/inicio/">Visita el sitio</a>
 		</figure>
 	</section>
+	<!--Colegios Dominicanos-->
+
 		<?php
 		while ( have_posts() ) :
 			the_post();
