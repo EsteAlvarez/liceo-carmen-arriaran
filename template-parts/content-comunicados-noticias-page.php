@@ -11,7 +11,7 @@
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<article class="seccion-comunicados scroll">
 		<div class="titulo-comunicados">
-			<h2 class="text-center"><?php the_field('titulo_seccion_uno');?></h1>
+			<h1 class="text-center fs-2"><?php the_field('titulo_seccion_uno');?></h1>
 			<div class="d-flex justify-content-center align-items-center">
 				<span class="linea-roja-encabezados"></span>
 				<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
@@ -27,7 +27,7 @@
 	</article>
 	<article class="seccion-noticias mb-5 mt-5 scroll">
 		<div class="titulo-noticias mb-5">
-			<h2 class="text-center margin-y"><?php the_field('titulo_seccion_dos');?></h1>
+			<h2 class="text-center margin-y"><?php the_field('titulo_seccion_dos');?></h2>
 			<div class="d-flex justify-content-center align-items-center">
 				<span class="linea-roja-encabezados"></span>
 				<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
