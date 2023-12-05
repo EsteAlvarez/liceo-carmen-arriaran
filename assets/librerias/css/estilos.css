@@ -79,11 +79,13 @@ h1, h2, h3, h4, h5, h6 {
 /*Sección Dos Página de Inicio*/
 
 /*Sección Preguntas Frecuentes*/
-.accordion {
-    overflow: hidden;
-}
 .accordion-item {
     background-color: var(--color-secundario);
+    border-radius: 0 0 10px 10px;
+}
+.accordion-button{
+    background-color: var(--color-secundario);
+    border: 1px solid;
     border-radius: 0 0 10px 10px;
 }
 .titulo-accordion {
