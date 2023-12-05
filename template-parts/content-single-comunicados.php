@@ -11,7 +11,7 @@
 
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="mt-5 mb-5 container">
-		<h1 class="comunicados-single fs-2">Comunicados</h1>
+		<h1 class="comunicados-single fs-2"><?php the_field('titulo_de_pagina');?></h1>
 	</div>
 	<article class="fondo-comunicado">
 		<?php
@@ -36,7 +36,7 @@
 			</div>
 			<aside class="col-lg-4 col-md-12 mt-lg-0 mt-md-5 mt-5 ps-lg-2 ps-md-0 ps-0">
 				<div>
-					<span class="comunicados-single fw-bold">Remitente</span>
+					<span class="comunicados-single fw-bold"><?php the_field('remitente');?></span>
 					<?php
 						$mi_campo_fecha = get_field('remitente');
 						if ($mi_campo_fecha) {
@@ -45,7 +45,7 @@
 					?>
 				</div>
 				<div>
-					<span class="comunicados-single fw-bold">Datos Importantes</span>
+					<span class="comunicados-single fw-bold"><?php the_field('datos_importantes');?></span>
 					<?php
 						$mi_campo_fecha = get_field('datos_importantes');
 						if ($mi_campo_fecha) {
@@ -58,7 +58,7 @@
 	</article>
 	<article class="container">
 		<div class="row">
-			<h2 class="comunicados-single">Mas Comunicados</h2>
+			<h2 class="comunicados-single"><?php the_field('titulo_de_seccion_extra');?></h2>
 			<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
 		</div>
 	</article>
