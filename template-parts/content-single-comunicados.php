@@ -10,7 +10,7 @@
 ?>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="m-5 scroll container">
+	<div class="mt-5 mb-5 scroll container">
 		<h1 class="comunicados-single fs-2">Comunicados</h1>
 	</div>
 	<article class="fondo-comunicado scroll">
