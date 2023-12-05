@@ -82,6 +82,9 @@ h1, h2, h3, h4, h5, h6 {
 .accordion-item:first-of-type .accordion-button {
     border-radius: 0 0 10px 10px !important;
 }
+.accordion-button::after {
+    color: var(--color-principal) !important;
+}
 .accordion-item {
     background-color: var(--color-secundario);
     border-radius: 0 0 10px 10px;
