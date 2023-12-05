@@ -8,10 +8,10 @@
  */
 
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="seccion-comunicados scroll">
+<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<article class="seccion-comunicados scroll">
 		<div class="titulo-comunicados">
-			<h2 class="text-center">Comunicados</h1>
+			<h2 class="text-center"><?php the_field('titulo_seccion_uno');?></h1>
 			<div class="d-flex justify-content-center align-items-center">
 				<span class="linea-roja-encabezados"></span>
 				<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
@@ -24,10 +24,10 @@
 		<div class="d-flex justify-content-center align-items-center" style="padding-top: 1%;padding-bottom: 3%;">
 			<a href="#" class="boton-napsis p-2 pe-4 ps-4 rounded">Ver Mas</a>
 		</div>
-	</div>
-	<div class="seccion-noticias mb-5 mt-5 scroll">
+	</article>
+	<article class="seccion-noticias mb-5 mt-5 scroll">
 		<div class="titulo-noticias mb-5">
-			<h2 class="text-center margin-y">Noticias</h1>
+			<h2 class="text-center margin-y"><?php the_field('titulo_seccion_dos');?></h1>
 			<div class="d-flex justify-content-center align-items-center">
 				<span class="linea-roja-encabezados"></span>
 				<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
@@ -37,5 +37,5 @@
 		<div class="container mb-5 mt-5">
 			<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
 		</div>
-	</div>
-</article><!-- #post-<?php the_ID(); ?> -->
+	</article>
+</section><!-- #post-<?php the_ID(); ?> -->
