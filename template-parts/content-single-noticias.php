@@ -36,7 +36,7 @@
 	</article>
 	<article class="mas-noticias container mb-5">
 		<div class="row">
-			<h2 class="comunicados-single">Mas Noticias</h2>
+			<h2 class="comunicados-single fw-lighter">Mas Noticias</h2>
 			<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
 		</div>
 	</article>
