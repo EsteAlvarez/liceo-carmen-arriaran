@@ -56,8 +56,10 @@
 			</div>
 		</div>
 	</article>
-	<artcicle class="scroll">
-		<h2 class="comunicados-single">Mas Comunicados</h2>
-		<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
+	<artcicle class="scroll container">
+		<div class="row">
+			<h2 class="comunicados-single">Mas Comunicados</h2>
+			<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
+		</div>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
