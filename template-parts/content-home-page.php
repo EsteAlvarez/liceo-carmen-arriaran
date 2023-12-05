@@ -204,11 +204,11 @@
 				</div>
 				<div class="accordion-item">
 					<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 						<?php the_field('cuarta_pregunta');?>
 					</button>
 					</h2>
-					<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_cuarta_pregunta');?></span>
 					</div>
