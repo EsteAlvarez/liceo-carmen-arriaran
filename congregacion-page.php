@@ -97,7 +97,7 @@ get_header();
 	
 
 	<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5 scroll">
-		<div class="scroll mt-5">
+		<div>
 			<h2 class="d-flex text-center justify-content-center margin-y"><?php the_field('titulo_seccion_3');?></h2>
 			<div class="d-flex justify-content-center align-items-center">
 				<span class="linea-roja-encabezados"></span>
