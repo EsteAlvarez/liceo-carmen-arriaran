@@ -167,11 +167,11 @@
 
 			<div class="accordion col-lg-6 scroll" id="accordionExample">
 				<div class="accordion-item mb-3">
-					<h2 class="accordion-header">
+					<p class="accordion-header">
 					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 						<?php the_field('primera_pregunta');?>
 					</button>
-					</h2>
+					</p>
 					<div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_primera_pregunta');?></span>
