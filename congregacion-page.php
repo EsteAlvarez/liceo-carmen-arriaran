@@ -33,7 +33,7 @@ get_header();
 	<!-- Congregación -->
 
 	<!-- Formación del liceo -->
-	<section class="scroll margin-y">
+	<section class="margin-y">
 		<h2 class="d-flex text-center justify-content-center mt-5"><?php the_field('titulo_seccion_2');?></h2>
 		<div class="d-flex justify-content-center align-items-center">
 			<span class="linea-roja-encabezados"></span>
@@ -93,9 +93,9 @@ get_header();
 		</article>
 	</section>
 	<!-- Formación del liceo -->
-	
+
 	<!--Colegios Dominicanos-->
-	<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5 scroll">
+	<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5">
 		<div>
 			<h2 class="d-flex text-center justify-content-center margin-y"><?php the_field('titulo_seccion_3');?></h2>
 			<div class="d-flex justify-content-center align-items-center">
