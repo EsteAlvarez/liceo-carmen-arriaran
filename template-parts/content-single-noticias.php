@@ -11,7 +11,7 @@
 
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="mt-5 mb-5 container">
-		<h1 class="comunicados-single fs-2">Noticias</h1>
+		<h1 class="comunicados-single fs-2"><?php the_field('titulo_de_pagina');?></h1>
 	</div>
 	<article class="fondo-comunicado">
 		<?php
@@ -36,7 +36,7 @@
 	</article>
 	<article class="mas-noticias container mb-5">
 		<div class="row">
-			<h2 class="comunicados-single fw-lighter mb-3">Mas Noticias</h2>
+			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
 			<?php include get_template_directory() . '/assets/modulos/modulo-noticias/loop-noticias.php';?>
 		</div>
 	</article>
