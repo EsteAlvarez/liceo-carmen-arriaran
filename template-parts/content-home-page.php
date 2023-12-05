@@ -23,9 +23,8 @@
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid img-escudo mx-3" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
-					<div class="mx-3"><h5 class="modal-title mb-3">Admisión 2024</h5>
-					<p>Para la admisión de nuestro Liceo Carmen Arrirán debes entrar al link en el botón "ver más". Se parte de nuestra institución, únete.</p></div>
-					
+					<div class="mx-3"><h5 class="modal-title mb-3"><?php the_fiel('titulo_ventana_emergente');?></h5>
+					<p><?php the_field('contenido_ventana_emergente');?></p></div>
 				</div>
 				<div class="modal-footer border-0 mx-4">
 					<a type="button" class="btn boton-napsis p-2 pe-4 ps-4 rounded mt-1 mb-2" target="_blank" href="https://app.embluemail.com/Online/VON.aspx?data=i9rrmrEQKSsQN%2BC124nXi4VxN0ZQ4RBMPO%2Bgh69PWlb4EplWfuHhwvTWgYD4Cojasekf%2FFzRCg5cfwqvyDBWNO1pBrLZFL3163ShIWi7vxae0A8qyymZXjVvIBzySqoJ!-!n8pfWAd4qitR8WcJBEEYFyICGyzNr8wBYpRiE8wLC8uMNTMeUgxpy745ZIHiLmDN">Ver más</a>
