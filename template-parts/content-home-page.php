@@ -215,14 +215,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="accordion col-lg-6 scroll" id="accordionExample">
+			<div class="accordion col-lg-6 scroll" id="accordionEx">
 				<div class="accordion-item mb-3">
 					<h2 class="accordion-header">
 					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
 						<span class="fw-bold"><?php the_field('primera_pregunta');?></span>
 					</button>
 					</h2>
-					<div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionEx">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_primera_pregunta');?></span>
 					</div>
@@ -234,7 +234,7 @@
 						<span class="fw-bold"><?php the_field('segunda_pregunta');?></span>
 					</button>
 					</h2>
-					<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionEx">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_segunda_pregunta');?></span>
 					</div>
@@ -246,7 +246,7 @@
 						<span class="fw-bold"><?php the_field('tercera_pregunta');?></span>
 					</button>
 					</h2>
-					<div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionEx">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_tercera_pregunta');?></span>
 					</div>
@@ -258,7 +258,7 @@
 						<span class="fw-bold"><?php the_field('cuarta_pregunta');?></span>
 					</button>
 					</h2>
-					<div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionEx">
 					<div class="accordion-body">
 						<span><?php the_field('contenido_cuarta_pregunta');?></span>
 					</div>
