@@ -28,7 +28,7 @@
 			?>
    	    </div>
 	</article>
-	<article class="m-5">
+	<article class="p-lg-5 p-md-3 p-1">
 		<div class="contenido-noticia">
 			<h2 class="comunicados-single"><?php the_title();?></h2>
 			<p class="mt-5"><?php the_content();?></p>
