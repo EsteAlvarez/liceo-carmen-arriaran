@@ -30,7 +30,7 @@
 	</article>
 	<article class="mt-5 mb-5 container scroll">
 		<div class="row m-0 p-0">
-			<div class="col-lg-8 col-md-12">
+			<div class="col-lg-8 col-md-12 contenido-principal-scomunicados">
 				<h2 class="comunicados-single"><?php the_title();?></h2>
 				<p class="mt-5"><?php the_content();?></p>
 			</div>
