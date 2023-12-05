@@ -23,7 +23,7 @@
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid img-escudo mx-3" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
-					<div class="mx-3"><h5 class="modal-title mb-3"><?php the_fiel('titulo_ventana_emergente');?></h5>
+					<div class="mx-3"><h5 class="modal-title mb-3"><?php the_field('titulo_ventana_emergente');?></h5>
 					<p><?php the_field('contenido_ventana_emergente');?></p></div>
 				</div>
 				<div class="modal-footer border-0 mx-4">
