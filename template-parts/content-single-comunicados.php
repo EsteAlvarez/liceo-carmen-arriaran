@@ -58,7 +58,7 @@
 	</article>
 	<article class="container">
 		<div class="row">
-			<h2 class="comunicados-single"><?php the_field('titulo_de_seccion_extra');?></h2>
+			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
 			<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
 		</div>
 	</article>
