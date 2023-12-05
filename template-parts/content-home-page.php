@@ -166,9 +166,9 @@
 			</div>
 
 			<div class="accordion col-lg-6 scroll" id="accordionExample">
-				<div class="accordion-item">
+				<div class="accordion-item mb-3">
 					<h2 class="accordion-header">
-					<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					<button class="accordion-button text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 						<?php the_field('primera_pregunta');?>
 					</button>
 					</h2>
@@ -215,48 +215,56 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- <div class="col-lg-6 scroll">
-				<div class="accordion">
-					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('primera_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
-						<p class="contenido-accordion"><?php the_field('contenido_primera_pregunta');?></p>
+			<div class="accordion col-lg-6 scroll" id="accordionExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+					<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+						<?php the_field('quinta_pregunta');?>
+					</button>
+					</h2>
+					<div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<span><?php the_field('contenido_quinta_pregunta');?></span>
 					</div>
-					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('segunda_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
-						<p class="contenido-accordion"><?php the_field('contenido_segunda_pregunta');?></p>
-					</div>
-					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('tercera_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
-						<p class="contenido-accordion"><?php the_field('contenido_tercera_pregunta');?></p>
-					</div>
-					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('cuarta_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
-						<p class="contenido-accordion"><?php the_field('contenido_cuarta_pregunta');?></p>
 					</div>
 				</div>
-			</div> -->
-			<div class="col-lg-6 scroll">
-				<div class="accordion">
-					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('quinta_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
-						<p class="contenido-accordion"><?php the_field('contenido_quinta_pregunta');?></p>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+						<?php the_field('sexta_pregunta');?>
+					</button>
+					</h2>
+					<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<span><?php the_field('contenido_sexta_pregunta');?></span>
 					</div>
-					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('sexta_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
-						<p class="contenido-accordion"><?php the_field('contenido_sexta_pregunta');?></p>
 					</div>
-					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('septima_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
-						<p class="contenido-accordion"><?php the_field('contenido_septima_pregunta');?></p>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+						<?php the_field('septima_pregunta');?>
+					</button>
+					</h2>
+					<div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<span><?php the_field('contenido_septima_pregunta');?></span>
 					</div>
-					<div class="accordion-elemento mb-2">
-						<p class="titulo-accordion fw-semibold m-0 p-3 d-flex justify-content-between align-items-center"><?php the_field('octava_pregunta');?><i class="bi bi-caret-down-fill text-danger"></i></p>
-						<p class="contenido-accordion"><?php the_field('contenido_octava_pregunta');?></p>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+						<?php the_field('octava_pregunta');?>
+					</button>
+					</h2>
+					<div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<span><?php the_field('contenido_cuarta_pregunta');?></span>
+					</div>
 					</div>
 				</div>
 			</div>
-		</div>
     </article>
     <!--Preguntas Frecuentes-->
 </section><!-- #post-<?php the_ID(); ?> -->
