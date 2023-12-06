@@ -9,31 +9,15 @@
    color: var(--color-principal);
    font-weight: bold;
 }
-/*Ajustar tamaño de imagen*/
-/* .cont-img {
-    height: 200px;
-    width:100%;
-} */
-.cont-img img {
+figure img {
     object-fit: cover;
     height: 200px;
-    width: 100%;
-}
-/*Ajustar tamaño de imagen*/
-.contenido{
-    margin-left: 10%;
-    margin-top: 2%;
+    border-radius: 5px 0 0 5px;
 }
 .fecha-comunicado{
     color: var(--color-principal);
     font-weight: bold;
     margin-right: 12%;
-}
-.contenido-parrafo{
-    width: 90%;
-}
-.ver-mas{
-    margin-left: 80%;
 }
 .ver-mas a{
     color: var(--color-principal);
