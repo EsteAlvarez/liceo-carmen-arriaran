@@ -46,9 +46,7 @@ incrustar_hoja_estilos_comunicados();
                         }
                     ?>
                 </div>
-                <div>
-                    <p><?php the_excerpt();?></p>
-                </div>
+                <span><?php the_excerpt();?></span>
                 <div class="ver-mas d-flex justify-content-end pe-3">
                     <a href="<?php the_permalink();?>"><i class="bi bi-arrow-right-circle-fill"></i> Ver Mas</a>
                 </div>
