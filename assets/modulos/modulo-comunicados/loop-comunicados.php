@@ -42,7 +42,7 @@ incrustar_hoja_estilos_comunicados();
                     <?php
                         $mi_campo_fecha = get_field('fecha_del_comunicado');
                         if ($mi_campo_fecha) {
-                            echo '<p class="fecha-comunicado">' . $mi_campo_fecha . '</p>';
+                            echo '<p class="fecha-comunicado m-0 p-0">' . $mi_campo_fecha . '</p>';
                         }
                     ?>
                 </div>
