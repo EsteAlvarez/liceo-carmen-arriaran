@@ -14,12 +14,13 @@ get_header();
 		<section class="error-404 not-found">
 		<?php if (is_404()) {
 			?>
-			<div>
-				<h1>Error 404 - Página no encontrada</h1>
-				<p>Lo sentimos, la página que buscas no está disponible.</p>
+			<div class="mt-5">
+				<h1 class="fs-2">Error 404 - Página no encontrada</h1>
+				<p class="mb-5">Lo sentimos, la página que buscas no está disponible.</p>
+				<span><a class="boton-napsis" href="<?php echo esc_url( home_url( '/index.php' ) ); ?>">Volver al Inicio</a></span>
 			</div>
 			<?php
-		}
+			}
 		?>
 		</section><!-- .error-404 -->
 	</main><!-- #main -->
