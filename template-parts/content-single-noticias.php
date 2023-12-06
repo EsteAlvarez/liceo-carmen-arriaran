@@ -43,7 +43,7 @@
 	<article class="mas-noticias container mb-5">
 		<div class="row">
 			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
-			<div class="row">
+			<div class="row mx-auto">
 			<script>
 			function incrustar_hoja_estilos_noticias() {
 				var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
@@ -80,7 +80,7 @@
 					if ($wp_query->have_posts()) :
 						while ($wp_query->have_posts()) : $wp_query->the_post();
 				?>
-					 <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-5 mb-5">
+					<div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-5 mb-5">
 						<div class="card carta-noticias mx-auto h-100 position-relative">
 							<div class="fondo-carta mb-5">
 								<div><?php the_post_thumbnail(); ?></div>
