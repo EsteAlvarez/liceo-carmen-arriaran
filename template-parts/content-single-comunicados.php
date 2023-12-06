@@ -108,12 +108,23 @@ if ($comunicados_query->have_posts()) :
     while ($comunicados_query->have_posts()) : $comunicados_query->the_post();
         // ... Tu código para mostrar cada comunicado, adaptado a tu estructura actual
         ?>
-        <!-- Tu código para mostrar cada comunicado -->
-        <div class="comunicado">
-            <!-- Contenido del comunicado -->
-            <h3><?php the_title(); ?></h3>
-            <p><?php the_content(); ?></p>
-            <!-- Otros detalles del comunicado -->
+        <div class="comunicado d-flex p-0 mb-5 position-relative">
+            <div class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none contenedor-imagen" style="background-image: url('<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID));?>');"></div>
+            <div class="contenido col-lg-9 p-4 m-0 mb-lg-0 mb-md-5 mb-5">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <h3 class="titulos-comunicados fs-5 m-0 mb-2"><?php the_title();?></h3>
+                    <?php
+                        $mi_campo_fecha = get_field('fecha_del_comunicado');
+                        if ($mi_campo_fecha) {
+                            echo '<p class="fecha-comunicado m-0 p-0">' . $mi_campo_fecha . '</p>';
+                        }
+                    ?>
+                </div>
+                <span class="contenedor-extracto-comunicados"><?php echo get_the_excerpt();?></span>
+            </div>
+            <div class="ver-mas d-flex justify-content-end p-3 pe-4 position-absolute bottom-0 end-0">
+                <a href="<?php the_permalink();?>"><i class="bi bi-arrow-right-circle-fill"></i>Ver Mas</a>
+            </div>
         </div>
         <?php
     endwhile;
