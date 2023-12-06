@@ -18,14 +18,9 @@ body {
         opacity: 1;
     }
 }
-h1, h2, h3, h4, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-}
-
-h5{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
 }
 
 .margin-y{
@@ -254,17 +249,13 @@ h5{
 #menu-menu-footer-1{
     text-decoration: none;
     list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
+}
+#media_image-2{
+    padding: 0 0 20px 80px;
 }
 .pLiceo a{
     font-size: 11px;
     cursor: default;
-    
-}
-.pliceo a:visited{
-    color: #000;
 }
 .menu-item-164 a{
     font-weight: bold;
@@ -272,26 +263,14 @@ h5{
 .menu-item-165 a{
     font-style: italic;
 }
-
-.menu-menu-footer-1-container{
-    padding-top: 1rem;
-}
 /*logo y texto liceo*/
 
 /*logos ley y napsis*/
 .wp-image-166, .wp-image-167{
-    width: 41%;
-    height: 47px;
+    width: 51%;
+    height: 50px;
     border-radius: 5px;
     margin: 5px 5px;
-}
-@media (max-width: 575.98px){
-    .wp-image-166, .wp-image-167{
-        width: 58%;
-        height: 44px;
-        border-radius: 5px;
-        margin: 5px 5px;
-    }
 }
 /*logos ley y napsis*/
 
@@ -319,9 +298,6 @@ h5{
 }
 .iFooter{
     color: var(--color-principal);
-}
-.custom-html-widget{
-    font-size: 13px;
 }
 /*info general*/
 
@@ -487,16 +463,6 @@ h5{
 
 /* Migas de pan  */
 .miga{
-    margin-left: 6.3%;
-    font-size: 13px;
-}
-
-.miga a{
-    text-decoration: none; 
-    color: var(--color-principal);
-}
-
-.miga .name-comunicado{
-    color: var(--color-terciario);
+    margin-left: 5.5%;
 }
 /* Migas de pan  */
