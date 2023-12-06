@@ -18,6 +18,9 @@
 	</ol>
 	</nav>
 	
+	<div class="m-5 scroll">
+		<h2 class="comunicados-single" style="margin-left: 5%;">Comunicados</h2>
+
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="mt-5 mb-5 container">
 		<h1 class="comunicados-single fs-2"><?php the_field('titulo_de_pagina');?></h1>
