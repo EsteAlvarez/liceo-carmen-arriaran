@@ -1,6 +1,6 @@
 <script>
 function incrustar_hoja_estilos_comunicados() {
-    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-comunicados/modulo-comunicados.css';?>';
+    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/liceo-carmen-arriaran/assets/modulos/modulo-comunicados/modulo-comunicados.css';?>';
     var hoja_estilos = document.createElement('link');
     hoja_estilos.rel = 'stylesheet';
     hoja_estilos.href = hoja_estilos_url;
@@ -34,11 +34,11 @@ incrustar_hoja_estilos_comunicados();
             );
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-        <div class="comunicado d-flex p-0">
-            <figure class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none"><?php the_post_thumbnail();?></figure>
-            <div class="contenido col-lg-9 p-3">
+        <div class="comunicado d-flex p-0 mb-5">
+            <div class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none contenedor-imagen"><?php the_post_thumbnail();?></div>
+            <div class="contenido col-lg-9 p-3 m-0">
                 <div class="d-flex flex-wrap justify-content-between">
-                    <h3 class="titulos-comunicados fs-5"><?php the_title();?></h3>
+                    <h3 class="titulos-comunicados fs-5 m-0 mb-1"><?php the_title();?></h3>
                     <?php
                         $mi_campo_fecha = get_field('fecha_del_comunicado');
                         if ($mi_campo_fecha) {
@@ -46,14 +46,12 @@ incrustar_hoja_estilos_comunicados();
                         }
                     ?>
                 </div>
-                <span><?php the_excerpt();?></span>
-                <div class="ver-mas d-flex justify-content-end pe-3">
-                    <a href="<?php the_permalink();?>"><i class="bi bi-arrow-right-circle-fill"></i> Ver Mas</a>
-                </div>
+                <span><?php echo get_the_excerpt();?></span>
+                <span class="ver-mas d-flex justify-content-end pe-3">
+                    <a href="<?php the_permalink();?>"><i class="bi bi-arrow-right-circle-fill"></i>Ver Mas</a>
+                    </span>
             </div>
         </div>
-       
-        
     <?php endwhile; endif; wp_reset_query(); $wp_query = $temp ?>
     <!--Custom Loop-->
 
