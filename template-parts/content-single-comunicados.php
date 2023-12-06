@@ -71,6 +71,16 @@
 			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
 			<!--Sección 1-->
 <div class="container mt-5">
+<script>
+function incrustar_hoja_estilos_comunicados() {
+    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-comunicados/modulo-comunicados.css';?>';
+    var hoja_estilos = document.createElement('link');
+    hoja_estilos.rel = 'stylesheet';
+    hoja_estilos.href = hoja_estilos_url;
+    document.head.appendChild(hoja_estilos);
+}
+incrustar_hoja_estilos_comunicados();
+</script>
     <!--Custom Loop-->
 	<?php
 // Obtener el ID del comunicado actual
