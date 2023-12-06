@@ -41,7 +41,7 @@ incrustar_hoja_estilos_noticias();
                         <?php
                             $mi_campo_fecha = get_field('fecha_de_noticia');
                             if ($mi_campo_fecha) {
-                                echo '<p class="fecha-comunicado">' . $mi_campo_fecha . '</p>';
+                                echo '<p class="fecha-comunicado m-0 mb-1">' . $mi_campo_fecha . '</p>';
                             }
                         ?>
                         <h3 class="titulos-comunicados fs-5"><?php the_title();?></h3>
