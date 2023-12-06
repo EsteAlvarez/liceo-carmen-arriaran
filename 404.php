@@ -15,7 +15,7 @@ get_header();
 		<?php if (is_404()) {
 			?>
 			<div class="mt-5">
-				<h1 class="fs-2">Error 404 - Página no encontrada</h1>
+				<h1 class="fs-2">Página no encontrada</h1>
 				<p class="mb-5">Lo sentimos, la página que buscas no está disponible.</p>
 				<span><a class="boton-napsis p-2 pe-4 ps-4 rounded" href="<?php echo esc_url( home_url( '/index.php' ) ); ?>">Volver al Inicio</a></span>
 			</div>
