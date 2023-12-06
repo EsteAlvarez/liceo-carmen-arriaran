@@ -70,74 +70,69 @@
 		<div class="row">
 			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
 			<!--Sección 1-->
-<div class="container mt-5">
-<script>
-function incrustar_hoja_estilos_comunicados() {
-    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-comunicados/modulo-comunicados.css';?>';
-    var hoja_estilos = document.createElement('link');
-    hoja_estilos.rel = 'stylesheet';
-    hoja_estilos.href = hoja_estilos_url;
-    document.head.appendChild(hoja_estilos);
-}
-incrustar_hoja_estilos_comunicados();
-</script>
-    <!--Custom Loop-->
-	<?php
-// Obtener el ID del comunicado actual
-$current_post_id = get_the_ID();
+			<div class="container mt-5">
+				<script>
+				function incrustar_hoja_estilos_comunicados() {
+					var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-comunicados/modulo-comunicados.css';?>';
+					var hoja_estilos = document.createElement('link');
+					hoja_estilos.rel = 'stylesheet';
+					hoja_estilos.href = hoja_estilos_url;
+					document.head.appendChild(hoja_estilos);
+				}
+				incrustar_hoja_estilos_comunicados();
+				</script>
+				<!--Custom Loop-->
+				<?php
+				$current_post_id = get_the_ID();
+				$args = array(
+					'post_type' => 'comunicados',
+					'orderby' => 'date',
+					'order' => 'DESC',
+					'posts_per_page' => -1,
+					'post__not_in' => array($current_post_id),
+					'tax_query' => array(
+						array(
+							'taxonomy' => 'categoria-comunicados',
+							'field' => 'slug',
+							'terms' => 'comunicados'
+						),
+					),
+				);
 
-// Consulta para mostrar todos los comunicados excepto el actual
-$args = array(
-    'post_type' => 'comunicados',
-    'orderby' => 'date',
-    'order' => 'DESC',
-    'posts_per_page' => -1,
-    'post__not_in' => array($current_post_id), // Excluir el comunicado actual
-    'tax_query' => array(
-        array(
-            'taxonomy' => 'categoria-comunicados',
-            'field' => 'slug',
-            'terms' => 'comunicados'
-        ),
-    ),
-);
+				$comunicados_query = new WP_Query($args);
 
-$comunicados_query = new WP_Query($args);
-
-if ($comunicados_query->have_posts()) :
-    while ($comunicados_query->have_posts()) : $comunicados_query->the_post();
-        // ... Tu código para mostrar cada comunicado, adaptado a tu estructura actual
-        ?>
-        <div class="comunicado d-flex p-0 mb-5 position-relative">
-            <div class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none contenedor-imagen" style="background-image: url('<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID));?>');"></div>
-            <div class="contenido col-lg-9 p-4 m-0 mb-lg-0 mb-md-5 mb-5">
-                <div class="d-flex flex-wrap justify-content-between">
-                    <h3 class="titulos-comunicados fs-5 m-0 mb-2"><?php the_title();?></h3>
-                    <?php
-                        $mi_campo_fecha = get_field('fecha_del_comunicado');
-                        if ($mi_campo_fecha) {
-                            echo '<p class="fecha-comunicado m-0 p-0">' . $mi_campo_fecha . '</p>';
-                        }
-                    ?>
-                </div>
-                <span class="contenedor-extracto-comunicados"><?php echo get_the_excerpt();?></span>
-            </div>
-            <div class="ver-mas d-flex justify-content-end p-3 pe-4 position-absolute bottom-0 end-0">
-                <a href="<?php the_permalink();?>"><i class="bi bi-arrow-right-circle-fill"></i>Ver Mas</a>
-            </div>
-        </div>
-        <?php
-    endwhile;
-    wp_reset_postdata(); // Restablecer datos del post
-else :
-    // No se encontraron comunicados
-    echo 'No se encontraron comunicados.';
-endif;
-?>
-
-    <!--Custom Loop-->
-</div>
-<!--Sección 1-->
+				if ($comunicados_query->have_posts()) :
+					while ($comunicados_query->have_posts()) : $comunicados_query->the_post();
+						// ... Tu código para mostrar cada comunicado, adaptado a tu estructura actual
+						?>
+						<div class="comunicado d-flex p-0 mb-5 position-relative">
+							<div class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none contenedor-imagen" style="background-image: url('<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID));?>');"></div>
+							<div class="contenido col-lg-9 p-4 m-0 mb-lg-0 mb-md-5 mb-5">
+								<div class="d-flex flex-wrap justify-content-between">
+									<h3 class="titulos-comunicados fs-5 m-0 mb-2"><?php the_title();?></h3>
+									<?php
+										$mi_campo_fecha = get_field('fecha_del_comunicado');
+										if ($mi_campo_fecha) {
+											echo '<p class="fecha-comunicado m-0 p-0">' . $mi_campo_fecha . '</p>';
+										}
+									?>
+								</div>
+								<span class="contenedor-extracto-comunicados"><?php echo get_the_excerpt();?></span>
+							</div>
+							<div class="ver-mas d-flex justify-content-end p-3 pe-4 position-absolute bottom-0 end-0">
+								<a href="<?php the_permalink();?>"><i class="bi bi-arrow-right-circle-fill"></i>Ver Mas</a>
+							</div>
+						</div>
+					<?php
+					endwhile;
+					wp_reset_postdata(); // Restablecer datos del post
+				else :
+					// No se encontraron comunicados
+					echo 'No se encontraron comunicados.';
+				endif;
+				?>
+				<!--Custom Loop-->
+			</div>
 		</div>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
