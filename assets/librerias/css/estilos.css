@@ -505,4 +505,10 @@ h5{
 .miga .name-comunicado{
     color: var(--color-terciario);
 }
-/* Migas de pan  */
+/*Migas de pan*/
+
+/*Error 404*/
+.error-404 {
+    min-height: 100vh;
+}
+/*Error 404*/

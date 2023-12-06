@@ -10,12 +10,18 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-
+	<main id="primary" class="site-main container">
 		<section class="error-404 not-found">
-			
+		<?php if (is_404()) {
+			?>
+			<div>
+				<h1>Error 404 - Página no encontrada</h1>
+				<p>Lo sentimos, la página que buscas no está disponible.</p>
+			</div>
+			<?php
+		}
+		?>
 		</section><!-- .error-404 -->
-
 	</main><!-- #main -->
 
 <?php
