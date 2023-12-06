@@ -38,13 +38,13 @@ incrustar_hoja_estilos_noticias();
                 <div class="fondo-carta mb-5">
                     <div><?php the_post_thumbnail(); ?></div>
                     <div class="card-body">
-                        <h3 class="titulos-comunicados fs-5"><?php the_title();?></h3>
                         <?php
                             $mi_campo_fecha = get_field('fecha_de_noticia');
                             if ($mi_campo_fecha) {
                                 echo '<p class="fecha-comunicado">' . $mi_campo_fecha . '</p>';
                             }
                         ?>
+                        <h3 class="titulos-comunicados fs-5"><?php the_title();?></h3>
                         <span class="contenido-extracto-noticias"><?php the_excerpt();?></span>
                     </div>
                 </div>
