@@ -8,10 +8,11 @@
    color: var(--color-principal);
    font-weight: bold;
 }
-.contenedor-imagen img {
-    object-fit: cover;
-    height: 200px;
+.contenedor-imagen {
+    min-height: 200px;
     border-radius: 5px 0 0 5px;
+    background-size: cover;
+    background-position: center;
 }
 .fecha-comunicado{
     color: var(--color-principal);
@@ -27,4 +28,10 @@
     border-bottom: 2px solid #BE1522;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     top: -2px;
+}
+.contenedor-extracto-comunicados {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Máximo de líneas a mostrar */
 }
