@@ -10,10 +10,10 @@
    font-weight: bold;
 }
 /*Ajustar tamaño de imagen*/
-.cont-img {
+/* .cont-img {
     height: 200px;
     width:100%;
-}
+} */
 .cont-img img {
     object-fit: cover;
     height: 200px;

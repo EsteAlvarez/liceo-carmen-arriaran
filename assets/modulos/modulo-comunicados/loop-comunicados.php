@@ -35,8 +35,8 @@ incrustar_hoja_estilos_comunicados();
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
         <div class="comunicado d-flex">
-            <figure class="cont-img p-0 m-0 d-lg-block d-md-none d-none"><?php the_post_thumbnail();?></figure>
-            <div class="contenido">
+            <figure class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none"><?php the_post_thumbnail();?></figure>
+            <div class="contenido col-lg-9">
                 <div class="d-flex justify-content-between">
                     <h5 class="titulos-comunicados"><?php the_title();?></h5>
                     <?php
