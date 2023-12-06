@@ -17,7 +17,7 @@ incrustar_hoja_estilos_comunicados();
     <?php $active = true;
             $temp = $wp_query;
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; //Número de paginas
-            $post_per_page = 6; // -1 shows all posts Cantidad de post a mostrar
+            $post_per_page = 3; // -1 shows all posts Cantidad de post a mostrar
             $args = array(
                 'post_type' => 'comunicados',
                 'orderby' => 'DSC',
@@ -35,7 +35,7 @@ incrustar_hoja_estilos_comunicados();
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
         <div class="comunicado d-flex">
-            <figure class="cont-img p-0 m-0 d-lg-block d-md-none d-none"><?php the_post_thumbnail(); ?></figure>
+            <figure class="cont-img p-0 m-0 d-lg-block d-md-none d-none"><?php the_post_thumbnail();?></figure>
             <div class="contenido">
                 <div class="d-flex justify-content-between">
                     <h5 class="titulos-comunicados"><?php the_title();?></h5>
@@ -50,7 +50,7 @@ incrustar_hoja_estilos_comunicados();
                     <p><?php the_excerpt();?></p>
                 </div>
                 <div class="ver-mas">
-                    <a href="<?php the_permalink(); ?>"><i class="bi bi-arrow-right-circle-fill"></i> Ver Mas</a>
+                    <a href="<?php the_permalink();?>"><i class="bi bi-arrow-right-circle-fill"></i> Ver Mas</a>
                 </div>
             </div>
         </div>

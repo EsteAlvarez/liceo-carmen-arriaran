@@ -1,16 +1,16 @@
 jQuery(document).ready(function ($) {
-    const items = document.querySelectorAll('.accordion-elemento');
-    items.forEach(item => {
-        item.querySelector('.titulo-accordion').addEventListener('click', function() {
-            this.classList.toggle('active');
-            const content = this.nextElementSibling;
-            if (content.style.maxHeight) {
-                content.style.maxHeight = null;
-            } else {
-                content.style.maxHeight = content.scrollHeight + 'px';
-            }
-        });
-    });
+    // const items = document.querySelectorAll('.accordion-elemento');
+    // items.forEach(item => {
+    //     item.querySelector('.titulo-accordion').addEventListener('click', function() {
+    //         this.classList.toggle('active');
+    //         const content = this.nextElementSibling;
+    //         if (content.style.maxHeight) {
+    //             content.style.maxHeight = null;
+    //         } else {
+    //             content.style.maxHeight = content.scrollHeight + 'px';
+    //         }
+    //     });
+    // });
 
     $(".btnMenu").removeClass("menu-toggle")
     $(".menu-menu-1-container").addClass("collapse navbar-collapse")
@@ -30,7 +30,10 @@ jQuery(document).ready(function ($) {
     ScrollReveal().reveal('.scroll', { delay: 300 });
 
     //modal
-    $('.modal').modal('show');
+    setTimeout(function() {
+        $('.modal').modal('show');
+    }, 2000);
+  
 })
 
 

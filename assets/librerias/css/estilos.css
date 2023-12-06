@@ -79,28 +79,17 @@ h1, h2, h3, h4, h5, h6 {
 /*Sección Dos Página de Inicio*/
 
 /*Sección Preguntas Frecuentes*/
-.accordion {
-    overflow: hidden;
+.accordion-item:first-of-type {
+    border-radius: 0 0 10px 10px !important;
 }
-.accordion-elemento {
+.accordion-item {
     background-color: var(--color-secundario);
     border-radius: 0 0 10px 10px;
 }
-.titulo-accordion {
+.accordion-button{
     background-color: var(--color-secundario);
-    cursor: pointer;
+    border: 1px solid var(--color-secundario);
     border-radius: 0 0 10px 10px;
-}
-.contenido-accordion {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-height: 0;
-    overflow: hidden;
-    border-radius: 0 0 10px 10px;
-    transition: max-height 0.3s ease-out;
-}
-.contenido-accordion.active {
-    max-height: 500px;
 }
 /*Sección Preguntas Frecuentes*/
 
