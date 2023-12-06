@@ -34,11 +34,11 @@ incrustar_hoja_estilos_comunicados();
             );
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-        <div class="comunicado d-flex">
+        <div class="comunicado d-flex p-0">
             <figure class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none"><?php the_post_thumbnail();?></figure>
-            <div class="contenido col-lg-9">
-                <div class="d-flex justify-content-between">
-                    <h5 class="titulos-comunicados"><?php the_title();?></h5>
+            <div class="contenido col-lg-9 p-3">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <h3 class="titulos-comunicados fs-5"><?php the_title();?></h3>
                     <?php
                         $mi_campo_fecha = get_field('fecha_del_comunicado');
                         if ($mi_campo_fecha) {
@@ -46,10 +46,10 @@ incrustar_hoja_estilos_comunicados();
                         }
                     ?>
                 </div>
-                <div class="contenido-parrafo">
+                <div>
                     <p><?php the_excerpt();?></p>
                 </div>
-                <div class="ver-mas">
+                <div class="ver-mas d-flex justify-content-end pe-3">
                     <a href="<?php the_permalink();?>"><i class="bi bi-arrow-right-circle-fill"></i> Ver Mas</a>
                 </div>
             </div>
