@@ -10,9 +10,11 @@
  */
 
 ?>
-<footer id="colophon" class="site-footer pFondoFooter col-md-12 row w-100 margin-y">
+<footer id="colophon" class="site-footer pFondoFooter col-md-12 w-100 margin-y">
+
+<div class="row w-100">
 	<!--logo-->
-	<div class="container col-xs-3 col-sm-12 col-md-3 pLogoFooter p-0 pLiceo text-center mt-5">
+	<div class="col-xs-3 col-sm-12 col-md-3 pLogoFooter p-0 pLiceo text-center mt-5">
 		<?php dynamic_sidebar('nav_dos');?>
 	</div>
 
@@ -32,6 +34,7 @@
 		<span class="pLineMap"></span>
 		<p class="pDirFooter">Departamental 4850 - Peñalolen - Metro Macul </p>
 	</div>
+</div>
 
 	<!--linea de footer-->
 	<div class="pRedFooter d-flex justify-content-center gap-5 pt-1">

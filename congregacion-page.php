@@ -148,6 +148,84 @@ get_header();
 	</section>
 	<!--Colegios Dominicanos-->
 
+<<<<<<< Updated upstream
+=======
+<section class="col-md-12 row d-flex gap-5 justify-content-center mt-3">
+	
+<!--2015-->
+<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
+	<span class="predCard text-white">
+		<p class="ps-3 pt-1">2015</p>
+	</span>
+	<p class="p-3">Proyecto transferido a
+		La Fundación Educacional 
+		Liceo Carmen Arriarán</p>
+</div>
+		
+<!--2019-->
+<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
+	<span class="predCard text-white">
+		<p class="ps-3 pt-1">2019</p>
+	</span>
+	<p class="p-3">Liceo se prepara para 
+	dejar de ser exclusivo 
+	de mujeres.</p>
+	</div>
+</section>
+	
+<h3 class="d-flex text-center justify-content-center mt-5 pt-5">Colegios Dominicanos</h3>
+<div class="d-flex justify-content-center align-items-center">
+	<span class="linea-roja-encabezados"></span>
+	<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
+	<span class="linea-roja-encabezados"></span>
+</div>
+
+<section class="row col-md-12 d-flex justify-content-center gap-5 mt-5 mb-5">
+
+<!--señora del pilar-->
+<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
+	<!--función para llamar la img a través de su id-->
+<?php	
+$image_id = 52;
+$image_url = wp_get_attachment_image_src($image_id, 'full')[0];
+?>
+<img  src="<?php echo esc_url($image_url); ?>" alt="nuestra señora del pilar">
+	<figcaption class="p-2">
+		<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Fundación Escuela Nuestra Señora del Pilar de la Congregación Dominicas Misioneras de la Sagrada Familia . </p>
+	</figcaption>
+<a class="btn pBotonSitio" href="https://www.nsdp.cl/wp">Visita el sitio</a>
+</figure>
+
+<!--carmela romero-->
+<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
+	<!--función para llamar la img-->
+	<?php	
+$image_id = 50;
+$image_url = wp_get_attachment_image_src($image_id, 'full')[0];
+?>
+<img src="<?php echo esc_url($image_url); ?>" alt="carmela romero de espinoza">
+	<figcaption class="p-2">
+		<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Fundación Educacional Colegio Carmela Romero de Espinosa, Madres Dominicas. </p>
+	</figcaption>	
+<a class="btn pBotonSitio" href="http://www.mmddconcepcion.cl/sitio/">Visita el sitio</a>
+</figure>
+
+<!--catalina de siena-->
+<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
+	<!--función para llamar la img-->
+	<?php	
+$image_id = 49;
+$image_url = wp_get_attachment_image_src($image_id, 'full')[0];
+?>
+<img src="<?php echo esc_url($image_url); ?>" alt="catalina de siena">
+	<figcaption class="p-2">
+		<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Escuela Santa Catalina de Siena.</p>
+	</figcaption>
+<a class="btn pBotonSitio" href="https://www.catalinammdd.cl/inicio/">Visita el sitio</a>
+</figure>
+
+</section>
+>>>>>>> Stashed changes
 		<?php
 		while ( have_posts() ) :
 			the_post();
