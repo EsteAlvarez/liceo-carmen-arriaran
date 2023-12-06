@@ -37,7 +37,7 @@ incrustar_hoja_estilos_comunicados();
         <div class="comunicado d-flex p-0">
             <figure class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none"><?php the_post_thumbnail();?></figure>
             <div class="contenido col-lg-9 p-3">
-                <div class="d-flex justify-content-between">
+                <div class="d-flex flex-wrap justify-content-between">
                     <h3 class="titulos-comunicados fs-5"><?php the_title();?></h3>
                     <?php
                         $mi_campo_fecha = get_field('fecha_del_comunicado');
