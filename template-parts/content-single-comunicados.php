@@ -69,7 +69,54 @@
 	<article class="container">
 		<div class="row">
 			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
-			<?php include get_template_directory() . '/assets/modulos/modulo-comunicados/loop-comunicados.php';?>
+			<!--Sección 1-->
+<div class="container mt-5">
+    <!--Custom Loop-->
+	<?php
+// Obtener el ID del comunicado actual
+$current_post_id = get_the_ID();
+
+// Consulta para mostrar todos los comunicados excepto el actual
+$args = array(
+    'post_type' => 'comunicados',
+    'orderby' => 'date',
+    'order' => 'DESC',
+    'posts_per_page' => -1,
+    'post__not_in' => array($current_post_id), // Excluir el comunicado actual
+    'tax_query' => array(
+        array(
+            'taxonomy' => 'categoria-comunicados',
+            'field' => 'slug',
+            'terms' => 'comunicados'
+        ),
+    ),
+);
+
+$comunicados_query = new WP_Query($args);
+
+if ($comunicados_query->have_posts()) :
+    while ($comunicados_query->have_posts()) : $comunicados_query->the_post();
+        // ... Tu código para mostrar cada comunicado, adaptado a tu estructura actual
+        ?>
+        <!-- Tu código para mostrar cada comunicado -->
+        <div class="comunicado">
+            <!-- Contenido del comunicado -->
+            <h3><?php the_title(); ?></h3>
+            <p><?php the_content(); ?></p>
+            <!-- Otros detalles del comunicado -->
+        </div>
+        <?php
+    endwhile;
+    wp_reset_postdata(); // Restablecer datos del post
+else :
+    // No se encontraron comunicados
+    echo 'No se encontraron comunicados.';
+endif;
+?>
+
+    <!--Custom Loop-->
+</div>
+<!--Sección 1-->
 		</div>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
