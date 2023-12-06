@@ -476,8 +476,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Migas de pan  */
 .miga{
-    margin-left: 6.3%;
-    font-size: 13px;
+    margin-left: 5.5%;
 }
 
 .miga a{
@@ -485,7 +484,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-principal);
 }
 
-.miga .name-comunicado{
+.miga .titulo-c{
     color: var(--color-terciario);
 }
 /* Migas de pan  */
