@@ -1,6 +1,6 @@
 <script>
 function incrustar_hoja_estilos_noticias() {
-    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/liceo-carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
+    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
     var hoja_estilos = document.createElement('link');
     hoja_estilos.rel = 'stylesheet';
     hoja_estilos.href = hoja_estilos_url;
@@ -38,7 +38,7 @@ incrustar_hoja_estilos_noticias();
                 <div class="fondo-carta mb-5">
                     <div><?php the_post_thumbnail(); ?></div>
                     <div class="card-body">
-                        <h5 class="titulos-comunicados"><?php the_title();?></h5>
+                        <h3 class="titulos-comunicados fs-5"><?php the_title();?></h3>
                         <?php
                             $mi_campo_fecha = get_field('fecha_de_noticia');
                             if ($mi_campo_fecha) {
