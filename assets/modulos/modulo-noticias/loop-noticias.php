@@ -1,6 +1,6 @@
 <script>
 function incrustar_hoja_estilos_noticias() {
-    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
+    var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/liceo-carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
     var hoja_estilos = document.createElement('link');
     hoja_estilos.rel = 'stylesheet';
     hoja_estilos.href = hoja_estilos_url;
@@ -33,23 +33,23 @@ incrustar_hoja_estilos_noticias();
             );
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-        <div class="col-md-4 mb-md-0 mb-4">
-            <div class="card carta-noticias mx-auto h-100">
-                <div class="fondo-carta">
+        <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-5 mb-5">
+            <div class="card carta-noticias mx-auto h-100 position-relative">
+                <div class="fondo-carta mb-5">
                     <div><?php the_post_thumbnail(); ?></div>
-                        <div class="card-body">
-                            <h5 class="titulos-comunicados"><?php the_title();?></h5>
-                            <?php
-                                $mi_campo_fecha = get_field('fecha_de_noticia');
-                                if ($mi_campo_fecha) {
-                                    echo '<p class="fecha-comunicado">' . $mi_campo_fecha . '</p>';
-                                }
-                            ?>
-                            <p class="card-text"><?php the_excerpt();?></p>
-                            <div class="boton-noticias">
-                                <a href="<?php the_permalink(); ?>">Ver Mas</a>
-                            </div>
-                        </div>
+                    <div class="card-body">
+                        <h5 class="titulos-comunicados"><?php the_title();?></h5>
+                        <?php
+                            $mi_campo_fecha = get_field('fecha_de_noticia');
+                            if ($mi_campo_fecha) {
+                                echo '<p class="fecha-comunicado">' . $mi_campo_fecha . '</p>';
+                            }
+                        ?>
+                        <span class="contenido-extracto-noticias"><?php the_excerpt();?></span>
+                    </div>
+                </div>
+                <div class="boton-noticias position-absolute bottom-0 start-0 p-3">
+                    <a href="<?php the_permalink(); ?>">Ver Mas</a>
                 </div>
             </div>
        </div>

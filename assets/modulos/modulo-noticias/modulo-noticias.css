@@ -1,9 +1,6 @@
 /*seccion noticias*/
-/* .carta-noti{
-    margin-left: 6%;
-} */
 .carta-noticias {
-    border: 20px solid #ECEAEA;
+    border: 13px solid #ECEAEA;
 }
 .titulos-comunicados{
     color: #BE1522;
@@ -21,12 +18,18 @@
 }
 .boton-noticias a{
     color: var(--color-principal);
-   text-decoration: none;
-   font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
 }
 .boton-noticias a:hover {
     border-bottom: 2px solid #BE1522;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     top: -2px;
+}
+.contenido-extracto-noticias {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Máximo de líneas a mostrar */
 }
 /*seccion noticias*/
