@@ -38,7 +38,7 @@ incrustar_hoja_estilos_comunicados();
             <div class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none contenedor-imagen" style="background-image: url('<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID));?>');"></div>
             <div class="contenido col-lg-9 p-4 m-0 mb-lg-0 mb-md-5 mb-5">
                 <div class="d-flex flex-wrap justify-content-between">
-                    <h3 class="titulos-comunicados fs-5 m-0 mb-1"><?php the_title();?></h3>
+                    <h3 class="titulos-comunicados fs-5 m-0 mb-2"><?php the_title();?></h3>
                     <?php
                         $mi_campo_fecha = get_field('fecha_del_comunicado');
                         if ($mi_campo_fecha) {
