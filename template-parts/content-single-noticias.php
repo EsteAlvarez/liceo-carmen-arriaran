@@ -40,7 +40,7 @@
 			<h2 class="comunicados-single mb-5"><?php the_title();?></h2>
 			<?php the_content();?>
 		</div>
-		<div class="col-lg-4 col-md-12 col-12 mt-lg-0 mt-md-5 mt-5">
+		<aside class="col-lg-4 col-md-12 col-12 mt-lg-0 mt-md-5 mt-5">
 			<h2 class="comunicados-single fw-lighter"><?php the_field('titulo_de_seccion_extra');?></h2>
 			<div class="row">
 				<script>
@@ -111,6 +111,6 @@
 				<!--Custom Loop-->
 				</div>
 			</div>
-		</div>
+		</aside>
 	</article>
 </section><!-- #post-<?php the_ID(); ?> -->
