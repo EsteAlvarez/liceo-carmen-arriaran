@@ -40,7 +40,7 @@
 			<h2 class="comunicados-single"><?php the_title();?></h2>
 			<p class="mt-5"><?php the_content();?></p>
 		</div>
-		<div class="col-lg-4 d-flex flex-column ">
+		<div class="col-lg-4 d-flex flex-column">
 			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
 			<script>
 			function incrustar_hoja_estilos_noticias() {
@@ -79,7 +79,7 @@
 						while ($wp_query->have_posts()) : $wp_query->the_post();
 				?>
 					<div class="mb-lg-0 mb-md-5 mb-5 d-flex flex-column">
-						<div class="card carta-noticias mx-auto h-100 position-relative" style="width: 18rem;">
+						<div class="card carta-noticias mx-auto h-100 position-relative">
 							<div class="fondo-carta mb-5">
 								<div><?php the_post_thumbnail(); ?></div>
 								<div class="card-body">
