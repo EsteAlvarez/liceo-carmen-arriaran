@@ -36,8 +36,8 @@
 	</article>
 	<article class="container p-lg-0 p-md-0 p-3 mt-lg-0 mt-md-5 mt-5">
 		<div class="row">
-		<div class="contenido-noticia col-lg-8 col-md-12 col-12">
-			<h2 class="comunicados-single"><?php the_title();?></h2>
+		<div class="contenido-noticia col-lg-8 col-md-12 col-12 pe-lg-4 pe-md-0 pe-0">
+			<h2 class="comunicados-single mb-5"><?php the_title();?></h2>
 			<?php the_content();?>
 		</div>
 		<div class="col-lg-4 col-md-12 col-12 mt-lg-0 mt-md-5 mt-5">
