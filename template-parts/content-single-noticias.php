@@ -42,6 +42,9 @@
 		</div>
 		<div class="col-lg-4 col-md-12 col-12">
 			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
+			<div class="row">
+
+
 			<script>
 			function incrustar_hoja_estilos_noticias() {
 				var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
@@ -109,6 +112,7 @@
 				?>
 				<!--Custom Loop-->
 			</div>
+		</div>
 		</div>
 	</article>
 	<!-- <article class="mas-noticias container mb-5">
