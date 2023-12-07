@@ -417,9 +417,6 @@ h5{
     background: linear-gradient(to top, rgba(190, 21, 34, 0), #BE1522);
 }
 .fecha-comunicado-single {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     color: white;
     font-size: 32px;
     font-weight: bold;

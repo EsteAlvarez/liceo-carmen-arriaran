@@ -25,11 +25,11 @@
 			$thumbnail_url = get_the_post_thumbnail_url();
 		?>
 		<!-- Aplica la imagen como fondo del div -->
-		<div class="imagen-fondo" style="background-image: url('<?php echo esc_url($thumbnail_url); ?>');">
+		<div class="imagen-fondo position-relative" style="background-image: url('<?php echo esc_url($thumbnail_url); ?>');">
 			<?php
 				$mi_campo_fecha = get_field('fecha_de_noticia');
 				if ($mi_campo_fecha) {
-					echo '<p class="fecha-comunicado-single">' . esc_html($mi_campo_fecha) . '</p>';
+					echo '<p class="fecha-comunicado-single position-absolute top-50 end-0 translate-middle-y">' . esc_html($mi_campo_fecha) . '</p>';
 				}
 			?>
    	    </div>
