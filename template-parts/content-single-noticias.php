@@ -40,8 +40,9 @@
 			<h2 class="comunicados-single"><?php the_title();?></h2>
 			<p class="mt-5"><?php the_content();?></p>
 		</div>
-		<div class="col-lg-4 col-md-12 col-12 d-flex flex-lg-column flex-md-row flex-row">
+		<div class="col-lg-4 col-md-12 col-12">
 			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
+			<div class="d-flex flex-lg-column flex-md-row flex-row">
 			<script>
 			function incrustar_hoja_estilos_noticias() {
 				var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
@@ -108,6 +109,7 @@
 					$wp_query = $temp;
 				?>
 				<!--Custom Loop-->
+		</div>
 		</div>
 		</div>
 
