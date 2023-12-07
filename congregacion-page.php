@@ -40,58 +40,61 @@ get_header();
 			<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
 			<span class="linea-roja-encabezados"></span>
 		</div>
-		<article class="col-md-12 row d-flex gap-5 justify-content-center mt-5">
+		<article class="col-md-12 articulo-linea-tiempo row d-flex gap-5 justify-content-center mt-5">
 			<!--1935-->
 			<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white"><p class="ps-3 pt-1"><?php the_field('primera_fecha');?></p></span>
-				<p class="p-3"><?php the_field('contenido_primera_fecha');?></p>
+				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('primera_fecha');?></p></span>
+				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_primera_fecha');?></p>
 			</div>
 			<!--1935-->
 			<!--1945-->
 			<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white"><p class="ps-3 pt-1"><?php the_field('segunda_fecha');?></p></span>
-				<p class="p-3"><?php the_field('contenido_segunda_fecha');?></p>
+				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('segunda_fecha');?></p></span>
+				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_segunda_fecha');?></p>
 			</div>
 			<!--1945-->
 			<!--1976-->
 			<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white"><p class="ps-3 pt-1"><?php the_field('tercera_fecha');?></p></span>
-				<p class="p-3"><?php the_field('contenido_tercera_fecha');?></p>
+				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('tercera_fecha');?></p></span>
+				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_tercera_fecha');?></p>
 			</div>
 			<!--1976-->
 		</article>
 
 		<!--dibujo linea del tiempo-->
-		<div class="container pLineaTiempo col-12 col-md-12 d-flex  align-items-center justify-content-center mt-3">
-			<div class="col-2  col-md-2 pLineRed"></div>
-			<i class="bi bi-circle-fill"></i>
-			<div class="col-md-2 pLineRed"></div>
-			<i class="bi bi-circle-fill"></i>
-			<div class="col-md-2 pLineRed"></div>
-			<i class="bi bi-circle-fill"></i>
-			<div class="col-md-2 pLineRed"></div>
-			<i class="bi bi-circle-fill"></i>
-			<div class="col-md-2 pLineRed"></div>
-			<i class="bi bi-circle-fill"></i>
-			<div class="col-md-2 pLineRed"></div>	
+		<div class="lineatiempo">
+			<div class="container pLineaTiempo col-12 col-md-12 d-flex  align-items-center justify-content-center mt-3">
+				<div class="col-2  col-md-2 pLineRed lineauno"></div>
+				<i class="bi bi-circle-fill"></i>
+				<div class="col-md-2 pLineRed"></div>
+				<i class="bi bi-circle-fill"></i>
+				<div class="col-md-2 pLineRed"></div>
+				<i class="bi bi-circle-fill"></i>
+				<div class="col-md-2 pLineRed"></div>
+				<i class="bi bi-circle-fill"></i>
+				<div class="col-md-2 pLineRed"></div>
+				<i class="bi bi-circle-fill"></i>
+				<div class="col-md-2 pLineRed lineados"></div>	
+			</div>
 		</div>
 		<!--dibujo linea del tiempo-->
 
 		<article class="col-md-12 row d-flex gap-5 justify-content-center mt-3">
 			<!--2015-->
-			<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white"><p class="ps-3 pt-1"><?php the_field('cuarta_fecha');?></p></span>
-				<p class="p-3"><?php the_field('contenido_cuarta_fecha');?></p>
+			<div class="card carta-linea pBordeCard col-8 col-md-2 p-0 m-0">
+				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('cuarta_fecha');?></p></span>
+				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_cuarta_fecha');?></p>
 			</div>
 			<!--2015-->
 			<!--2019-->
 			<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white"><p class="ps-3 pt-1"><?php the_field('quinta_fecha');?></p></span>
-				<p class="p-3"><?php the_field('contenido_quinta_fecha');?></p>
+				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('quinta_fecha');?></p></span>
+				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_quinta_fecha');?></p>
 			</div>
 			<!--2019-->
 		</article>
 	</section>
+
 	<!-- Formación del liceo -->
 
 	<!--Colegios Dominicanos-->
