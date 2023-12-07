@@ -512,3 +512,19 @@ h5{
     min-height: 100vh;
 }
 /*Error 404*/
+
+@media (max-width: 575.98px) { 
+    .lineatiempo {
+       display: none;
+    }
+    .titulo-linea-tiempo{
+        text-align: center;
+        font-weight: bold;
+    }
+    .texto-linea-tiempo{
+        text-align: center;
+    }
+    .articulo-linea-tiempo{
+        margin-bottom: 12%;
+    }
+}
