@@ -25,33 +25,34 @@
 			$thumbnail_url = get_the_post_thumbnail_url();
 		?>
 		<!-- Aplica la imagen como fondo del div -->
-		<div class="imagen-fondo" style="background-image: url('<?php echo esc_url($thumbnail_url); ?>');">
+		<div class="imagen-fondo position-relative" style="background-image: url('<?php echo esc_url($thumbnail_url); ?>');">
 			<?php
 				$mi_campo_fecha = get_field('fecha_de_noticia');
 				if ($mi_campo_fecha) {
-					echo '<p class="fecha-comunicado-single">' . esc_html($mi_campo_fecha) . '</p>';
+					echo '<p class="fecha-comunicado-single position-absolute top-50 end-0 translate-middle-y p-5">' . esc_html($mi_campo_fecha) . '</p>';
 				}
 			?>
    	    </div>
 	</article>
-	<article class="container-fluid p-5">
+	<article class="container p-lg-0 p-md-0 p-3 mt-lg-0 mt-md-5 mt-5">
 		<div class="row">
-		<div class="contenido-noticia col-lg-8">
+		<div class="contenido-noticia col-lg-8 col-md-12 col-12">
 			<h2 class="comunicados-single"><?php the_title();?></h2>
 			<p class="mt-5"><?php the_content();?></p>
 		</div>
-		<div class="col-lg-4 d-flex flex-column">
-			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
-			<script>
-			function incrustar_hoja_estilos_noticias() {
-				var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
-				var hoja_estilos = document.createElement('link');
-				hoja_estilos.rel = 'stylesheet';
-				hoja_estilos.href = hoja_estilos_url;
-				document.head.appendChild(hoja_estilos);
-			}
-			incrustar_hoja_estilos_noticias();
-			</script>
+		<div class="col-lg-4 col-md-12 col-12 mt-lg-0 mt-md-5 mt-5">
+			<h2 class="comunicados-single fw-lighter"><?php the_field('titulo_de_seccion_extra');?></h2>
+			<div class="row">
+				<script>
+				function incrustar_hoja_estilos_noticias() {
+					var hoja_estilos_url = '<?php echo get_site_url() . '/wp-content/themes/carmen-arriaran/assets/modulos/modulo-noticias/modulo-noticias.css';?>';
+					var hoja_estilos = document.createElement('link');
+					hoja_estilos.rel = 'stylesheet';
+					hoja_estilos.href = hoja_estilos_url;
+					document.head.appendChild(hoja_estilos);
+				}
+				incrustar_hoja_estilos_noticias();
+				</script>
 				<!--Custom Loop-->
 				<?php 
 					$current_post_id = get_the_ID(); // Obtener el ID del comunicado actual
@@ -77,9 +78,9 @@
 					$wp_query = new WP_Query($args);
 					if ($wp_query->have_posts()) :
 						while ($wp_query->have_posts()) : $wp_query->the_post();
-				?>
-					<div class="mb-lg-0 mb-md-5 mb-5 d-flex flex-column">
-						<div class="card carta-noticias mx-auto mb-lg-4 h-100 position-relative">
+					?>
+					<div class="mb-lg-4 mb-md-0 mb-5 col-lg-12 col-md-6 col-12">
+						<div class="card carta-noticias mx-auto h-100 position-relative">
 							<div class="fondo-carta mb-5">
 								<div><?php the_post_thumbnail(); ?></div>
 								<div class="card-body">
@@ -108,11 +109,8 @@
 					$wp_query = $temp;
 				?>
 				<!--Custom Loop-->
+				</div>
+			</div>
 		</div>
-		</div>
-
 	</article>
-	<!-- <article class="mas-noticias container mb-5">
-		
-	</article> -->
 </section><!-- #post-<?php the_ID(); ?> -->

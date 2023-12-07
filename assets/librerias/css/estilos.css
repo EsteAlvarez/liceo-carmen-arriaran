@@ -245,7 +245,7 @@ h5{
 /*footer*/
 .pFondoFooter{
     background-color: var(--color-secundario);
-    height: 40vh;
+    height: 36vh;
 }
 .pRedFooter{
     background-color: var(--color-principal);
@@ -417,23 +417,14 @@ h5{
     background: linear-gradient(to top, rgba(190, 21, 34, 0), #BE1522);
 }
 .fecha-comunicado-single {
-    position: absolute;
-    top: 106px;
-    left: 800px;
     color: white;
     font-size: 32px;
     font-weight: bold;
     z-index: 1;
 }
-/*single de noticias*/
-/* .contenido-noticia{
-    margin-left: 5%;
-    margin-right: 8%;
-} */
-/*single de noticias*/
 
 /*responsive single comunicado*/
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
     .fecha-comunicado-single {
         position: absolute;
         top: 90px;
@@ -442,7 +433,7 @@ h5{
     }
     
 
-}
+} */
 /*responsive single comunicado*/
 
 /*mapa footer*/
