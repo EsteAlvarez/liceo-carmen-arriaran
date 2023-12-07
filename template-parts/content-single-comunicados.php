@@ -38,7 +38,7 @@
 	</article>
 	<article class="mt-5 mb-5 p-lg-0 p-md-0 p-3 container">
 		<div class="row m-0 p-0">
-			<div class="col-lg-8 col-md-12 pe-lg-4 pe-md-0 pe-0">
+			<div class="col-lg-8 col-md-12 pe-lg-5 pe-md-0 pe-0">
 				<h2 class="comunicados-single mb-5"><?php the_title();?></h2>
 				<?php the_content();?>
 			</div>
