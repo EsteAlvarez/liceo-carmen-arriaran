@@ -484,29 +484,15 @@ h5{
 
 /*Migas de pan*/
 .miga{
-    /* margin-left: 2%; */
     font-size: 13px;
 }
-
 .miga a{
     text-decoration: none; 
     color: var(--color-principal);
 }
-
 .miga .name-comunicado{
     color: var(--color-terciario);
 }
-/* 
-@media (max-width: 575.98px){
-    .miga{
-        margin-left: 0;
-    }
-}
-@media (max-width: 767.98px){
-    .miga{
-        margin-left: 0;
-    }
-} */
 /*Migas de pan*/
 
 /*Error 404*/
