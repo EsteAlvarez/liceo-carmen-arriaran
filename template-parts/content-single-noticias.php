@@ -29,7 +29,7 @@
 			<?php
 				$mi_campo_fecha = get_field('fecha_de_noticia');
 				if ($mi_campo_fecha) {
-					echo '<p class="fecha-comunicado-single position-absolute top-50 end-0 translate-middle-y">' . esc_html($mi_campo_fecha) . '</p>';
+					echo '<p class="fecha-comunicado-single position-absolute top-50 end-0 translate-middle-y p-5">' . esc_html($mi_campo_fecha) . '</p>';
 				}
 			?>
    	    </div>
