@@ -245,7 +245,7 @@ h5{
 /*footer*/
 .pFondoFooter{
     background-color: var(--color-secundario);
-    height: 40vh;
+    height: 36vh;
 }
 .pRedFooter{
     background-color: var(--color-principal);
