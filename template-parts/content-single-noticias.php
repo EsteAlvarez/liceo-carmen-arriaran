@@ -38,7 +38,7 @@
 		<div class="row">
 		<div class="contenido-noticia col-lg-8 col-md-12 col-12">
 			<h2 class="comunicados-single"><?php the_title();?></h2>
-			<p class="mt-5"><?php the_content();?></p>
+			<?php the_content();?>
 		</div>
 		<div class="col-lg-4 col-md-12 col-12 mt-lg-0 mt-md-5 mt-5">
 			<h2 class="comunicados-single fw-lighter"><?php the_field('titulo_de_seccion_extra');?></h2>
