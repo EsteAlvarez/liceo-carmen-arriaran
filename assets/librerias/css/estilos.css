@@ -484,7 +484,7 @@ h5{
 
 /*Migas de pan*/
 .miga{
-    margin-left: 2%;
+    /* margin-left: 2%; */
     font-size: 13px;
 }
 
@@ -496,7 +496,7 @@ h5{
 .miga .name-comunicado{
     color: var(--color-terciario);
 }
-
+/* 
 @media (max-width: 575.98px){
     .miga{
         margin-left: 0;
@@ -506,9 +506,7 @@ h5{
     .miga{
         margin-left: 0;
     }
-}
-
-
+} */
 /*Migas de pan*/
 
 /*Error 404*/
