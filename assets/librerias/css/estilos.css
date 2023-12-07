@@ -417,20 +417,14 @@ h5{
     background: linear-gradient(to top, rgba(190, 21, 34, 0), #BE1522);
 }
 .fecha-comunicado-single {
-    position: absolute;
-    top: 106px;
-    left: 800px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     color: white;
     font-size: 32px;
     font-weight: bold;
     z-index: 1;
 }
-/*single de noticias*/
-/* .contenido-noticia{
-    margin-left: 5%;
-    margin-right: 8%;
-} */
-/*single de noticias*/
 
 /*responsive single comunicado*/
 @media (max-width: 767.98px) {
