@@ -34,14 +34,14 @@
 			?>
    	    </div>
 	</article>
-	<article class="container-fluid p-5 pb-0 mt-lg-0 mt-md-5 mt-5">
+	<article class="container-fluid p-lg-5 p-md-3 p-1 mt-lg-0 mt-md-5 mt-5">
 		<div class="row">
 		<div class="contenido-noticia col-lg-8 col-md-12 col-12">
 			<h2 class="comunicados-single"><?php the_title();?></h2>
 			<p class="mt-5"><?php the_content();?></p>
 		</div>
-		<div class="col-lg-4 col-md-12 col-12">
-			<h2 class="comunicados-single fw-lighter mb-3"><?php the_field('titulo_de_seccion_extra');?></h2>
+		<div class="col-lg-4 col-md-12 col-12 mt-lg-0 mt-md-5 mt-5">
+			<h2 class="comunicados-single fw-lighter"><?php the_field('titulo_de_seccion_extra');?></h2>
 			<div class="row">
 				<script>
 				function incrustar_hoja_estilos_noticias() {
