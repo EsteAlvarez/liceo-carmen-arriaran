@@ -146,7 +146,7 @@
 				<div class="col-lg-5 col-md-12 text-center p-4 fondo-napsis d-flex justify-content-center align-items-center flex-column">
 					<h3 class="mb-4"><?php the_field('titulo_napsis');?></h3>
 					<p class="mb-4"><?php the_field('descripcion_napsis');?></p>
-					<a class="boton-napsis p-2 pe-4 ps-4 rounded" href="#">Ir al Sitio</a><!--Agregar link-->
+					<a class="boton-napsis p-2 pe-4 ps-4 rounded" href="<?php the_field('link_napsis');?>">Ir al Sitio</a><!--Agregar link-->
 				</div>
 			</div>
 		</div>

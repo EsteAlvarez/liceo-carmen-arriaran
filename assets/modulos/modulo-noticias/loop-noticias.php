@@ -33,7 +33,7 @@ incrustar_hoja_estilos_noticias();
             );
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-        <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-5 mb-5">
+        <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-md-5 mb-5 scroll">
             <div class="card carta-noticias mx-auto h-100 position-relative">
                 <div class="fondo-carta mb-5">
                     <div><?php the_post_thumbnail(); ?></div>
