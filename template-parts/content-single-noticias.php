@@ -34,7 +34,7 @@
 			?>
    	    </div>
 	</article>
-	<article class="container-fluid p-lg-5 p-md-3 p-1 mt-lg-0 mt-md-5 mt-5">
+	<article class="container-fluid p-lg-5 p-md-4 p-3 mt-lg-0 mt-md-5 mt-5">
 		<div class="row">
 		<div class="contenido-noticia col-lg-8 col-md-12 col-12">
 			<h2 class="comunicados-single"><?php the_title();?></h2>
