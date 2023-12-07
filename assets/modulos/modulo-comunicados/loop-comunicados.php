@@ -34,7 +34,7 @@ incrustar_hoja_estilos_comunicados();
             );
             $wp_query = new WP_Query($args);
     if (have_posts()) : while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-        <div class="comunicado d-flex p-0 mb-5 position-relative">
+        <div class="comunicado d-flex p-0 mb-5 position-relative scroll">
             <div class="col-lg-3 p-0 m-0 d-lg-block d-md-none d-none contenedor-imagen" style="background-image: url('<?php echo wp_get_attachment_url(get_post_thumbnail_id($post->ID));?>');"></div>
             <div class="contenido col-lg-9 p-4 m-0 mb-lg-0 mb-md-5 mb-5">
                 <div class="d-flex flex-wrap justify-content-between">
