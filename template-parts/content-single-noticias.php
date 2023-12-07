@@ -79,7 +79,7 @@
 					if ($wp_query->have_posts()) :
 						while ($wp_query->have_posts()) : $wp_query->the_post();
 					?>
-					<div class="mb-lg-4 mb-md-0 mb-5 col-lg-12 col-md-6 col-12">
+					<div class="mb-lg-4 mb-md-0 mb-5 col-lg-12 col-md-6 col-12 scroll">
 						<div class="card carta-noticias mx-auto h-100 position-relative">
 							<div class="fondo-carta mb-5">
 								<div><?php the_post_thumbnail(); ?></div>
