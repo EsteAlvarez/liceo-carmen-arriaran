@@ -33,9 +33,11 @@
 		</div>
 	</div>
 	<!--linea de footer-->
-	<div class="row m-0 pRedFooter d-flex justify-content-center align-items-center p-1">
-		<span class="pe-3">2023 - Studio 5</span>
-		<span>Todos los derechos reservados</span>
+	<div class="row m-0 pRedFooter p-1">
+		<div class="d-flex justify-content-center align-items-center">
+			<span class="pe-3">2023 - Studio 5</span>
+			<span>Todos los derechos reservados</span>
+		</div>
 	</div>
 	<!--linea de footer-->
 </footer><!-- #colophon -->

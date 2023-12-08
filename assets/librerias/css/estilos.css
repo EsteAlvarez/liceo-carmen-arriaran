@@ -405,9 +405,12 @@ h5{
 .pMapaFooter{
     background-color: #be1523c4;
     border-radius: 10px 0 0 10px;
-    width: auto;
+    width: 100%;
 }
-<<<<<<< Updated upstream
+.mapaFooter {
+    width: auto;
+    height: 250px;
+}
 .pLineMap{
     border-left: 4px solid #BE1522;
     content: "";
@@ -418,11 +421,6 @@ h5{
     /* position: absolute;
     right: 13%;
     top: 13px; */
-=======
-.mapaFooter {
-    height: 250px;
-    width: 250px;
->>>>>>> Stashed changes
 }
 .pDirFooter{
     font-size: 10px;    
