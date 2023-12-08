@@ -379,7 +379,7 @@ h5{
 }
 #menu-menu-footer-info a{
     cursor: default;
-    /* width: 11rem; */
+    width: 11rem;
     text-wrap: balance;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
@@ -405,7 +405,9 @@ h5{
 .pMapaFooter{
     background-color: #be1523c4;
     border-radius: 10px 0 0 10px;
+    width: auto;
 }
+<<<<<<< Updated upstream
 .pLineMap{
     border-left: 4px solid #BE1522;
     content: "";
@@ -416,6 +418,11 @@ h5{
     /* position: absolute;
     right: 13%;
     top: 13px; */
+=======
+.mapaFooter {
+    height: 250px;
+    width: 250px;
+>>>>>>> Stashed changes
 }
 .pDirFooter{
     font-size: 10px;    
@@ -491,51 +498,6 @@ h5{
     font-weight: bold;
     z-index: 1;
 }
-
-/*responsive single comunicado*/
-/* @media (max-width: 767.98px) {
-    .fecha-comunicado-single {
-        position: absolute;
-        top: 90px;
-        left: 106px;
-        font-size: 28px;
-    }
-} */
-/*responsive single comunicado*/
-
-/*mapa footer*/
-@media (max-width: 575.98px){
-    .wp-image-41, .wp-image-42{
-        width: 40%;
-        height: 30px;
-    }
-    .pMapaFooter{
-        width: 60% !important;
-        margin: 25px 0 8px 110px !important;
-    }
-    .pFondoFooter{
-        height: max-content;
-    }
-}
-@media (max-width: 767.98px){
-    .pMapaFooter{
-        width: 45%;
-        margin: 0 0 8px 130px;
-    }
-    .pFondoFooter{
-        height: max-content;
-    }
-}
-@media (max-width: 991.98px){
-    .pMapaFooter{
-        width: 45%;
-        margin: 0 0 8px 130px;
-    }
-    .pFondoFooter{
-        height: max-content;
-    }
-}
-/*footer*/
 
 /* modal  */
 .img-escudo{

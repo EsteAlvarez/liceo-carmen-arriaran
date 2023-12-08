@@ -21,15 +21,14 @@
 			<?php dynamic_sidebar('nav_tres');?>
 		</div>
 		<!--info general-->
-		<div class="col-lg-3 col-md-12 col-12 p-lg-3 d-flex justify-content-center align-items-center border ">		
+		<div class="col-lg-3 col-md-6 col-12 p-lg-3 d-flex justify-content-center align-items-center border ">		
 			<?php dynamic_sidebar('nav_cuatro');?>
 		</div>
 		<!--mapa-->
-		<div class="col-lg-3 col-3 border d-lg-flex d-md-none d-flex d-none justify-content-start align-items-center">
-			<div class="pMapaFooter position-relative p-2 border w-100">
-				<iframe class="mapaFooter shadow bg-body-tertiary me-2" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4383.031692726244!2d-70.58587457924969!3d-33.509526594237464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sliceo%20carmen%20arriaran!5e0!3m2!1ses!2scl!4v1700965569070!5m2!1ses!2scl" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				<span class="pLineMap position-absolute top-50 end-0 translate-middle-y me-2"></span>
-				<span class="pDirFooter border">Departamental 4850 - Peñalolen - Metro Macul </span>
+		<div class="col-lg-3 col-md-6 border">
+			<div class="pMapaFooter p-2 d-flex flex-column">
+				<iframe class="mapaFooter shadow bg-body-tertiary m-0 mb-2" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4383.031692726244!2d-70.58587457924969!3d-33.509526594237464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sliceo%20carmen%20arriaran!5e0!3m2!1ses!2scl!4v1700965569070!5m2!1ses!2scl"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<span class="pDirFooter">Departamental 4850 - Peñalolen - Metro Macul </span>
 			</div>	
 		</div>
 	</div>
