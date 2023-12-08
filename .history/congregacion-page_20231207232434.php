@@ -111,7 +111,7 @@ get_header();
 		<div class="content-cards">
 		<!--señora del pilar-->
 
-			<figure class="border-0 col-12 col-sm-5 col-md-3 box">
+			<figure class="card border-0 col-8 col-sm-5 col-md-3 box">
 				<!--función para llamar la img a través de su id-->
 				<?php	
 				$image_id = 174;

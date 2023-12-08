@@ -107,55 +107,51 @@ get_header();
 				<span class="linea-roja-encabezados"></span>
 			</div>
 		</div>
-
-		<div class="content-cards">
 		<!--señora del pilar-->
-
-			<figure class="border-0 col-12 col-sm-5 col-md-3 box">
-				<!--función para llamar la img a través de su id-->
-				<?php	
-				$image_id = 174;
-				$image_url = wp_get_attachment_image_src($image_id, 'full')[0];
-				?>
-				<div class="imgBox">
-					<img  src="<?php echo esc_url($image_url); ?>" alt="nuestra señora del pilar">
-				</div>
-				
-				<figcaption class="content">
-					<h3>Escuela Nuestra Señora del Pilar</h3>
-					<a  class="ink-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"href="https://www.nsdp.cl/wp">Visita el sitio</a>
-				</figcaption>
-				
-			</figure>
+		<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3 box">
+			<!--función para llamar la img a través de su id-->
+			<?php	
+			$image_id = 174;
+			$image_url = wp_get_attachment_image_src($image_id, 'full')[0];
+			?>
+			<div class="imgBox">
+				<img  src="<?php echo esc_url($image_url); ?>" alt="nuestra señora del pilar">
+			</div>
+			
+			<figcaption class="p-2 content">
+				<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Fundación Escuela Nuestra Señora del Pilar de la Congregación Dominicas Misioneras de la Sagrada Familia . </p>
+				<a class="btn pBotonSitio" href="https://www.nsdp.cl/wp">Visita el sitio</a>
+			</figcaption>
+			
+		</figure>
 
 		<!--carmela romero-->
-			<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
-				<!--función para llamar la img-->
-				<?php	
-				$image_id = 175;
-				$image_url = wp_get_attachment_image_src($image_id, 'full')[0];
-				?>
-				<img src="<?php echo esc_url($image_url); ?>" alt="carmela romero de espinoza">
-				<figcaption class="p-2">
-					<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Fundación Educacional Colegio Carmela Romero de Espinosa, Madres Dominicas. </p>
-				</figcaption>	
-				<a class="btn pBotonSitio" href="http://www.mmddconcepcion.cl/sitio/">Visita el sitio</a>
-			</figure>
+		<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
+			<!--función para llamar la img-->
+			<?php	
+			$image_id = 175;
+			$image_url = wp_get_attachment_image_src($image_id, 'full')[0];
+			?>
+			<img src="<?php echo esc_url($image_url); ?>" alt="carmela romero de espinoza">
+			<figcaption class="p-2">
+				<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Fundación Educacional Colegio Carmela Romero de Espinosa, Madres Dominicas. </p>
+			</figcaption>	
+			<a class="btn pBotonSitio" href="http://www.mmddconcepcion.cl/sitio/">Visita el sitio</a>
+		</figure>
 
 		<!--catalina de siena-->
-			<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
-				<!--función para llamar la img-->
-				<?php	
-				$image_id = 176;
-				$image_url = wp_get_attachment_image_src($image_id, 'full')[0];
-				?>
-				<img src="<?php echo esc_url($image_url); ?>" alt="catalina de siena">
-				<figcaption class="p-2">
-					<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Escuela Santa Catalina de Siena.</p>
-				</figcaption>
-				<a class="btn pBotonSitio" href="https://www.catalinammdd.cl/inicio/">Visita el sitio</a>
-			</figure>
-		</div>
+		<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
+			<!--función para llamar la img-->
+			<?php	
+			$image_id = 176;
+			$image_url = wp_get_attachment_image_src($image_id, 'full')[0];
+			?>
+			<img src="<?php echo esc_url($image_url); ?>" alt="catalina de siena">
+			<figcaption class="p-2">
+				<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Escuela Santa Catalina de Siena.</p>
+			</figcaption>
+			<a class="btn pBotonSitio" href="https://www.catalinammdd.cl/inicio/">Visita el sitio</a>
+		</figure>
 	</section>
 	<!--Colegios Dominicanos-->
 

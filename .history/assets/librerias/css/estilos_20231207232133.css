@@ -275,16 +275,15 @@ h5{
     width: 100%;
     height: 100%;
     padding: 1.5rem;
-    display: flex;
     justify-content: center;
     background-color: #fff;
     z-index: 1;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
     transition: 0.5s ease-in-out;
 }
   
-.content h3 {
+.content p {
     display: block;
     font-size: 2rem;
     color: #111;
@@ -329,6 +328,20 @@ h5{
 }
 /*congregación*/
 
+
+/*footer*/
+.pFondoFooter{
+    background-color: var(--color-secundario);
+    height: 36vh;
+}
+.pRedFooter{
+    background-color: var(--color-principal);
+    height: 30px;
+    width: 100%;
+    color: var(--color-extra);
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
 
 /*logo y texto liceo*/
 #menu-menu-footer-1{
@@ -383,7 +396,7 @@ h5{
 }
 #menu-menu-footer-info a{
     cursor: default;
-    /* width: 11rem; */
+    width: 11rem;
     text-wrap: balance;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
@@ -408,39 +421,33 @@ h5{
 /*mapa footer*/
 .pMapaFooter{
     background-color: #be1523c4;
+    height: 240px;
     border-radius: 10px 0 0 10px;
+    margin: 0 50px 15px 0;
+    position: relative;
 }
 .pLineMap{
-    /* position: absolute;
+    position: absolute;
     top: 20px;
     bottom: 0;
-    left: 93%; */
+    left: 93%;
     border-left: 4px solid #BE1522;
     content: "";
     height: 80%;
     border-radius: 50px;
 }
 .mapaFooter{
-    /* position: absolute;
+    position: absolute;
     right: 13%;
-    top: 13px; */
+    top: 13px;
 }
 .pDirFooter{
-    /* position: absolute;
+    position: absolute;
     top: 92%;
-    font-family: 'Raleway', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     font-size: 10px;    
     font-weight: 600;
     color: var(--color-extra);
-}
-/*footer*/
-.pFondoFooter{
-    background-color: var(--color-secundario);
-}
-.pRedFooter{
-    background-color: var(--color-principal);
-    color: var(--color-extra);
-    font-size: 12px;
 }
 
 
@@ -511,10 +518,13 @@ h5{
         left: 106px;
         font-size: 28px;
     }
+    
+
 } */
 /*responsive single comunicado*/
 
 /*mapa footer*/
+
 @media (max-width: 575.98px){
     .wp-image-41, .wp-image-42{
         width: 40%;

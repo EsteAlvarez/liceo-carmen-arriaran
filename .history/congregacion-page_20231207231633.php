@@ -111,7 +111,7 @@ get_header();
 		<div class="content-cards">
 		<!--señora del pilar-->
 
-			<figure class="border-0 col-12 col-sm-5 col-md-3 box">
+			<figure class="card border-0 col-8 col-sm-5 col-md-3 box">
 				<!--función para llamar la img a través de su id-->
 				<?php	
 				$image_id = 174;
@@ -121,7 +121,7 @@ get_header();
 					<img  src="<?php echo esc_url($image_url); ?>" alt="nuestra señora del pilar">
 				</div>
 				
-				<figcaption class="content">
+				<figcaption class="p-2 content">
 					<h3>Escuela Nuestra Señora del Pilar</h3>
 					<a  class="ink-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"href="https://www.nsdp.cl/wp">Visita el sitio</a>
 				</figcaption>
