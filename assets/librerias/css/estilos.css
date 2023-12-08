@@ -276,19 +276,19 @@ h5{
 
 /*logos ley y napsis*/
 .wp-image-166, .wp-image-167{
-    width: 41%;
+    width: 100%;
     height: 47px;
     border-radius: 5px;
     margin: 5px 5px;
 }
-@media (max-width: 575.98px){
+/* @media (max-width: 575.98px){
     .wp-image-166, .wp-image-167{
         width: 58%;
         height: 44px;
         border-radius: 5px;
         margin: 5px 5px;
     }
-}
+} */
 /*logos ley y napsis*/
 
 /*info general*/
@@ -299,7 +299,7 @@ h5{
 }
 #menu-menu-footer-info a{
     cursor: default;
-    /* width: 11rem; */
+    width: 11rem;
     text-wrap: balance;
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
@@ -325,26 +325,13 @@ h5{
 .pMapaFooter{
     background-color: #be1523c4;
     border-radius: 10px 0 0 10px;
+    width: 100%;
 }
-.pLineMap{
-    /* position: absolute;
-    top: 20px;
-    bottom: 0;
-    left: 93%; */
-    border-left: 4px solid #BE1522;
-    content: "";
-    height: 80%;
-    border-radius: 50px;
-}
-.mapaFooter{
-    /* position: absolute;
-    right: 13%;
-    top: 13px; */
+.mapaFooter {
+    width: auto;
+    height: 250px;
 }
 .pDirFooter{
-    /* position: absolute;
-    top: 92%;
-    font-family: 'Raleway', sans-serif; */
     font-size: 10px;    
     font-weight: 600;
     color: var(--color-extra);
@@ -418,51 +405,6 @@ h5{
     font-weight: bold;
     z-index: 1;
 }
-
-/*responsive single comunicado*/
-/* @media (max-width: 767.98px) {
-    .fecha-comunicado-single {
-        position: absolute;
-        top: 90px;
-        left: 106px;
-        font-size: 28px;
-    }
-} */
-/*responsive single comunicado*/
-
-/*mapa footer*/
-@media (max-width: 575.98px){
-    .wp-image-41, .wp-image-42{
-        width: 40%;
-        height: 30px;
-    }
-    .pMapaFooter{
-        width: 60% !important;
-        margin: 25px 0 8px 110px !important;
-    }
-    .pFondoFooter{
-        height: max-content;
-    }
-}
-@media (max-width: 767.98px){
-    .pMapaFooter{
-        width: 45%;
-        margin: 0 0 8px 130px;
-    }
-    .pFondoFooter{
-        height: max-content;
-    }
-}
-@media (max-width: 991.98px){
-    .pMapaFooter{
-        width: 45%;
-        margin: 0 0 8px 130px;
-    }
-    .pFondoFooter{
-        height: max-content;
-    }
-}
-/*footer*/
 
 /* modal  */
 .img-escudo{
