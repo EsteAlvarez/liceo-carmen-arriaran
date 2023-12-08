@@ -35,7 +35,7 @@
 	<!-- Modal -->
 	<!--Carrusel-->
 	<article class="row m-0 p-0">
-		<div id="carouselExampleInterval" class="carousel slide p-0 scroll" data-bs-ride="carousel">
+		<div id="carouselExampleInterval" class="carousel slide p-0" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active" data-bs-interval="5000">
 					<?php 
@@ -82,7 +82,7 @@
     <!--Liceo carmen arriarán-->
     <article class="container mt-5">
 		<div class="row mb-5 mx-auto mt-5">
-			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll margin-y">
+			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 margin-y">
 				<h1><?php the_field('titulo_primera_seccion');?></h1>
 				<div class="d-flex justify-content-center align-items-center">
 					<span class="linea-roja-encabezados"></span>
@@ -127,7 +127,7 @@
     <!--Napsis-->
     <article class="container margin-y">
 		<div class="row mx-auto">
-			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll">
+			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
 				<h2><?php the_field('titulo_segunda_seccion');?></h2>
 				<div class="d-flex justify-content-center align-items-center">
 					<span class="linea-roja-encabezados"></span>
@@ -156,7 +156,7 @@
     <!--Preguntas Frecuentes-->
     <article class="container margin-y">
 		<div class="row mx-auto mb-5">
-			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 scroll">
+			<div class="col-lg-12 text-center p-lg-0 p-2 mb-5">
 				<h2><?php the_field('titulo_seccion_tres');?></h2>
 				<div class="d-flex justify-content-center align-items-center">
 					<span class="linea-roja-encabezados"></span>
