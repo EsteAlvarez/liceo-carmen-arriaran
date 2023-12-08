@@ -120,7 +120,7 @@ get_header();
 				</div>
 				<figcaption class="content">
 					<h3 class="fs-4">Escuela Nuestra Señora del Pilar</h3>
-					<a  class="ink-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"href="https://www.nsdp.cl/wp">Ir al sitio</a>
+					<a  class="ink-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"href="https://www.nsdp.cl/wp">Ir sitio</a>
 				</figcaption>
 			</figure>
 
