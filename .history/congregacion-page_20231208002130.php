@@ -109,16 +109,16 @@ get_header();
 		</div>
 
 		<!--señora del pilar-->
-			<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
-				<?php 
+			<figure class="border-0 col-12 col-sm-5 col-md-3 box">
+			<?php 
 					$image = get_field('liceo_pilar');
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
-				<figcaption class="p-2">
-					<p>Colegio Carmela Romero Espinoza</p>
+				<figcaption class="content">
+					<h3 class="fs-4">Escuela Nuestra Señora del Pilar</h3>
+					<a  class="ink-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"href="https://www.nsdp.cl/wp">Ir al sitio</a>
 				</figcaption>
-				<a class="btn pBotonSitio" href="https://nsdp.cl/wp/">Ir al sitio</a>
 			</figure>
 
 		<!--carmela romero-->
@@ -142,9 +142,9 @@ get_header();
 						<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<figcaption class="p-2">
-					<p>Escuela Santa Catalina de Siena.</p>
+					<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Escuela Santa Catalina de Siena.</p>
 				</figcaption>
-				<a class="btn pBotonSitio" href="https://www.catalinammdd.cl/inicio/">Ir al sitio</a>
+				<a class="btn pBotonSitio" href="https://www.catalinammdd.cl/inicio/">Visita el sitio</a>
 			</figure>
 		
 	</section>

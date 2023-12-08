@@ -142,9 +142,9 @@ get_header();
 						<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<figcaption class="p-2">
-					<p>Escuela Santa Catalina de Siena.</p>
+					<p>Puedes visitar el sitio de nuestras congregaciones, aquí encuentras a la Escuela Santa Catalina de Siena.</p>
 				</figcaption>
-				<a class="btn pBotonSitio" href="https://www.catalinammdd.cl/inicio/">Ir al sitio</a>
+				<a class="btn pBotonSitio" href="https://www.catalinammdd.cl/inicio/">Visita el sitio</a>
 			</figure>
 		
 	</section>
