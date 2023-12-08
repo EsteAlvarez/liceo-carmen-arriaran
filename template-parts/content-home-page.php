@@ -89,7 +89,7 @@
 					<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
 					<span class="linea-roja-encabezados"></span>
 				</div>
-				<p class="p-md-0 p-3"><?php echo the_content();?></p>
+				<p class="p-md-0 p-3 scroll"><?php echo the_content();?></p>
 			</div>
 			<div class="row mx-auto">
 				<div class="col-lg-4 text-center mb-lg-0 mb-5 scroll">
