@@ -356,7 +356,7 @@ h5{
 
 /*logos ley y napsis*/
 .wp-image-166, .wp-image-167{
-    width: 41%;
+    width: 100%;
     height: 47px;
     border-radius: 5px;
     margin: 5px 5px;
@@ -410,17 +410,6 @@ h5{
 .mapaFooter {
     width: auto;
     height: 250px;
-}
-.pLineMap{
-    border-left: 4px solid #BE1522;
-    content: "";
-    height: 80%;
-    border-radius: 50px;
-}
-.mapaFooter{
-    /* position: absolute;
-    right: 13%;
-    top: 13px; */
 }
 .pDirFooter{
     font-size: 10px;    
