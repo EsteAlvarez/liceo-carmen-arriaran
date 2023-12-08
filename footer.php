@@ -13,15 +13,15 @@
 <footer id="colophon" class="site-footer pFondoFooter container-fluid m-0 p-0">
 	<div class="row m-0 p-3">
 		<!--logo-->
-		<div class="col-lg-3 col-md-6 pLiceo text-center d-flex justify-content-center align-items-center flex-column mb-lg-0 mb-md-3">
+		<div class="col-lg-3 col-md-6 pLiceo text-center d-flex justify-content-center align-items-center flex-column mb-lg-0 mb-md-3 mb-3">
 			<?php dynamic_sidebar('nav_dos');?>
 		</div>
 		<!--logos napsis-->
-		<div class="col-lg-3 col-md-6 text-center d-flex justify-content-center align-items-center flex-column mb-lg-0 mb-md-3">
+		<div class="col-lg-3 col-md-6 text-center d-flex justify-content-center align-items-center flex-column mb-lg-0 mb-md-3 mb-3">
 			<?php dynamic_sidebar('nav_tres');?>
 		</div>
 		<!--info general-->
-		<div class="col-lg-3 col-md-6 col-12 p-lg-3 d-flex justify-content-center align-items-center ">		
+		<div class="col-lg-3 col-md-6 col-12 p-lg-3 d-flex justify-content-center align-items-center mb-lg-0 mb-md-3 mb-3">		
 			<?php dynamic_sidebar('nav_cuatro');?>
 		</div>
 		<!--mapa-->
