@@ -407,10 +407,6 @@ h5{
     border-radius: 10px 0 0 10px;
 }
 .pLineMap{
-    /* position: absolute;
-    top: 20px;
-    bottom: 0;
-    left: 93%; */
     border-left: 4px solid #BE1522;
     content: "";
     height: 80%;
@@ -422,9 +418,6 @@ h5{
     top: 13px; */
 }
 .pDirFooter{
-    /* position: absolute;
-    top: 92%;
-    font-family: 'Raleway', sans-serif; */
     font-size: 10px;    
     font-weight: 600;
     color: var(--color-extra);
