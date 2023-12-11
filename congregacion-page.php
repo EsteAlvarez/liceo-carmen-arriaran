@@ -109,8 +109,8 @@ get_header();
 		</div>
 
 		<!--señora del pilar-->
-		<div>
-			<figure class="card border pHoverSitios col-8 col-sm-5 col-md-3">
+		<div class="border col-8 col-sm-5 col-md-3">
+			<figure class="card pHoverSitios">
 				<?php 
 					$image = get_field('liceo_pilar');
 					if( !empty( $image ) ): ?>
