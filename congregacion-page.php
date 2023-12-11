@@ -109,14 +109,14 @@ get_header();
 		</div>
 
 		<!--señora del pilar-->
-		<div class="border col-8 col-sm-5 col-md-3">
+		<div class="col-8 col-sm-5 col-md-3">
 			<figure class="card pHoverSitios m-0">
 				<?php 
 					$image = get_field('liceo_pilar');
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
-				<figcaption class="border">
+				<figcaption>
 					<p>Escuela Nuestra Señora del Pilar</p>
 				</figcaption>
 			</figure>
