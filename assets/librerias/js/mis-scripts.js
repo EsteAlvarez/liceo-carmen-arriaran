@@ -24,7 +24,7 @@ jQuery(document).ready(function ($) {
     //modal
 
     //tabla
-    $('.tablepress').addClass('table table-striped table-bordered')
+    $('.tablepress').addClass('table table-striped table-borderless')
     //tabla
   
 })
