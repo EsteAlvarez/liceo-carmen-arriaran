@@ -109,13 +109,13 @@ get_header();
 		</div>
 
 		<!--señora del pilar-->
-			<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
+			<figure class="card border pHoverSitios col-8 col-sm-5 col-md-3">
 				<?php 
 					$image = get_field('liceo_pilar');
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
-				<figcaption>
+				<figcaption class="border">
 					<p>Escuela Nuestra Señora del Pilar</p>
 				</figcaption>
 				<a class="btn pBotonSitio" href="https://nsdp.cl/wp/">Ir al sitio</a>
