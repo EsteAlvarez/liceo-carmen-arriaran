@@ -116,7 +116,7 @@ get_header();
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<figcaption>
-					<p><?php the_fied('titulo_primer_colegio');?></p>
+					<p><?php the_field('titulo_primer_colegio');?></p>
 				</figcaption>
 			</figure>
 			<a class="btn pBotonSitio w-100 m-0" href="<?php the_field('link_primer_colegio');?>">Ir al sitio</a>
@@ -131,7 +131,7 @@ get_header();
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<figcaption>
-					<p><?php the_fied('titulo_segundo_colegio');?></p>
+					<p><?php the_field('titulo_segundo_colegio');?></p>
 				</figcaption>
 			</figure>
 			<a class="btn pBotonSitio w-100 m-0" href="<?php the_field('link_segundo_colegio');?>">Ir al sitio</a>
@@ -146,7 +146,7 @@ get_header();
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 				<?php endif; ?>
 				<figcaption>
-					<p><?php the_fied('titulo_tercer_colegio');?></p>
+					<p><?php the_field('titulo_tercer_colegio');?></p>
 				</figcaption>
 			</figure>
 			<a class="btn pBotonSitio w-100 m-0" href="<?php the_field('link_tercer_colegio');?>">Ir al sitio</a>
