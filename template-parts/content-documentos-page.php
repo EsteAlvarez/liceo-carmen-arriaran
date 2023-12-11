@@ -9,7 +9,7 @@
 
 ?>
 
-<section id="post-<?php the_ID(); ?>" <?php post_class('container'); ?>>
+<section id="post-<?php the_ID(); ?>" <?php post_class('container mb-5'); ?>>
 	<article>
 		<div class="col-lg-12 text-center p-lg-0 p-2 mb-5 mt-5">
 			<h2><?php the_field('titulo_documentos');?></h2>
