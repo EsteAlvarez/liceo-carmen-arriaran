@@ -10,7 +10,7 @@
  */
 
 ?>
-<footer id="colophon" class="site-footer pFondoFooter container-fluid m-0 p-0">
+<footer id="colophon" class="site-footer margin-y pFondoFooter container-fluid m-0 p-0">
 	<div class="row m-0 p-3">
 		<!--logo-->
 		<div class="col-lg-3 col-md-6 pLiceo text-center d-flex justify-content-center align-items-center flex-column mb-lg-0 mb-md-3 mb-5 mt-lg-0 mt-md-3 mt-5">
