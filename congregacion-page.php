@@ -109,6 +109,7 @@ get_header();
 		</div>
 
 		<!--señora del pilar-->
+		<div>
 			<figure class="card border pHoverSitios col-8 col-sm-5 col-md-3">
 				<?php 
 					$image = get_field('liceo_pilar');
@@ -118,8 +119,10 @@ get_header();
 				<figcaption class="border">
 					<p>Escuela Nuestra Señora del Pilar</p>
 				</figcaption>
-				<a class="btn pBotonSitio" href="https://nsdp.cl/wp/">Ir al sitio</a>
 			</figure>
+			<a class="btn pBotonSitio" href="https://nsdp.cl/wp/">Ir al sitio</a>
+		</div>
+			
 
 		<!--carmela romero-->
 			<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">

@@ -206,9 +206,9 @@ h5{
 .pHoverSitios figcaption{
     position: absolute;
     top: 0;
-    /* left: 12px;
-    width: 94%;
-    height: 88.7%; */
+    /* left: 12px; */
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
