@@ -115,7 +115,7 @@ get_header();
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
-				<figcaption class="p-2">
+				<figcaption>
 					<p>Escuela Nuestra Señora del Pilar</p>
 				</figcaption>
 				<a class="btn pBotonSitio" href="https://nsdp.cl/wp/">Ir al sitio</a>
