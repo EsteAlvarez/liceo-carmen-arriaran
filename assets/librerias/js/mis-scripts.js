@@ -1,17 +1,4 @@
 jQuery(document).ready(function ($) {
-    // const items = document.querySelectorAll('.accordion-elemento');
-    // items.forEach(item => {
-    //     item.querySelector('.titulo-accordion').addEventListener('click', function() {
-    //         this.classList.toggle('active');
-    //         const content = this.nextElementSibling;
-    //         if (content.style.maxHeight) {
-    //             content.style.maxHeight = null;
-    //         } else {
-    //             content.style.maxHeight = content.scrollHeight + 'px';
-    //         }
-    //     });
-    // });
-
     $(".btnMenu").removeClass("menu-toggle")
     $(".menu-menu-1-container").addClass("collapse navbar-collapse")
     $(".menu-menu-1-container").attr("id","navbarNav")
@@ -34,6 +21,11 @@ jQuery(document).ready(function ($) {
     setTimeout(function() {
         $('.modal').modal('show');
     }, 2000);
+    //modal
+
+    //tabla
+    $('.tablepress').addClass('table')
+    //tabla
   
 })
 

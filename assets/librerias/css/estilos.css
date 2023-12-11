@@ -40,10 +40,9 @@ h5{
 }
 
 .content-slider{
-    background: rgba(81, 81, 81, 0.6); /* 0.5 representa la opacidad, ajusta según tus necesidades */
+    background: rgba(81, 81, 81, 0.6);
     border-radius: 10px;
 }
-
 /*Carrusel*/
 
 /*Sección Uno Página de Inicio*/
