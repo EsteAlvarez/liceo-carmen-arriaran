@@ -94,7 +94,6 @@ get_header();
 			<!--2019-->
 		</article>
 	</section>
-
 	<!-- Formación del liceo -->
 
 	<!--Colegios Dominicanos-->
@@ -174,3 +173,7 @@ get_header();
 <?php
 get_sidebar();
 get_footer();
+
+
+
+
