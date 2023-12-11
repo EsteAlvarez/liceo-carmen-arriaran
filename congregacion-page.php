@@ -122,34 +122,36 @@ get_header();
 			</figure>
 			<a class="btn pBotonSitio w-100 m-0" href="https://nsdp.cl/wp/">Ir al sitio</a>
 		</div>
-			
 
 		<!--carmela romero-->
-			<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
+		<div class="col-8 col-sm-5 col-md-3">
+			<figure class="card pHoverSitios m-0">
 				<?php 
 					$image = get_field('liceo_carmela');
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
-				<figcaption class="p-2">
-					<p>Colegio Carmela Romero Espinoza</p>
+				<figcaption>
+					<p>Escuela Nuestra Señora del Pilar</p>
 				</figcaption>
-				<a class="btn pBotonSitio" href="http://www.mmddconcepcion.cl/sitio/">Ir al sitio</a>
 			</figure>
+			<a class="btn pBotonSitio w-100 m-0" href="http://www.mmddconcepcion.cl/sitio/">Ir al sitio</a>
+		</div>
 
 		<!--catalina de siena-->
-			<figure class="card border-0 pHoverSitios col-8 col-sm-5 col-md-3">
-			<?php 
+		<div class="col-8 col-sm-5 col-md-3">
+			<figure class="card pHoverSitios m-0">
+				<?php 
 					$image = get_field('liceo_catalina');
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-					<?php endif; ?>
-				<figcaption class="p-2">
-					<p>Escuela Santa Catalina de Siena</p>
+				<?php endif; ?>
+				<figcaption>
+					<p>Escuela Nuestra Señora del Pilar</p>
 				</figcaption>
-				<a class="btn pBotonSitio" href="https://www.catalinammdd.cl/inicio/">Ir al sitio</a>
 			</figure>
-		
+			<a class="btn pBotonSitio w-100 m-0" href="https://www.catalinammdd.cl/inicio/">Ir al sitio</a>
+		</div>
 	</section>
 	<!--Colegios Dominicanos-->
 
