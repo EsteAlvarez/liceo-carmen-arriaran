@@ -111,45 +111,45 @@ get_header();
 		<div class="col-8 col-sm-5 col-md-3">
 			<figure class="card pHoverSitios m-0">
 				<?php 
-					$image = get_field('liceo_pilar');
+					$image = get_field('imagen_primer_colegio');
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<figcaption>
-					<p>Escuela Nuestra Señora del Pilar</p>
+					<p><?php the_fied('titulo_primer_colegio');?></p>
 				</figcaption>
 			</figure>
-			<a class="btn pBotonSitio w-100 m-0" href="https://nsdp.cl/wp/">Ir al sitio</a>
+			<a class="btn pBotonSitio w-100 m-0" href="<?php the_field('link_primer_colegio');?>">Ir al sitio</a>
 		</div>
 
 		<!--carmela romero-->
 		<div class="col-8 col-sm-5 col-md-3">
 			<figure class="card pHoverSitios m-0">
 				<?php 
-					$image = get_field('liceo_carmela');
+					$image = get_field('imagen_segundo_colegio');
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<figcaption>
-					<p>Escuela Nuestra Señora del Pilar</p>
+					<p><?php the_fied('titulo_segundo_colegio');?></p>
 				</figcaption>
 			</figure>
-			<a class="btn pBotonSitio w-100 m-0" href="http://www.mmddconcepcion.cl/sitio/">Ir al sitio</a>
+			<a class="btn pBotonSitio w-100 m-0" href="<?php the_field('link_segundo_colegio');?>">Ir al sitio</a>
 		</div>
 
 		<!--catalina de siena-->
 		<div class="col-8 col-sm-5 col-md-3">
 			<figure class="card pHoverSitios m-0">
 				<?php 
-					$image = get_field('liceo_catalina');
+					$image = get_field('imagen_tercer_colegio');
 					if( !empty( $image ) ): ?>
 						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 				<?php endif; ?>
 				<figcaption>
-					<p>Escuela Nuestra Señora del Pilar</p>
+					<p><?php the_fied('titulo_tercer_colegio');?></p>
 				</figcaption>
 			</figure>
-			<a class="btn pBotonSitio w-100 m-0" href="https://www.catalinammdd.cl/inicio/">Ir al sitio</a>
+			<a class="btn pBotonSitio w-100 m-0" href="<?php the_field('link_tercer_colegio');?>">Ir al sitio</a>
 		</div>
 	</section>
 	<!--Colegios Dominicanos-->
