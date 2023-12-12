@@ -235,6 +235,11 @@ h5{
     background-color: var(--color-principal);
     color: var(--color-extra);
 }
+.imagen-colegio {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
 /*congregación*/
 
 

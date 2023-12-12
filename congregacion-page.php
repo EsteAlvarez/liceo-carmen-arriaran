@@ -113,7 +113,7 @@ get_header();
 				<?php 
 					$image = get_field('imagen_primer_colegio');
 					if( !empty( $image ) ): ?>
-						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<img class="img-fluid imagen-colegio" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<figcaption>
 					<p><?php the_field('titulo_primer_colegio');?></p>
@@ -128,7 +128,7 @@ get_header();
 				<?php 
 					$image = get_field('imagen_segundo_colegio');
 					if( !empty( $image ) ): ?>
-						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<img class="img-fluid imagen-colegio" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 				<figcaption>
 					<p><?php the_field('titulo_segundo_colegio');?></p>
@@ -143,7 +143,7 @@ get_header();
 				<?php 
 					$image = get_field('imagen_tercer_colegio');
 					if( !empty( $image ) ): ?>
-						<img class="img-fluid" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+						<img class="img-fluid imagen-colegio" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 				<?php endif; ?>
 				<figcaption>
 					<p><?php the_field('titulo_tercer_colegio');?></p>
