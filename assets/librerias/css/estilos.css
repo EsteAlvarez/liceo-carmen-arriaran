@@ -198,11 +198,6 @@ h5{
     overflow: hidden;
     border-radius: 0 0 0 0;
 }
-.pHoverSitios img{
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
-}
 .pHoverSitios figcaption{
     position: absolute;
     top: 0;
