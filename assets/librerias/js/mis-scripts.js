@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
     $(".menu-menu-1-container").removeClass("justify-content-around")
     $(".menu-menu-1-container").addClass("justify-content-end")
 
-    ScrollReveal({ reset: true });
+    // ScrollReveal({ reset: true });
     ScrollReveal().reveal('.scroll', { delay: 300 });
 
     //modal
