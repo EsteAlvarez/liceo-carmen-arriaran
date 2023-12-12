@@ -43,19 +43,19 @@ get_header();
 		<article class="col-md-12 articulo-linea-tiempo row d-flex gap-5 justify-content-center mt-5">
 			<!--1935-->
 			<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('primera_fecha');?></p></span>
+				<span class="predCard text-white titulo-linea-tiempo"><span class="ps-3 pt-1"><?php the_field('primera_fecha');?></span></span>
 				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_primera_fecha');?></p>
 			</div>
 			<!--1935-->
 			<!--1945-->
 			<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('segunda_fecha');?></p></span>
+				<span class="predCard text-white titulo-linea-tiempo"><span class="ps-3 pt-1"><?php the_field('segunda_fecha');?></span></span>
 				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_segunda_fecha');?></p>
 			</div>
 			<!--1945-->
 			<!--1976-->
 			<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('tercera_fecha');?></p></span>
+				<span class="predCard text-white titulo-linea-tiempo"><span class="ps-3 pt-1"><?php the_field('tercera_fecha');?></span></span>
 				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_tercera_fecha');?></p>
 			</div>
 			<!--1976-->
@@ -82,13 +82,13 @@ get_header();
 		<article class="col-md-12 row d-flex gap-5 justify-content-center mt-3">
 			<!--2015-->
 			<div class="card carta-linea pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('cuarta_fecha');?></p></span>
+				<span class="predCard text-white titulo-linea-tiempo"><span class="ps-3 pt-1"><?php the_field('cuarta_fecha');?></span></span>
 				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_cuarta_fecha');?></p>
 			</div>
 			<!--2015-->
 			<!--2019-->
 			<div class="card pBordeCard col-8 col-md-2 p-0 m-0">
-				<span class="predCard text-white titulo-linea-tiempo"><p class="ps-3 pt-1"><?php the_field('quinta_fecha');?></p></span>
+				<span class="predCard text-white titulo-linea-tiempo"><span class="ps-3 pt-1"><?php the_field('quinta_fecha');?></span></span>
 				<p class="p-3 texto-linea-tiempo"><?php the_field('contenido_quinta_fecha');?></p>
 			</div>
 			<!--2019-->

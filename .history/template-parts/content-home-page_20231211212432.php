@@ -27,7 +27,7 @@
 					<p><?php the_field('contenido_ventana_emergente');?></p></div>
 				</div>
 				<div class="modal-footer border-0 mx-4">
-					<a class="btn boton-napsis p-2 pe-4 ps-4 rounded mt-1 mb-2" target="_blank" href="<?php the_field('link_napsis');?>">Ver más</a>
+					<a type="button" class="btn boton-napsis p-2 pe-4 ps-4 rounded mt-1 mb-2" target="_blank" href="https://app.embluemail.com/Online/VON.aspx?data=i9rrmrEQKSsQN%2BC124nXi4VxN0ZQ4RBMPO%2Bgh69PWlb4EplWfuHhwvTWgYD4Cojasekf%2FFzRCg5cfwqvyDBWNO1pBrLZFL3163ShIWi7vxae0A8qyymZXjVvIBzySqoJ!-!n8pfWAd4qitR8WcJBEEYFyICGyzNr8wBYpRiE8wLC8uMNTMeUgxpy745ZIHiLmDN">Ver más</a>
 				</div>
 			</div>
 		</div>
