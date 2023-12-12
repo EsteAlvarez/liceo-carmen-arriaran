@@ -24,7 +24,7 @@ get_header();
 			<i class="fa-solid fa-graduation-cap ms-3 me-3"></i>
 			<span class="linea-roja-encabezados"></span>
 		</div>
-		<article class="container text-center">
+		<article class="container text-center scroll">
 		<p class="mb-lg-0 mb-5 mt-5"><?php the_field('resena');?></p>
 		<div class="mt-4"><a href="<?php the_field('enlace_congregacion');?>" class="boton-napsis p-2 pe-4 ps-4 rounded mt-3" target="_blank">Ver más</a>
 		</div>
@@ -33,7 +33,7 @@ get_header();
 	<!-- Congregación -->
 
 	<!-- Formación del liceo -->
-	<section class="margin-y">
+	<section class="margin-y scroll">
 		<h2 class="d-flex text-center justify-content-center mt-5"><?php the_field('titulo_seccion_2');?></h2>
 		<div class="d-flex justify-content-center align-items-center">
 			<span class="linea-roja-encabezados"></span>
@@ -108,7 +108,7 @@ get_header();
 		</div>
 
 		<!--señora del pilar-->
-		<div class="col-8 col-sm-5 col-md-3">
+		<div class="col-8 col-sm-5 col-md-3 scroll">
 			<figure class="card pHoverSitios m-0">
 				<?php 
 					$image = get_field('imagen_primer_colegio');
@@ -123,7 +123,7 @@ get_header();
 		</div>
 
 		<!--carmela romero-->
-		<div class="col-8 col-sm-5 col-md-3">
+		<div class="col-8 col-sm-5 col-md-3 scroll">
 			<figure class="card pHoverSitios m-0">
 				<?php 
 					$image = get_field('imagen_segundo_colegio');
@@ -138,7 +138,7 @@ get_header();
 		</div>
 
 		<!--catalina de siena-->
-		<div class="col-8 col-sm-5 col-md-3">
+		<div class="col-8 col-sm-5 col-md-3 scroll">
 			<figure class="card pHoverSitios m-0">
 				<?php 
 					$image = get_field('imagen_tercer_colegio');
