@@ -84,8 +84,8 @@
 				$args = array(
 					'post_type' => 'comunicados',
 					'orderby' => 'date',
-					'order' => 'DESC',
-					'posts_per_page' => -1,
+                	'order' => 'DSC',
+					'posts_per_page' => 3,
 					'post__not_in' => array($current_post_id),
 					'tax_query' => array(
 						array(

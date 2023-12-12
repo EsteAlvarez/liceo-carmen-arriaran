@@ -58,11 +58,11 @@
 					$current_post_id = get_the_ID(); // Obtener el ID del comunicado actual
 					$temp = $wp_query;
 					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1; //Número de páginas
-					$post_per_page = -1; // -1 muestra todos los posts Cantidad de posts a mostrar
+					$post_per_page = 3; // -1 muestra todos los posts Cantidad de posts a mostrar
 					$args = array(
 						'post_type' => 'noticias',
 						'orderby' => 'date',
-						'order' => 'ASC', // ASC ascendente
+                		'order' => 'DSC',
 						'paged' => $paged,
 						'posts_per_page' => $post_per_page,
 						'tax_query' => array(

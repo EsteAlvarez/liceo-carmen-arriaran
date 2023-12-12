@@ -16,11 +16,11 @@ incrustar_hoja_estilos_noticias();
     <?php $active = true;
             $temp = $wp_query;
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; //Número de paginas
-            $post_per_page = -1; // -1 shows all posts Cantidad de post a mostrar
+            $post_per_page = 3; // -1 shows all posts Cantidad de post a mostrar
             $args = array(
                 'post_type' => 'noticias',
-                'orderby' => 'DSC',
-                'order' => 'ASC',//DSC descendente 
+                'orderby' => 'date',
+                'order' => 'DSC',
                 'paged' => $paged,
                 'posts_per_page' => $post_per_page,
                 'tax_query' => array (
