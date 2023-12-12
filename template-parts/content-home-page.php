@@ -44,7 +44,7 @@
 						<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 					<?php endif; ?>
 					<div class="carousel-caption d-none d-md-block content-slider">
-						<h5><?php the_field('texto_primera_imagen');?></h5>
+						<p class="fs-5"><?php the_field('texto_primera_imagen');?></p>
 					</div>
 				</div>
 				<div class="carousel-item" data-bs-interval="5000">
@@ -54,7 +54,7 @@
 							<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 						<?php endif; ?>
 					<div class="carousel-caption d-none d-md-block content-slider">
-						<h5><?php the_field('texto_segunda_imagen');?></h5>
+						<p class="fs-5"><?php the_field('texto_segunda_imagen');?></p>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -64,7 +64,7 @@
 							<img class="img-fluid imagen-carrusel" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 						<?php endif; ?>
 					<div class="carousel-caption d-none d-md-block content-slider">
-						<h5><?php the_field('texto_tercera_imagen');?></h5>
+						<p class="fs-5"><?php the_field('texto_tercera_imagen');?></p>
 					</div>
 				</div>
 			</div>
