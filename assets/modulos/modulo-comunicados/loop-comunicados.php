@@ -20,8 +20,8 @@ incrustar_hoja_estilos_comunicados();
             $post_per_page = 3; // -1 shows all posts Cantidad de post a mostrar
             $args = array(
                 'post_type' => 'comunicados',
-                'orderby' => 'DSC',
-                'order' => 'ASC',//DSC descendente 
+                'orderby' => 'date',
+                'order' => 'DSC',//DSC descendente 
                 'paged' => $paged,
                 'posts_per_page' => $post_per_page,
                 'tax_query' => array (
