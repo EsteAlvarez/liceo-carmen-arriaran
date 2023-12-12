@@ -32,5 +32,5 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    -webkit-line-clamp: 2; /* Máximo de líneas a mostrar */
+    -webkit-line-clamp: 2;
 }
