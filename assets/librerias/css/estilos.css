@@ -320,7 +320,7 @@ h5{
 
 /*mapa footer*/
 .pMapaFooter{
-    background-color: #be1523c4;
+    background-color: var(--color-secundario);
     border-radius: 10px 0 0 10px;
     width: 100%;
 }
@@ -331,7 +331,7 @@ h5{
 .pDirFooter{
     font-size: 10px;    
     font-weight: 600;
-    color: var(--color-extra);
+    color: #000;
 }
 /*footer*/
 .pFondoFooter{
