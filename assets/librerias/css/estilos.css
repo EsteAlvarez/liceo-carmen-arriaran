@@ -331,7 +331,7 @@ h5{
 .pDirFooter{
     font-size: 10px;    
     font-weight: 600;
-    color: #000;
+    color: var(--color-terciario);
 }
 /*footer*/
 .pFondoFooter{
